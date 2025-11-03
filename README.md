@@ -9,7 +9,7 @@ and other audio electronics.
 - Guitar pedals
   - [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
 - Power amplifiers
-  - [Headphones amp (modified “JAT Stereo Headphone Amp v1.0”)](modded-jat-stereo-headphones-amp)
+  - [Wenzel’s Headphones Stereo Amp](wenzels-headphones-stereo-amp)
 
 ---
 

@@ -1,8 +1,8 @@
-# Headphones amp (modified “JAT Stereo Headphone Amp v1.0”)
+# Wenzel’s Headphones Stereo Amp
 
 Simple stereo headphones amplifier with dual supply (from ±9V to ±15V)
 utilizing NE5532 opamp driver and a discrete class AB push-pull output pair of
-BD139 and BD140.
+BD139 and BD140 (emitter follower buffer pair).
 
 See JohnAudioTech YouTube channel video:
 https://www.youtube.com/watch?v=ODvsCBjZz9M
