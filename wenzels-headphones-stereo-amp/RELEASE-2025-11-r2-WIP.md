@@ -30,5 +30,11 @@ Dual supply (±9V .. ±15V) and single supply (18V .. 30V) variants.
   * Series 1Ω output resistor.
   * 470pF across each headphones JACK outputs (T & R).
   * 68pF across feedback resistor.
-  * 100Ω base stopper resistors for BD139/BD140.
   * Extra 10uF DC filtering next to opamp leads.
+
+- Added LEDs to indicate that the power is on.
+
+- Added single supply version of the schematic (18V .. 30V).
+  * Replace V- with GND for the push-pull pair.
+  * Create buffered (via added TL071) mid-rails Vbias reference.
+  * Reference NE5532 to Vbias.
