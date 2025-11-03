@@ -1,0 +1,20 @@
+# Text sources (normalize to LF)
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+sym-lib-table text eol=lf
+fp-lib-table text eol=lf
+
+# 3D models are binary (consider Git LFS if large)
+*.step -text
+*.stp -text
+*.wrl -text
+*.3mf -text
+*.stl -text
+
+# Common CAM/binary outputs
+*.gbr -text
+*.drl -text
+*.pos -text

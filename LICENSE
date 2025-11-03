@@ -1,0 +1,57 @@
+Wenzel’s Audio Circuits — Licensing Information
+===============================================
+
+This repository contains two categories of content, each under its own license:
+
+1.  Hardware design files (KiCad projects, schematics, PCB layouts, footprints,
+    3D models, and PDF/PNG renders of schematics and boards) are licensed under:
+
+        CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)
+
+    SPDX-License-Identifier: CERN-OHL-S-2.0
+
+    You may copy, modify, and distribute these design files provided that any
+    modified versions and derivatives are also released under the same licence.
+
+    Full text of the CERN-OHL-S-2.0 is included below.
+
+2.  Supporting software, scripts, and configuration files (for example Nix
+    configurations, Bash scripts, or other utility code) are licensed under:
+
+        The MIT License
+
+    SPDX-License-Identifier: MIT
+
+    Full text of the MIT License follows the CERN-OHL-S-2.0 text.
+
+----------------------------------------------------------------------
+CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)
+----------------------------------------------------------------------
+
+(You can copy the official text verbatim from:
+https://spdx.org/licenses/CERN-OHL-S-2.0.html
+or from the CERN OHL site: https://cern-ohl.web.cern.ch/)
+
+----------------------------------------------------------------------
+The MIT License
+----------------------------------------------------------------------
+
+Copyright (c) 2025 Wenzel Hoffman
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

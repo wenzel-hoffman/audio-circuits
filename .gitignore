@@ -1,0 +1,45 @@
+# KiCad user/session + backups
+*.kicad_prl
+*backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+*.tmp
+*.bak
+
+# KiCad library caches / autosaved tables
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# Fabrication/plots/artifacts (generated)
+# (Put your generated files in one of these directories to keep the repo clean)
+out/
+build/
+fabrication/
+fabrication-*/
+plots/
+exports/
+gerbers/
+release/
+
+# KiCad lock files
+*.lck
+
+# Common plotted / CAM outputs
+*.gbr
+*.gtl *.gts *.gto
+*.gbl *.gbs *.gbo
+*.g2? # inner layers
+*.gm* # mechanical, mask variants
+*.drl *.xln
+*.pos *.rpt
+*.xml *.csv  # BOMs, netlists
+*.ipc
+*.zip *.7z *.tar.gz
+
+# Simulation, logs
+*.raw
+*.log
+*.cir
+*.sp
