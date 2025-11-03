@@ -5817,7 +5817,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" ">=470u"
 			(at 214.63 104.902 90)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 				)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" ">=470u"
 			(at 214.63 41.402 90)
 			(effects
 				(font
