@@ -13,6 +13,47 @@ and other audio electronics.
 
 ---
 
+## Development
+
+The schematics are made using [KiCad EDA](https://www.kicad.org/),
+free & open-source software.
+
+An example how to open a project from a command-line:
+
+``` sh
+kicad wenzels-headphones-stereo-amp/headphones-amp-dual-supply.kicad_pro
+```
+
+Then you can find the schematic files in the file tree on the left.
+
+### Nix
+
+There is a [Nix](https://nixos.org/guides/how-nix-works/) configuration for the
+project that supplies dependencies (KiCad in particular). So you can just run
+from the project root:
+
+``` sh
+nix-shell
+kicad
+```
+
+It will use your system [nixpkgs](https://github.com/NixOS/nixpkgs) pin.
+If you want to make sure you use the same KiCad version as me then use
+`pinned-nixpkgs` boolean attribute:
+
+``` sh
+nix-shell --arg pinned-nixpkgs true
+kicad
+```
+
+It will read the pin from [nix/nixpkgs.pin.nix](nix/nixpkgs.pin.nix).
+
+There are other dependencies supplied too, such as
+[ImageMagick](https://imagemagick.org/) for example for converting PDF
+schematic renders to PNG format.
+
+---
+
 ## License
 
 All **hardware design files** in this repository — including KiCad project
