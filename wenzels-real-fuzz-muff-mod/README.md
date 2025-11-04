@@ -2,8 +2,10 @@
 
 My own Real Fuzz mod for classic Muff circuit.
 
-## Releases
+## Latest revision schematic
 
-Open the first release link below (the latest revision) to see the details.
+![Schematic](release-2025-10-r1/wenzels-real-fuzz-muff-mod-r1.png)
+
+## Releases (newest revisions are on the top)
 
 - [r1 2025-10](release-2025-10-r1)

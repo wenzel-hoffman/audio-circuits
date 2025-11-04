@@ -8,8 +8,10 @@ See JohnAudioTech YouTube channel video:
 https://www.youtube.com/watch?v=ODvsCBjZz9M
 for the original schematic.
 
-## Releases
+## Latest revision schematic
 
-Open the first release link below (the latest revision) to see the details.
+![Schematic](release-2025-11-r1/wenzels-headphones-stereo-amp-dual-supply-r1.png)
+
+## Releases (newest revisions are on the top)
 
 - [r1 2025-11](release-2025-11-r1)
