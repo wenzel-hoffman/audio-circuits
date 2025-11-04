@@ -48,9 +48,20 @@ kicad
 
 It will read the pin from [nix/nixpkgs.pin.nix](nix/nixpkgs.pin.nix).
 
+N.B. KiCad, together with it’s components library, is big and heavy, before you
+enter the nix-shell for the first time, before KiCad is cached on your local
+machine it will take quite a bit of time and disk space to get it ready.
+
 There are other dependencies supplied too, such as
 [ImageMagick](https://imagemagick.org/) for example for converting PDF
 schematic renders to PNG format.
+
+### Dev scripts
+
+There are some useful scripts that help with working with the project:
+
+- Convert schematic PDF to PNG format:
+  [dev-scripts/render-kicad-schematic-pdf-to-png.sh](dev-scripts/render-kicad-schematic-pdf-to-png.sh)
 
 ---
 
