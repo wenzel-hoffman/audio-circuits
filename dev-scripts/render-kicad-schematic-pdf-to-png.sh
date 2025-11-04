@@ -14,9 +14,9 @@ set -o errexit || exit; set -o errtrace; set -o nounset; set -o pipefail
 >/dev/null type basename
 
 if (( $# != 1 )) || [[ -z $1 ]]; then
-	>&2 echo 'Usage:'
-	>&2 printf "  %s file.pdf\n" "${0%Q}"
-	exit 1
+  >&2 echo 'Usage:'
+  >&2 printf "  %s file.pdf\n" "${0%Q}"
+  exit 1
 fi
 
 set -o xtrace
