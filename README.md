@@ -9,6 +9,7 @@ and other audio electronics.
 - Guitar pedals
   - [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
 - Power amplifiers
+  - [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-mosfet-class-a-headphones-stereo-amp)
   - [Wenzel’s Headphones Stereo Amp](wenzels-headphones-stereo-amp)
 
 ---

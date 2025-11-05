@@ -19,9 +19,10 @@ if (( $# != 1 )) || [[ -z $1 ]]; then
   exit 1
 fi
 
+PDF_FILE=$1
+
 set -o xtrace
 
 # This will also cut off the directory path.
 # The PNG file is always saved to the current working directory.
-FILE_NAME_WITHOUT_PDF_EXT=$(basename -- "$1" .pdf)
-magick -density 300 "$1" -resize 50% "${FILE_NAME_WITHOUT_PDF_EXT}".png
+magick -density 300 "$1" "${PDF_FILE%.pdf}".png
