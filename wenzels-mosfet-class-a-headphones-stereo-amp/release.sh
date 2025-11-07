@@ -24,7 +24,7 @@ REVISION=$1
 DATE=$(date +%Y-%m)
 MONTH_TEXT=$(date -d "${DATE#*-}/1" +%B)
 
-RELEASE_DIR="release-$DATE-r1"
+RELEASE_DIR="release-$DATE-$REVISION"
 PDF_FILE="$RELEASE_DIR/wenzels-mosfet-class-a-headphones-stereo-amp-$REVISION.pdf"
 PDF_FILE_NAME=$(basename -- "$PDF_FILE")
 
@@ -40,12 +40,18 @@ mkdir --parents -- "$RELEASE_DIR"
 "${RENDER_PDF_CMD[@]}"
 "$SCRIPT_DIR"/../dev-scripts/render-kicad-schematic-pdf-to-png.sh "$PDF_FILE"
 
-echo -n "# Wenzel’s MOSFET Class-A Headphones Stereo Amp
+if [[ ! -e "$RELEASE_DIR/README.md" ]]; then
+  echo -n "# Wenzel’s MOSFET Class-A Headphones Stereo Amp
 
-Revision ${REVISION#r} ($MONTH_TEXT 2025).
+  Revision ${REVISION#r} ($MONTH_TEXT ${DATE%-*}).
 
-- [PDF schematic render]($PDF_FILE_NAME)
-- [PNG schematic render](${PDF_FILE_NAME%.pdf}.png)
+  - [PDF schematic render]($PDF_FILE_NAME)
+  - [PNG schematic render](${PDF_FILE_NAME%.pdf}.png)
 
-![Schematic](${PDF_FILE_NAME%.pdf}.png)
-" > "$RELEASE_DIR/README.md"
+  ![Schematic](${PDF_FILE_NAME%.pdf}.png)
+
+  ## Difference (changelog) from previous release (revision $(( ${REVISION#r} - 1 )))
+
+  TBD…
+  " > "$RELEASE_DIR/README.md"
+fi

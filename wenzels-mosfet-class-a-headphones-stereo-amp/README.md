@@ -5,11 +5,6 @@ factor is low). Intended for studio play/recording monitoring. But you might
 like how it sounds, it’s sounds powerful and “open”, sweet, with big bass.
 The amp has lots of gain and output power (good for high-impedance cans).
 
-I’m personally satisfied with this design, I initially tried to make something
-simple for studio monitoring purposes but I enjoy how pleasing it sounds, how
-powerful it is without being noisy (even just on a breadbord, without any
-shielding), and that it has deep and extended powerful bass response.
-
 I designed and tested it around 24V, so that the amp has plenty of headroom for
 loud signals. But it should totally work fine with 12V too.
 
@@ -32,8 +27,9 @@ wall while touching only the frontal plastic part (mica it still required).
 
 ## Latest revision schematic
 
-![Schematic](release-2025-11-r1/wenzels-mosfet-class-a-headphones-stereo-amp-r1.png)
+![Schematic](release-2025-11-r2/wenzels-mosfet-class-a-headphones-stereo-amp-r2.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r2 2025-11](release-2025-11-r2)
 - [r1 2025-11](release-2025-11-r1)
