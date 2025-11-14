@@ -14,6 +14,11 @@ let
   render-kicad-schematic-pdf-to-png =
     pkgs.callPackage nix/dev-scripts/render-kicad-schematic-pdf-to-png.nix {};
 
+  release-revision =
+    pkgs.callPackage nix/dev-scripts/release-revision.nix {
+      inherit render-kicad-schematic-pdf-to-png;
+    };
+
   shell =
     pkgs.mkShell {
       buildInputs = [
@@ -23,11 +28,15 @@ let
         pkgs.imagemagick # “convert" for image processing from command-line
         pkgs.ghostscript # converting .pdf into .png using ImageMagick
 
+        # Parsing exported XML from KiCad schematic files
+        pkgs.xmlstarlet
+
         # Dev scripts
         # Added to `PATH` for your convenience.
-        # You can just call `render-kicad-schematic-pdf-to-png` regardless
-        # what directory you are in at the moment.
+        # You can just call, for example `render-kicad-schematic-pdf-to-png`,
+        # regardless of what directory you are in at the moment.
         render-kicad-schematic-pdf-to-png
+        release-revision
       ];
     };
 in
