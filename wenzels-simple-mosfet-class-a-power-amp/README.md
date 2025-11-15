@@ -8,7 +8,7 @@ Very low damping factor (typically desired in a guitar amplifier).
 
 ## Schematic preview
 
-![Schematic](wenzels-simple-mosfet-class-a-power-amp-r1-wip-1.png)
+![Schematic](wenzels-simple-mosfet-class-a-power-amp-r1-wip-2.png)
 
 ## Releases (newest revisions are on the top)
 
