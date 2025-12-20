@@ -8,6 +8,10 @@ and other audio electronics.
 
 - Guitar pedals
   - [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
+
+- Guitar preamplifiers
+  - **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
+
 - Power amplifiers
   - **WIP** [Wenzel’s Simple MOSFET Class-A Power Amp](wenzels-simple-mosfet-class-a-power-amp)
   - [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-mosfet-class-a-headphones-stereo-amp)
