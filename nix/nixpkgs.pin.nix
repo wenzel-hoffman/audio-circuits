@@ -2,10 +2,10 @@
 # SPDX-License-Identifier: MIT
 
 let
-  # Branch: nixos-25.05
-  # Date: 1 November 2025
-  commit = "3de8f8d73e35724bf9abef41f1bdbedda1e14a31";
-  sha256 = "sha256:1akf8bq8i1flj33sdwl95lkng4wgwlzh9yxylk2drq8fksg5i291";
+  # Branch: nixos-25.11
+  # Date: 1 December 2025
+  commit = "8bb5646e0bed5dbd3ab08c7a7cc15b75ab4e1d0f";
+  sha256 = "sha256:19ljxfhs2i85rqrkawdz7wn16gx006s2hni51qlzk5z1b022x9aa";
 in
 
 fetchTarball {
