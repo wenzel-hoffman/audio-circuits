@@ -196,8 +196,8 @@ You can find pre-made boards by these search queries for example on Ebay:
 
 ### Latest revision schematic
 
-![Schematic](release-2026-01-r1/wenzels-powered-guitar-cabinet-2510-r1.png)
+![2510 cabinet schematic](release-2510-cabinet-2026-01-r1/wenzels-powered-guitar-cabinet-2510-r1.png)
 
 ### Releases (newest revisions are on the top)
 
-- [r1 2026-01](release-2026-01-r1)
+- [2510 cabinet r1 2026-01](release-2510-cabinet-2026-01-r1)
