@@ -13,6 +13,7 @@ and other audio electronics.
   - **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
 
 - Power amplifiers
+  - [Wenzel’s Powered Guitar Cabinets](wenzels-powered-guitar-cabinets)
   - **WIP** [Wenzel’s Simple MOSFET Class-A Power Amp](wenzels-simple-mosfet-class-a-power-amp)
   - [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-mosfet-class-a-headphones-stereo-amp)
   - [Wenzel’s Headphones Stereo Amp](wenzels-headphones-stereo-amp)
