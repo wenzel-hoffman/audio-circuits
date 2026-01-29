@@ -7,6 +7,7 @@
 *~
 *.tmp
 *.bak
+_autosave-*
 
 # KiCad library caches / autosaved tables
 fp-info-cache
