@@ -4,13 +4,133 @@ My guitar cabinets with installed tweaked power amplifiers into them.
 
 ---
 
-## Powered Guitar Cabinet 2601
+## <a name="2601"></a>Powered Guitar Cabinet 2601
 
-TODO Coming soon…
+This is an experiment with Class-D and input transformers.
+It’s a continuation of the [2510][#2510] cabinet.
+So please read [2510][#2510] description as the context for this one
+is heavily dependent on it.
+
+This project features 2x identical 2-channel/stereo TPA3255 Class D amplifier
+boards. Each amplifier is internally bridged, so I can’t use 2 of the channels
+to bridge them together to compensate DF reduction ballast resistors loss.
+But these boards are very powerful by themselves, delivering 180W into 8Ω load
+and 250W into 4Ω load at 48VDC single supply voltage. So there is enough power
+to work with.
+
+Both of the 2-channel boards provide 4 individually amplified channels total.
+This configuration allows for DRY-WET full stereo rig. Where each side of the
+stereo is DRY and WET.
+
+These Class D boards are efficient, compact and lightweight, so they make it
+easy to have 4 individual channels while keeping heat management under control.
+In fact even at loud volumes I think you can get away without active cooling.
+
+In this project I tried to use TY-250P transformers (one for each channel) for 2
+purposes:
+
+1. To support both balanced and unbalanced signals
+
+2. To amplify (-ish, exchange some current for voltage while rising impedance)
+   the input signal to compensate the gain loss by the DF reduction ballast
+   resistors (in fact this worked more than well, the amps are very loud, I even
+   had to attenuate signal on my board, not boost it, while only using 2 of the
+   channels)
+
+In this build I used 10Ω DF reduction ballast for the 8Ω load, to get even lower
+damping factor value (DF=0.8).
+
+I also added a power supply RC filter. 0.5Ω + 10mF which sets cut-off frequency
+for the low-pass filter at ≈31.8Hz. The resistors can also provide some level of
+sag for fast-transients, but they can be compensated by huge capasitors. Just
+theoretically, no actual tests were made.
+
+### TODO/WIP stuff
+
+I need 4x impedance transformers for the cabinet. Need to to order more custom
+ones. For now I’m using [2510](#2510) transformers for just 2 channels.
+
+There is a bit of switching noise coming from the power supply into the audio.
+Audible when not playing. I’m not sure why. Maybe because it is not shielded in
+this build with a metal case. But it seems it is coming through ground, not V+
+(which is well filtered). I might try to solve this by ground-lifting the input
+signal ground with 10Ω resistor. My board has its own ground anyway. Simple
+ground lifting does not work as it results into loud hum.
+
+### Changes I noticed in comparison to [2510](#2510)
+
+One thing I noticed is that the amp feels softer/warmer/woolier, transients seem
+to be a touch less sharp. I’m not sure where it comes from exactly. Could be
+Class D vs Class AB, could be lowered damping factor value, could be a bit of
+sag from the RC power filter.
+
+A bit less immediacy/connection to the player. Probably Class D thing, as for
+guitar signal they have this kind of “feel” thing.
+
+The amp feels beefier, even with all the sublows cutting I do with EQ it feels
+powerful and you can feel the ground shaking. Maybe lower damping factor allows
+the resonant frequency (typically under 100Hz for a guitar speaker) to modulate
+the signal even more.
+
+### Power calculation
+
+Into 8Ω the amp channel produces 180W at 48V supply voltage. Together with DF
+reduction resistors (10Ω) it’s 18Ω, recalculating the power gives 80W of total
+power. 35.6W delivered into the speaker (note that it is perceived loud because
+of very low damping factor, it’s not typical 35 solid-state watts).
+
+Also it’s just for one channel. If you amplify 4 speakers/cabs with all 4
+channels in parallel you get 35.6W × 4 = 142.4W.
+
+### Powering and cooling
+
+For powering I use the same kind of switching supply board as for [2510](#2510)
+but the voltage is ±24V. It’s just one I already had. These amplifier boards
+need single supply, not dual supply. But you can just reference -24V to ground
+and get single supply +48V at V+ so that is what I did.
+
+As with [2510](#2510) I cool the power supply radiator with a fan. But since
+overheating was a problem for [2510](#2510) only after an hour or more non-stop
+playing at loud volumes you technically can get away without cooling the power
+supply with these amps as Class D is significantly more efficient (for the same
+volume less energy is required from the power supply).
+
+I tested the amps a bit without cooling them at loud volumes, they get warm, not
+sure if overheating can be a problem for them or maybe their builtin board
+radiator is enough. But maybe you can be okay with passive cooling, definitely
+okay with moderate volumes.
+
+The new fans are very silent compared to ones installed into [2510](#2510).
+So noise from the fans is not a concern for me.
+
+So in total there are 3x of 12V Noctua NF-A9 PWM 92mm fans. One for the power
+supply, and 2 for each of the amp boards to cool the amp board’s builtin
+radiator.
+
+### Pre-made boards
+
+You can find pre-made boards by these search queries for example on Ebay:
+
+1. Power supply board:
+   _“500W HIFI Audio LLC Soft Switching PSU Board ± 24V For Power Amplifier PSU board”_
+
+2. Power supply block for the cooling fans:
+   _“Adjustable Power Supply Adapter AC To DC 3V 9V 12V 24V Universal Adapter EU/US Plug with Display Screen Voltage Regulated”_
+
+3. Class D 2-channel amplifier board:
+   _“2CH TPA3255 HiFi Amplifier Board 2x300W Stereo Class D Power Amplifier Module”_
+
+### Latest revision schematic
+
+![2601 cabinet schematic](release-2601-cabinet-2026-01-r1/wenzels-powered-guitar-cabinet-2601-r1.png)
+
+### Releases (newest revisions are on the top)
+
+- [2601 cabinet r1 2026-01](release-2601-cabinet-2026-01-r1)
 
 ---
 
-## Powered Guitar Cabinet 2510
+## <a name="2510"></a>Powered Guitar Cabinet 2510
 
 A pair of stereo Class AB boards configured as bridge-mode installed into a
 _Blackstar HT-112 OC MK III Box_ cabinet.

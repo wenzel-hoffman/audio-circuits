@@ -1,4 +1,4 @@
-# Wenzel’s Powered Guitar Cabinets
+# Wenzel’s Powered Guitar Cabinet 2510
 
 Revision r1
 (released in January 2026 but the cabinet was finished in October 2025).
