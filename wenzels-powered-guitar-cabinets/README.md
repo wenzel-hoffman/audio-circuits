@@ -11,6 +11,15 @@ It’s a continuation of the [2510][#2510] cabinet.
 So please read [2510][#2510] description as the context for this one
 is heavily dependent on it.
 
+For this project _Harley Benton G112_ cabinet was picked. It is cheap (<100€ at
+the moment of writing), lightweight, built well enough for moderate abuse,
+breathing wide open back (which I like for 1x12 configuration), sounds great,
+doesn’t seem to have parasitic resonances (I guess MDF helps with that) comes
+with a 100W stock speaker (which I don’t need), relatively easy to unbrand (I
+like my cabs unbranded, for this one you need to peel off the glued on logo and
+gently remove glue pieces from the spot, then it looks almost like it was never
+there). Ideal candidate for DIY projects and/or as a custom speaker box.
+
 This project features 2x identical 2-channel/stereo TPA3255 Class D amplifier
 boards. Each amplifier is internally bridged, so I can’t use 2 of the channels
 to bridge them together to compensate DF reduction ballast resistors loss.
