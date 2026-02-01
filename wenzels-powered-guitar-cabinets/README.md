@@ -23,6 +23,10 @@ should also, in theory, make the amp more saggy.
 As [2601](#2601) this build is also using input TY250P transformers, but instead
 of unbalancing the potentially balanced signal it actually balances it, for the
 anti-phase balanced pair to feed both inputs of the bridge-mode pair.
+Also there was a LEVEL switch added for the input transformer allowing to switch
+between 1:1 mode and 1:2.
+
+There is also ground-lift switch added for each input port.
 
 Also this build uses minimal amount of output capacitors instead of chaining
 lots of them as in previous builds.
@@ -50,9 +54,9 @@ that it’s an increase comparing to [2510](#2510) and [2601](#2601) and it’s
 already getting warm it might get actually hot. So active cooling is a good
 idea.
 
-### WIP schematic render (r1-wip-1)
+### WIP schematic render (r1-wip-2)
 
-![2602 r1-wip-1 cabinet WIP schematic](wenzels-powered-guitar-cabinet-2602-r1-wip-1.png)
+![2602 r1-wip-2 cabinet WIP schematic](wenzels-powered-guitar-cabinet-2602-r1-wip-2.png)
 
 ---
 
