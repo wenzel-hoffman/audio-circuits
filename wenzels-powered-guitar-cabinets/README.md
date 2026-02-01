@@ -4,6 +4,58 @@ My guitar cabinets with installed tweaked power amplifiers into them.
 
 ---
 
+## <a name="2602"></a>Powered Guitar Cabinet 2602
+
+**Work in progress! Prototyping stage.**
+
+This build is providing 2x discrete Class AB channels with MOSFET output stage
+(IRF240 & IRFP9240, 4x amplifier boards where each 2 are configured in
+bridge-mode).
+
+Compared to [2601](#2601) this build reduces damping factor even lower, down to
+≈0.66 by rising the ballast resistors from 10Ω to 12Ω (relative to 8Ω speaker
+load).
+
+This build features power RC filter similar to [2601](#2601) but for dual supply
+configuration and more aggressive one. The resistor is 2Ω instead of 0.5Ω, which
+should also, in theory, make the amp more saggy.
+
+As [2601](#2601) this build is also using input TY250P transformers, but instead
+of unbalancing the potentially balanced signal it actually balances it, for the
+anti-phase balanced pair to feed both inputs of the bridge-mode pair.
+
+Also this build uses minimal amount of output capacitors instead of chaining
+lots of them as in previous builds.
+
+### Power calculation
+
+At ±56W the amp provides 150W into 8Ω. The amp is configured in bridge mode,
+where each board “sees” half of the load. Total load is 8Ω (speaker) + 12Ω (DF
+reduction ballast) = 20Ω. One amp of the pair would see 10Ω total load (half),
+and would deliver 120W into it, so together in bridge-mode the power delivered
+to the total 20Ω load (DF reduction ballast + speaker) is 120W × 2 = 240W.
+The portion of that power that is actually delivered to the speaker is 96W.
+
+So 1 channel is 96W, plenty of headroom! Both channels 96W × 2 = 192W.
+
+### Powering and cooling
+
+This build uses different switching power supply board with more power (600W vs.
+500W). It provides ±56VDC voltage.
+
+The DF reduction ballast takes 144W of abuse, a lot, I might consider active
+cooling for it. Even though I won’t use the amps at these levels, so it’s only
+headroom for peaks. Cooling might be not strictly necessary, but considering
+that it’s an increase comparing to [2510](#2510) and [2601](#2601) and it’s
+already getting warm it might get actually hot. So active cooling is a good
+idea.
+
+### WIP schematic render (r1-wip-1)
+
+![2602 r1-wip-1 cabinet WIP schematic](wenzels-powered-guitar-cabinet-2602-r1-wip-1.png)
+
+---
+
 ## <a name="2601"></a>Powered Guitar Cabinet 2601
 
 This is an experiment with Class-D and input transformers.
