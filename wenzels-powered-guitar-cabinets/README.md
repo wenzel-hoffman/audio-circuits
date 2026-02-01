@@ -123,10 +123,10 @@ ground lifting does not work as it results into loud hum.
 One thing I noticed is that the amp feels softer/warmer/woolier, transients seem
 to be a touch less sharp. I’m not sure where it comes from exactly. Could be
 Class D vs Class AB, could be lowered damping factor value, could be a bit of
-sag from the RC power filter.
+sag from the RC power filter, could be a bit of input transformer compression.
 
 A bit less immediacy/connection to the player. Probably Class D thing, as for
-guitar signal they have this kind of “feel” thing.
+guitar signal that amp class have this kind of “feel” thing.
 
 The amp feels beefier, even with all the sublows cutting I do with EQ it feels
 powerful and you can feel the ground shaking. Maybe lower damping factor allows
