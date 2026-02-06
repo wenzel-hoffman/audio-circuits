@@ -7,7 +7,10 @@ and other audio electronics.
 ## Projects
 
 - Guitar pedals
-  - [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
+  * Distortion/Fuzz
+    + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
+  * Utility
+    + **WIP** [Wenzel’s Transparent Balancing Opamp Boost](wenzels-transparent-balancing-opamp-boost)
 
 - Guitar preamplifiers
   - **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
