@@ -11,9 +11,8 @@ and other audio electronics.
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
   * Utility
     + **WIP** [Wenzel’s Transparent Balancing Opamp Boost](wenzels-transparent-balancing-opamp-boost)
-
-- Guitar preamplifiers
-  - **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
+  * Guitar preamplifiers
+    + **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
 
 - Power amplifiers
   - [Wenzel’s Powered Guitar Cabinets](wenzels-powered-guitar-cabinets)
