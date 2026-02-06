@@ -17,7 +17,7 @@ well-filtered to keep the device noise-free.
 
 The original idea for this device came from my guitar pedalboard needs
 (my pedalboard is stereo, so I needed at least 2 channels). When I built my
-[2510 powered guitar cabinet](wenzels-powered-guitar-cabinets/README.md#2510)
+[2510 powered guitar cabinet](../wenzels-powered-guitar-cabinets/README.md#2510)
 it was designed with a requirement for the input signal to be balanced (due to
 bridge-mode configuration, and a lack of a built-in balancing device).
 Also, depending on different factors I often need to just boost the overall
