@@ -250,6 +250,8 @@ signal twice, you’ll get anti-phase balanced pair with same volume, and in thi
 bridge-mode amplifier you will restore (double) the final output volume/amp
 gain, compensating the ballast resistors drop. So you would have the same gain
 as it would be just one amplifier and no ballast resistors.
+See the device I use for balancing the signals coming from by pedalboard:
+[Wenzel’s Transparent Balancing Opamp Boost](../wenzels-transparent-balancing-opamp-boost).
 
 I also use series output capacitors, which are totally optional, since the amps
 are biased around 0V, it’s just AC. And because it’s just AC you need to make
