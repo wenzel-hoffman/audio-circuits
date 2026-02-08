@@ -11,6 +11,9 @@
 }:
 
 let
+  render-kicad-schematic-pdf =
+    pkgs.callPackage nix/dev-scripts/render-kicad-schematic-pdf.nix {};
+
   render-kicad-schematic-pdf-to-png =
     pkgs.callPackage nix/dev-scripts/render-kicad-schematic-pdf-to-png.nix {};
 
@@ -44,8 +47,9 @@ let
 
         # Dev scripts
         # Added to `PATH` for your convenience.
-        # You can just call, for example `render-kicad-schematic-pdf-to-png`,
+        # You can just call, for example `render-kicad-schematic-pdf`,
         # regardless of what directory you are in at the moment.
+        render-kicad-schematic-pdf
         render-kicad-schematic-pdf-to-png
         release-revision
       ];
