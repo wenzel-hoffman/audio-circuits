@@ -45,7 +45,15 @@ compensate the gain loos on the damping factor reduction resistors).
 
 ## Latest revision schematic
 
-TODO
+r2-wip-1
+
+### Simple variant
+
+![r2-wip-1 WIP Schematic](wenzels-transparent-balancing-opamp-boost-r2-wip-1.png)
+
+### Quad Pro variant
+
+![r2-wip-1 WIP Schematic](wenzels-transparent-balancing-opamp-boost-quad-pro-r2-wip-1.png)
 
 ## Releases (newest revisions are on the top)
 
