@@ -7,7 +7,7 @@
 	(title_block
 		(title "Wenzel’s Transparent Balancing Opamp Boost")
 		(date "February 2026")
-		(rev "r2")
+		(rev "r2-wip-1")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:NE5532"
