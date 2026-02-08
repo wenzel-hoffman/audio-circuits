@@ -19,10 +19,21 @@ let
       inherit render-kicad-schematic-pdf-to-png;
     };
 
+  run-diylc = pkgs.callPackage nix/dev-scripts/run-diylc.nix {};
+
   shell =
     pkgs.mkShell {
       buildInputs = [
+        # KiCad
         pkgs.kicad
+
+        # DIY Layout Creator
+        pkgs.diylc
+        # Runner script with proper Swing configuration for my XMonad
+        run-diylc
+
+        # “unshare”
+        pkgs.util-linux
 
         # Image format conversion
         pkgs.imagemagick # “convert" for image processing from command-line

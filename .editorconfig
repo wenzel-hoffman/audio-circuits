@@ -20,5 +20,10 @@ indent_style = tab
 indent_style = space
 indent_size = 2
 
+# DIY Layout Creator projects in XML format
+[*.diy]
+indent_style = space
+indent_size = 2
+
 [COMMIT_EDITMSG]
 max_line_length = 72
