@@ -110,17 +110,15 @@ for the low-pass filter at ≈31.8Hz. The resistors can also provide some level 
 sag for fast-transients, but they can be compensated by huge capasitors. Just
 theoretically, no actual tests were made.
 
+The inputs are now ground-lifted via 10Ω resistors (it removes ground loop
+switching noise from the power supply). There are ON-OFF-ON switches allowing to
+connect the ground directly, disconnect it completely, or connect it via 10Ω
+resistor. The latter is the recommended mode, it works for me in my setup.
+
 ### TODO/WIP stuff
 
 I need 4x impedance transformers for the cabinet. Need to to order more custom
 ones. For now I’m using [2510](#2510) transformers for just 2 channels.
-
-There is a bit of switching noise coming from the power supply into the audio.
-Audible when not playing. I’m not sure why. Maybe because it is not shielded in
-this build with a metal case. But it seems it is coming through ground, not V+
-(which is well filtered). I might try to solve this by ground-lifting the input
-signal ground with 10Ω resistor. My board has its own ground anyway. Simple
-ground lifting does not work as it results into loud hum.
 
 ### Changes I noticed in comparison to [2510](#2510)
 
@@ -187,10 +185,11 @@ You can find pre-made boards by these search queries for example on Ebay:
 
 ### Latest revision schematic
 
-![2601 cabinet schematic](release-2601-cabinet-2026-01-r1/wenzels-powered-guitar-cabinet-2601-r1.png)
+![2601 cabinet schematic](release-2601-cabinet-2026-02-r2/wenzels-powered-guitar-cabinet-2601-r2.png)
 
 ### Releases (newest revisions are on the top)
 
+- [2601 cabinet r2 2026-02](release-2601-cabinet-2026-02-r2)
 - [2601 cabinet r1 2026-01](release-2601-cabinet-2026-01-r1)
 
 ---
