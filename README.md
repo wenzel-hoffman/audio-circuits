@@ -8,6 +8,7 @@ and other audio electronics.
 
 - Guitar pedals
   * Distortion/Fuzz
+    + **WIP** [Wenzel’s Fuzz/Boost](wenzels-fuzz-boost)
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
   * Utility
     + **WIP** [Wenzel’s Transparent Balancing Opamp Boost](wenzels-transparent-balancing-opamp-boost)
