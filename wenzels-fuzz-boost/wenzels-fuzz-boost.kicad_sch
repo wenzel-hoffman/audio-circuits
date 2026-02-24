@@ -7,7 +7,7 @@
 	(title_block
 		(title "Wenzel’s Fuzz/Boost")
 		(date "February 2026")
-		(rev "r3-wip-1")
+		(rev "r3-wip-2")
 		(comment 1 "You can control anyway how much voltage gain stages receive (as low as 3 volts).")
 		(comment 2 "Feeds from 18V. Technically will work from 9V, but better 18V.")
 		(comment 3 "Two gain stages preserve original signal polarity orientation (non-inverting).")
@@ -1918,6 +1918,343 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push_DPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_DPDT"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 5.334) (xy 2.3368 7.0612)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.874) (xy 0 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_1_1"
+				(rectangle
+					(start -3.175 8.89)
+					(end 3.175 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:MMBFJ113"
 			(pin_names
 				(hide yes)
@@ -2349,7 +2686,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Germanium transistors have internal leakage between\ncollector and base so they do not require a feedback\nresistor, silicon ones on the other hand do require it\nfor this gain stage topology.\n\nTechnically you can try whatever NPN transistors\nyou can find, though they all can have its own\nunique way of clipping.\nPick one that suits your taste.\n\nFeaturing VOLTS knob (buffered 3-18 volts range, for the gain stages),\neach transistor bias (Q1B, Q2B, clockwise = more fuzz),\nPRE-volume attenuation (how much goes into the gain stages),\npost-VOLUME, and TONE knob (LP filter, around 500Hz-20kHz)."
+	(text "Germanium transistors have internal leakage between\ncollector and base so they do not require a feedback\nresistor, silicon ones on the other hand do require it\nfor this gain stage topology.\n\nTechnically you can try whatever NPN transistors\nyou can find, though they all can have its own\nunique way of clipping.\nPick one that suits your taste.\n\nFeaturing VOLTS knob (buffered 3-18 volts range, for the gain stages),\neach transistor bias (Q1B, Q2B, clockwise = more fuzz),\nPRE-volume attenuation (how much goes into the gain stages),\npost-VOLUME, TONE knob (LP filter, around 500Hz-20kHz),\nand MORE switch for extra gain."
 		(exclude_from_sim no)
 		(at 14.732 195.326 0)
 		(effects
@@ -2362,7 +2699,7 @@
 	)
 	(text "Q1 and Q2 can be:\n\n- Sovient Germanium MP37 NPNs (“МП37”, Germanium variant)\n- Korean Motorola 2n2369a NPNs (Silicon variant)\n- 2n2219a NPNs (Silicon variant)\n\nNote that for Germanium transistors collector\nfeedback resistors (R28 and R29) are not needed.\n\nAlso note that if you pick Germanium transistors\nother than MP37 make sure they are NPNs and non PNPs\nas most of the Germanium transistors are. And that\nthey can handle 18V safely."
 		(exclude_from_sim no)
-		(at 194.056 76.708 0)
+		(at 212.09 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2370,6 +2707,17 @@
 			(justify left top)
 		)
 		(uuid "6f9f620d-fe12-41c5-b8b0-fbbd1b977be5")
+	)
+	(text "Parts (resistors are not listed here):\n\n- 6x potentiometers total (2x B1M, A1M, 2x A100k, A10k)\n- 2x switches (1x DPDT and 1x SPDT)\n- A bunch of 47u >=25V electrolytic capacitors\n- A bunch of 100n film capacitors\n- Ceramic caps: 10p, 100p, 2x of 47p\n- 2x 4u7 >=25V eletrolytic cap\n- 1x 3n3 film cap\n- 2x 1n4007 diodes\n- 1x 1n5819 diodes"
+		(exclude_from_sim no)
+		(at 216.408 136.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fc12a763-813b-4775-b617-f532a9602df7")
 	)
 	(junction
 		(at 210.82 113.03)
@@ -2450,12 +2798,6 @@
 		(uuid "3535a24d-ae21-46b5-a9ae-aef7f0a52a7a")
 	)
 	(junction
-		(at 165.1 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35fbe39f-f1c5-49c2-aa83-b16364871d2e")
-	)
-	(junction
 		(at 58.42 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2532,6 +2874,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "617634a5-4ccd-40f0-975b-c3a97ac2c15a")
+	)
+	(junction
+		(at 185.42 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "617f5772-246a-49c3-b36a-6bd4b858c98e")
 	)
 	(junction
 		(at 87.63 142.24)
@@ -2636,6 +2984,12 @@
 		(uuid "af46b79d-1538-418e-b2c7-35b4eac0e643")
 	)
 	(junction
+		(at 187.96 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcf72c4-5fbb-4d2a-9fee-9f21695f6359")
+	)
+	(junction
 		(at 64.77 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2670,6 +3024,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c472fa12-e6a6-4014-a141-1c0f135331c7")
+	)
+	(junction
+		(at 152.4 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca18ab73-5125-4452-9b3f-749d6ce6ea82")
 	)
 	(junction
 		(at 162.56 102.87)
@@ -2754,6 +3114,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff0c7151-e079-4bf9-93b5-965e22b4cd41")
+	)
+	(no_connect
+		(at 187.96 76.2)
+		(uuid "239044e9-df0f-43a3-a8c0-b30575b16c3a")
+	)
+	(no_connect
+		(at 177.8 76.2)
+		(uuid "616934e3-ee75-4bc6-8128-baa2d1231ed5")
 	)
 	(wire
 		(pts
@@ -2977,6 +3345,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 87.63) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eda5920-9c28-4f08-adb8-a6d010b8adfa")
+	)
+	(wire
+		(pts
 			(xy 87.63 134.62) (xy 100.33 134.62)
 		)
 		(stroke
@@ -3144,6 +3522,16 @@
 			(type default)
 		)
 		(uuid "33438ccb-c7f9-45cc-a6ca-714810c2d317")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 196.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3489a195-2bba-416b-98f0-7b181962d93a")
 	)
 	(wire
 		(pts
@@ -3337,6 +3725,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 86.36) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50949557-49ee-469e-ad23-e2a84b1ac104")
+	)
+	(wire
+		(pts
 			(xy 137.16 53.34) (xy 137.16 60.96)
 		)
 		(stroke
@@ -3344,16 +3742,6 @@
 			(type default)
 		)
 		(uuid "509ae401-e492-460e-81ce-95fb47d78541")
-	)
-	(wire
-		(pts
-			(xy 165.1 154.94) (xy 165.1 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5374bc73-72fe-4470-86ca-391bcbb68c82")
 	)
 	(wire
 		(pts
@@ -3507,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 72.39) (xy 138.43 91.44)
+			(xy 138.43 72.39) (xy 138.43 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3727,7 +4115,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 91.44) (xy 189.23 109.22)
+			(xy 189.23 93.98) (xy 189.23 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3867,6 +4255,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 66.04) (xy 163.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93651e34-07cf-4711-8d9d-f0d45b236a1a")
+	)
+	(wire
+		(pts
 			(xy 44.45 41.91) (xy 53.34 41.91)
 		)
 		(stroke
@@ -3887,13 +4285,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 143.51) (xy 165.1 147.32)
+			(xy 185.42 86.36) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97711e74-61de-4a55-9ec0-249baee48766")
+		(uuid "96079ac9-95f0-45d2-96c5-b98870bf27d3")
 	)
 	(wire
 		(pts
@@ -3927,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 91.44) (xy 189.23 91.44)
+			(xy 138.43 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4004,6 +4402,16 @@
 			(type default)
 		)
 		(uuid "a50d76ad-1c7b-43f0-bdc9-a908b7e14854")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51a3ae9-82b0-4ddb-9bb9-86d2461b2dd0")
 	)
 	(wire
 		(pts
@@ -4144,6 +4552,26 @@
 			(type default)
 		)
 		(uuid "be5da07c-8647-4a62-81b5-0ee74e7f911f")
+	)
+	(wire
+		(pts
+			(xy 196.85 66.04) (xy 193.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaa6693-5f5b-4f49-9919-7ae8d8967c5b")
+	)
+	(wire
+		(pts
+			(xy 163.83 73.66) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf377a44-af03-4d84-84eb-a7dbcf18af58")
 	)
 	(wire
 		(pts
@@ -4524,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "fa3ae5d4-24f3-4aa1-8c0d-9887ff2d528f")
+	)
+	(wire
+		(pts
+			(xy 193.04 66.04) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7716f1-a8ec-4373-bdf3-82c82d880a22")
 	)
 	(wire
 		(pts
@@ -5318,72 +5756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27b3afaf-3ac9-4e56-a66e-c93482b66f44")
-		(property "Reference" "#PWR019"
-			(at 165.1 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "250673c5-cf8b-4fae-8825-bf4a1f13bd2c")
-		)
-		(instances
-			(project "mp37-fuzz-boost"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
 		(at 262.89 116.84 180)
 		(unit 1)
@@ -5947,7 +6319,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 72.39 89.916 90)
+			(at 72.39 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6761,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 138.43 95.25 90)
+			(at 138.43 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,6 +7010,75 @@
 			(project "mp37-fuzz-boost"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 163.83 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5658afd3-34f8-4f88-9ddb-8af6b9bb8615")
+		(property "Reference" "C28"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "electrolytic"
+			(at 167.64 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ded165e0-80c4-4bbe-8570-f8cf687888b9")
+		)
+		(pin "2"
+			(uuid "9060c5e4-0a92-492c-9875-ace26a9b42a3")
+		)
+		(instances
+			(project "wenzels-fuzz-boost"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9743,6 +10184,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 196.85 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb997c2d-e220-4e20-8e29-334a8e9ad7d4")
+		(property "Reference" "C29"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "electrolytic"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "375efc38-20cb-4f7c-a045-407a6e0075f5")
+		)
+		(pin "2"
+			(uuid "afb97193-edb1-45cc-929c-8de732114b47")
+		)
+		(instances
+			(project "wenzels-fuzz-boost"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 151.13 140.97 0)
 		(mirror y)
@@ -10010,6 +10520,71 @@
 			(project "wenzels-si-fuzz-boost"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c12c9b-7176-43fa-8d1b-92daad81f80f")
+		(property "Reference" "#PWR05"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "757a6abc-ce23-4849-aaf7-5446d811a176")
+		)
+		(instances
+			(project "wenzels-fuzz-boost"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11061,6 +11636,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 185.42 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e51deba5-e649-4c76-8c7e-af449cae9d19")
+		(property "Reference" "SW2"
+			(at 195.58 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MORE"
+			(at 195.58 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "557ee40d-fbad-4703-8d9a-b2c3ef12475c")
+		)
+		(pin "6"
+			(uuid "029fee70-608f-4899-943c-d63c8dfd6d47")
+		)
+		(pin "2"
+			(uuid "2b6763d2-97e8-49b9-a386-504f37eeb825")
+		)
+		(pin "4"
+			(uuid "2b2c6784-7470-4f12-b89a-62440bee0afc")
+		)
+		(pin "1"
+			(uuid "e9491707-0141-483e-b54c-b4b04692b511")
+		)
+		(pin "3"
+			(uuid "c0dc4195-d745-4a72-bc4b-3857dad8e89a")
+		)
+		(instances
+			(project ""
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 45.72 90)
 		(unit 1)
@@ -11700,75 +12357,6 @@
 			(project "mp37-fuzz-boost"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165.1 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbe07f91-c818-4ae8-bca8-faf9fe74e04f")
-		(property "Reference" "R13"
-			(at 167.64 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 167.64 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.322 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 165.1 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9045aa1-0d80-4865-a7e9-6b9b1134eb91")
-		)
-		(pin "1"
-			(uuid "cabb1dd6-9649-4e70-8782-88e137d6c459")
-		)
-		(instances
-			(project "mp37-fuzz-boost"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "R13")
 					(unit 1)
 				)
 			)
