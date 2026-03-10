@@ -11,6 +11,16 @@ Revision r1 (March 2026).
 
 ### Final assembled cabinet
 
+Note that the cabinet shares my amps build and the
+_Behringer FBQ3102HD Ultragraph Pro_ unit which I use in my signal chain
+(not included in the schematic!) Just ignore it.
+
+Also I have the panel in the middle, it’s a preparation for the time when I
+actually get the output transformers for this cab. Each row would be for each of
+2 transformers. First 2 ports would be primary 4Ω and 8Ω taps, connected to the
+amps. The other 3 is secondary 4Ω, 8Ω, and 16Ω taps connected to the
+cabs/speakers.
+
 ![Finished cabinet back photo](photos/finished-cab.jpg)
 
 ![Finished cabinet back with top panel detached photo](photos/finished-cab-top-panel-detached.jpg)

@@ -45,7 +45,28 @@ custom ones. For now I’m using [2510](#2510) transformers.
 
 ### Changes I noticed in comparison to [2601](#2601)
 
-...
+First thing I noticed is that the highs are more precise, kind of “faster” and
+“stiffer” which is my typical experience when switching from Class-D to
+Class-AB. Class-D in my experience is always kind of a bit mushy compared to
+Class-AB, more loose and slow, less accurate. At least when it comes to guitar
+amplification it’s getting really noticeable. I googled damping factor curve of
+a random Class-D amplifier and it seems to start to drop significantly after
+1kHz, by 10kHz it drops as low as 8 (from ~80). In conjunction with my damping
+factor reduction resistors I guess it potentially explains the mushiness of the
+highs in the Class-D build.
+
+The highs seem to be more “hairy” (which correlates with even more reduced
+damping factor). And there is a tiny bit more “sweetness” (I associate it with
+MOSFET output stage).
+
+I also noticed a bit less big bass/lows. Could be many things in the chain, but
+one theory is that I use less series output capacitors which means more
+capacitance (more series capacitors = less capacitance), which should result
+into less of the damping factor roll-off for the lows, so the lows are more
+controlled in theory = less looser bass.
+
+But note that this is all just subjective observations and rationalization about
+the reasons for these differences.
 
 ### Power calculation
 
