@@ -12,9 +12,13 @@
 , kicad
 , coreutils
 , findutils
+, util-linux
 
 # See `render-kicad-schematic-pdf-to-png.nix`
 , render-kicad-schematic-pdf-to-png
+
+, __name ? "release-revision"
+, __scriptSrc ? ../../dev-scripts/release-revision.sh
 }:
 let
   executables = {
@@ -27,6 +31,7 @@ let
     date = coreutils;
     basename = coreutils;
     dirname = coreutils;
+    column = util-linux;
     render-kicad-schematic-pdf-to-png = render-kicad-schematic-pdf-to-png;
   };
 
@@ -36,7 +41,7 @@ let
   executableFileCheck = x: "[[ -f ${x} || -r ${x} || -x ${x} ]]";
 
   script =
-    lib.pipe ../../dev-scripts/release-revision.sh [
+    lib.pipe __scriptSrc [
       builtins.readFile
       (
         builtins.replaceStrings
@@ -46,7 +51,7 @@ let
     ];
 in
 writeTextFile rec {
-  name = "release-revision";
+  name = __name;
   executable = true;
   destination = "/bin/${name}";
   checkPhase = ''(

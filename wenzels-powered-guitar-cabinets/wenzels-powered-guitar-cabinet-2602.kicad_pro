@@ -480,7 +480,16 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "TY250P pin 5": [
+        "Also LEVEL",
+        "switch pin 6"
+      ],
+      "TY250P pin 8": [
+        "Also LEVEL",
+        "switch pin 2"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

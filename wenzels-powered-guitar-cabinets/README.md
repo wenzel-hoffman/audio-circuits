@@ -6,11 +6,14 @@ My guitar cabinets with installed tweaked power amplifiers into them.
 
 ## <a name="2602"></a>Powered Guitar Cabinet 2602
 
-**Work in progress! Prototyping stage.**
-
 This build is providing 2x discrete Class AB channels with MOSFET output stage
 (IRF240 & IRFP9240, 4x amplifier boards where each 2 are configured in
 bridge-mode).
+
+The build is utilizing pre-built
+[LJM L7](https://www.diyaudio.com/community/threads/l7-mosfet-diy-amp-kit-by-ljm.345114/)
+boards (4 identical boards total, installed onto 2 heatsinks, each bridge-pair
+on their own heatsink).
 
 Compared to [2601](#2601) this build reduces damping factor even lower, down to
 ≈0.66 by rising the ballast resistors from 10Ω to 12Ω (relative to 8Ω speaker
@@ -18,45 +21,75 @@ load).
 
 This build features power RC filter similar to [2601](#2601) but for dual supply
 configuration and more aggressive one. The resistor is 2Ω instead of 0.5Ω, which
-should also, in theory, make the amp more saggy.
+should also, in theory, can make the amp more saggy. Though capacitors are huge
+10mF. You can get away with 2200uF (for C1, C2, C3, and C4), which would still
+provide you with plenty of filtering (36.2 Hz cut-off frequency).
 
 As [2601](#2601) this build is also using input TY250P transformers, but instead
 of unbalancing the potentially balanced signal it actually balances it, for the
 anti-phase balanced pair to feed both inputs of the bridge-mode pair.
-Also there was a LEVEL switch added for the input transformer allowing to switch
-between 1:1 mode and 1:2.
+Also there is a LEVEL switch added for the input transformer allowing to switch
+between 1:1 mode and 1:2 (the latter helps to compensate gain loss caused by DF
+reduction resistors).
 
-There is also ground-lift switch added for each input port.
+The build inherits [2601](#2601) input ground-lifting switch. It is important
+for ground loops management. 10Ω-lifting is a recommended mode to start with.
 
 Also this build uses minimal amount of output capacitors instead of chaining
 lots of them as in previous builds.
 
+### TODO/WIP stuff
+
+I need 2x 100W RMS impedance transformers for the cabinet. Need to to order more
+custom ones. For now I’m using [2510](#2510) transformers.
+
+### Changes I noticed in comparison to [2601](#2601)
+
+...
+
 ### Power calculation
 
-At ±56W the amp provides 150W into 8Ω. The amp is configured in bridge mode,
-where each board “sees” half of the load. Total load is 8Ω (speaker) + 12Ω (DF
-reduction ballast) = 20Ω. One amp of the pair would see 10Ω total load (half),
-and would deliver 120W into it, so together in bridge-mode the power delivered
-to the total 20Ω load (DF reduction ballast + speaker) is 120W × 2 = 240W.
-The portion of that power that is actually delivered to the speaker is 96W.
+At ±56W one amp provides 150W into 8Ω. The amp is configured in bridge mode
+(150W × 2 boards = 300W), where each board “sees” half of the load. Total load
+is 8Ω (speaker) + 12Ω (DF reduction ballast) = 20Ω. One amp of the pair would
+see 10Ω total load (half), and would deliver 120W into it, so together in
+bridge-mode the power delivered to the total 20Ω load (DF reduction ballast +
+speaker) is 120W × 2 = 240W. The portion of that power that is actually
+delivered to the speaker is 96W.
 
 So 1 channel is 96W, plenty of headroom! Both channels 96W × 2 = 192W.
 
 ### Powering and cooling
 
 This build uses different switching power supply board with more power (600W vs.
-500W). It provides ±56VDC voltage.
+500W). It provides ±56VDC voltage. Actually this particular board allows to
+adjust the voltage, less or more than ±56VDC. I set it to around ±57-±58, to be
+prepared for the voltage drop by the RC DC filter resistors, but I see no drop
+really, at least not while amp is not pushing hard, maybe under load it sags.
 
 The DF reduction ballast takes 144W of abuse, a lot, I might consider active
 cooling for it. Even though I won’t use the amps at these levels, so it’s only
 headroom for peaks. Cooling might be not strictly necessary, but considering
 that it’s an increase comparing to [2510](#2510) and [2601](#2601) and it’s
 already getting warm it might get actually hot. So active cooling is a good
-idea.
+idea. So far I’ve been playing and the heat is manageable without a cooler
+pointing at the heatsinks (though there is a cooler close to them cooling the
+power supply, so at least some of the wind reaches them).
 
-### WIP schematic render (r1-wip-2)
+The amp heatsinks are pointing up and there is a Noctua 120mm 12V fan blowing on
+top of them. While pushing the amps they get hot, but with the cooler working at
+max 12V voltage you can still hold your hand on top of the heatsinks. But note
+that I cut the lows quite significantly, with more low frequency content it
+will probably get hotter. So I might put an extra cooler on the side, blowing
+the wind out of the cabinet enclosure, to make sure it is always under control.
 
-![2602 r1-wip-2 cabinet WIP schematic](wenzels-powered-guitar-cabinet-2602-r1-wip-2.png)
+### Latest revision schematic
+
+![2602 cabinet schematic](release-2602-cabinet-2026-03-r1/wenzels-powered-guitar-cabinet-2602-r1.png)
+
+### Releases (newest revisions are on the top)
+
+- [2602 cabinet r1 2026-03](release-2602-cabinet-2026-03-r1)
 
 ---
 

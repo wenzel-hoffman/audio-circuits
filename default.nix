@@ -22,6 +22,13 @@ let
       inherit render-kicad-schematic-pdf-to-png;
     };
 
+  release-subproject-revision =
+    pkgs.callPackage nix/dev-scripts/release-revision.nix {
+      inherit render-kicad-schematic-pdf-to-png;
+      __name = "release-subproject-revision";
+      __scriptSrc = dev-scripts/release-subproject-revision.sh;
+    };
+
   run-diylc = pkgs.callPackage nix/dev-scripts/run-diylc.nix {};
 
   shell =
@@ -52,6 +59,7 @@ let
         render-kicad-schematic-pdf
         render-kicad-schematic-pdf-to-png
         release-revision
+        release-subproject-revision
       ];
     };
 in
