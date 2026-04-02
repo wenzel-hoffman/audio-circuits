@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Wenzel’s Powered Guitar Cabinet 2602")
-		(date "March 2026")
-		(rev "r1")
+		(date "April 2026")
+		(rev "r2")
 		(comment 2 "installed into a cheap Harley Benton G112 guitar cabinet.")
 		(comment 3 "(IRFP240 & IRFP9240) with damping factor ≲0.66 into 8Ω")
 		(comment 4 "2 bridge-mode discrete Class AB amplifiers with MOSFET output stage (LJM L7)")
@@ -3084,6 +3084,382 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transformer:TRANSF4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR1"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Impedance transformer"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TRANSF4_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.524 5.08) (xy -1.524 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 3.048)
+					(mid -0.7653 2.286)
+					(end -1.524 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 1.524)
+					(mid -0.7653 0.762)
+					(end -1.524 0)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 0)
+					(mid -0.7653 -0.762)
+					(end -1.524 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -1.524)
+					(mid -0.7653 -2.286)
+					(end -1.524 -3.048)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -3.048) (xy -1.524 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 3.048)
+					(end 0.254 -3.048)
+					(stroke
+						(width 0.0254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 3.048) (xy 1.524 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 1.524)
+					(mid 0.7653 2.286)
+					(end 1.524 3.048)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 0)
+					(mid 0.7653 0.762)
+					(end 1.524 1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -1.524)
+					(mid 0.7653 -0.762)
+					(end 1.524 0)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -3.048)
+					(mid 0.7653 -2.286)
+					(end 1.524 -1.524)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 1.524 -5.08) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TRANSF4_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "0Ω"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "4Ω"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "8Ω"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "0Ω"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "4Ω"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "8Ω"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "16Ω"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 20.828 99.06)
@@ -3123,6 +3499,19 @@
 			(type none)
 		)
 		(uuid 29304956-bdf2-47b3-bbed-9e2963eca04b)
+	)
+	(rectangle
+		(start 269.494 38.608)
+		(end 304.8 127)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74f983dc-c005-43bb-b7ed-2d0a43c4452f)
 	)
 	(rectangle
 		(start 53.34 128.524)
@@ -3233,6 +3622,17 @@
 		)
 		(uuid "a9cdf701-54b5-4d15-8615-12070402b9e7")
 	)
+	(text "Output capacitors bleeder\nresistors.\n\nWhen hot-plugging/unplugging\nspeaker cables capacitors\ncan get a charge spike that\nwould block the potentials\nfrom resolving. Thus blocking\nthe amplifier from working\nproperly until the capacitors\nslowly discharge.\n\nThese resistors allow to bleed\nany parasitic charge to ground\nrelatively quickly preventing\nthe amplifier from locking."
+		(exclude_from_sim no)
+		(at 271.526 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e2e4453f-cc88-4cbb-8a18-1fbb9442f6da")
+	)
 	(junction
 		(at 120.65 49.53)
 		(diameter 0)
@@ -3268,6 +3668,30 @@
 		(diameter 0)
 		(color 132 132 132 1)
 		(uuid "381badc0-ef6c-4cbb-858e-4d0436c93992")
+	)
+	(junction
+		(at 285.75 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d5cb1b6-f31d-4b30-b664-b360356c4324")
+	)
+	(junction
+		(at 354.33 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e230139-a04b-4b5b-adef-40738c98a5a4")
+	)
+	(junction
+		(at 276.86 66.04)
+		(diameter 0)
+		(color 132 132 132 1)
+		(uuid "3ede6b0c-e8f0-463d-af58-e77cfb787c16")
+	)
+	(junction
+		(at 285.75 66.04)
+		(diameter 0)
+		(color 132 132 132 1)
+		(uuid "3f23aa50-011e-4dcd-92db-449a0b6821a1")
 	)
 	(junction
 		(at 120.65 80.01)
@@ -3360,10 +3784,22 @@
 		(uuid "826c188d-4f80-4db2-8320-992b10ef4020")
 	)
 	(junction
+		(at 354.33 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b9fdd3-c862-4f21-b0a5-7ef902abf9e5")
+	)
+	(junction
 		(at 68.58 104.14)
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "84ccc741-aea3-4bef-8716-2359dbe52c09")
+	)
+	(junction
+		(at 285.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c1c161-1abf-4d92-b134-f9fc07fa1286")
 	)
 	(junction
 		(at 45.72 149.86)
@@ -3372,10 +3808,22 @@
 		(uuid "8b879237-6fc2-4d0c-bcfc-69eff11e7c97")
 	)
 	(junction
+		(at 370.84 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b9e6d87-48a7-4c50-8354-54c1403b73b4")
+	)
+	(junction
 		(at 177.8 40.64)
 		(diameter 0)
 		(color 0 0 194 1)
 		(uuid "aae981d2-4a24-45ec-bf38-4dd9c5ca69b9")
+	)
+	(junction
+		(at 370.84 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac345de8-4316-4bbb-9050-0fa0d7d93ad4")
 	)
 	(junction
 		(at 34.29 36.83)
@@ -3402,10 +3850,34 @@
 		(uuid "bbc6cfbc-9646-4289-b244-983d86c45b03")
 	)
 	(junction
+		(at 370.84 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb26fc0-871e-4489-bd52-43dbe61448dd")
+	)
+	(junction
+		(at 276.86 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ede729-e701-4688-8a62-f3ebbcbe85a2")
+	)
+	(junction
 		(at 77.47 132.08)
 		(diameter 0)
 		(color 132 132 132 1)
 		(uuid "d4a1cc4e-db10-46d5-87c0-d16564d48dcb")
+	)
+	(junction
+		(at 276.86 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c414df-3414-44c9-92bf-3b86b8f9f803")
+	)
+	(junction
+		(at 224.79 66.04)
+		(diameter 0)
+		(color 132 132 132 1)
+		(uuid "e4649015-8471-46cb-8dde-653153ae35ef")
 	)
 	(junction
 		(at 175.26 39.37)
@@ -3442,6 +3914,12 @@
 		(diameter 0)
 		(color 132 132 132 1)
 		(uuid "ec6e6cf1-4841-4118-ad47-2f6c94222fef")
+	)
+	(junction
+		(at 370.84 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3a3af85-5006-4204-8e51-d1aa8a2c41ed")
 	)
 	(junction
 		(at 107.95 63.5)
@@ -3512,7 +3990,17 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 90.17) (xy 266.7 90.17)
+			(xy 373.38 60.96) (xy 368.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bc4347-a045-48fa-9eed-59cd811ec816")
+	)
+	(wire
+		(pts
+			(xy 307.34 90.17) (xy 276.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3533,6 +4021,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 50.8) (xy 370.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059f9e6d-1b39-45d9-8798-e98d756b4af8")
+	)
+	(wire
+		(pts
 			(xy 78.74 74.93) (xy 167.64 74.93)
 		)
 		(stroke
@@ -3544,6 +4042,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 88.9) (xy 369.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0600c4da-7a7d-4076-99ff-da265678cdcd")
+	)
+	(wire
+		(pts
 			(xy 107.95 49.53) (xy 97.79 49.53)
 		)
 		(stroke
@@ -3552,6 +4060,17 @@
 			(color 0 0 194 1)
 		)
 		(uuid "077985d5-c6e0-4d6c-9c11-d6c724209591")
+	)
+	(wire
+		(pts
+			(xy 276.86 66.04) (xy 276.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "0ae4aa82-0535-469e-b745-7be2bf43617e")
 	)
 	(wire
 		(pts
@@ -3608,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 66.04) (xy 226.06 66.04)
+			(xy 185.42 66.04) (xy 224.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3616,6 +4135,16 @@
 			(color 132 132 132 1)
 		)
 		(uuid "0ea9da31-2ccf-440c-b68a-09a6dabc622f")
+	)
+	(wire
+		(pts
+			(xy 367.03 82.55) (xy 370.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef86219-bcd9-4c59-bc79-f5a7add89d27")
 	)
 	(wire
 		(pts
@@ -3695,6 +4224,26 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 90.17) (xy 370.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136909c6-721d-46f2-a209-ceee01ae7771")
+	)
+	(wire
+		(pts
+			(xy 369.57 92.71) (xy 373.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14040359-2709-4da1-9645-dfaf45c74158")
+	)
+	(wire
+		(pts
 			(xy 143.51 182.88) (xy 132.08 182.88)
 		)
 		(stroke
@@ -3769,6 +4318,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 58.42) (xy 370.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffceec2-466a-426a-8140-5126b17f1a4e")
+	)
+	(wire
+		(pts
 			(xy 34.29 36.83) (xy 34.29 34.29)
 		)
 		(stroke
@@ -3776,6 +4335,16 @@
 			(type default)
 		)
 		(uuid "20378401-3bfb-4d9e-954a-f30ca2f28a9b")
+	)
+	(wire
+		(pts
+			(xy 373.38 100.33) (xy 368.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20470f75-1e80-4804-a5a8-26de5b2836e0")
 	)
 	(wire
 		(pts
@@ -3801,6 +4370,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 50.8) (xy 354.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f97fff-43d1-4d5c-8fc8-ecb14a5d68f1")
+	)
+	(wire
+		(pts
 			(xy 45.72 166.37) (xy 44.45 166.37)
 		)
 		(stroke
@@ -3808,6 +4387,16 @@
 			(type default)
 		)
 		(uuid "22dd3545-a3e8-41b7-9670-3dabfe25f2f9")
+	)
+	(wire
+		(pts
+			(xy 369.57 49.53) (xy 369.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c8681f-85ee-4f70-a03b-f9e3230fea36")
 	)
 	(wire
 		(pts
@@ -3887,6 +4476,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 97.79) (xy 370.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2933672d-fcc6-43ed-a724-d38e632ab22a")
+	)
+	(wire
+		(pts
 			(xy 180.34 116.84) (xy 180.34 107.95)
 		)
 		(stroke
@@ -3930,6 +4529,26 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 82.55) (xy 356.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9dd912-d87a-43a9-a56b-6ca3a8e939b0")
+	)
+	(wire
+		(pts
+			(xy 367.03 49.53) (xy 369.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be1ea52-bffb-4775-934a-e9f6644e94c8")
+	)
+	(wire
+		(pts
 			(xy 207.01 102.87) (xy 207.01 134.62)
 		)
 		(stroke
@@ -3941,7 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 44.45) (xy 269.24 40.64)
+			(xy 307.34 44.45) (xy 307.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4071,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 100.33) (xy 368.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1b7e5b-5e3d-415b-8980-7d725f8b6ee7")
+	)
+	(wire
+		(pts
 			(xy 68.58 74.93) (xy 78.74 74.93)
 		)
 		(stroke
@@ -4090,6 +4719,16 @@
 			(color 132 132 132 1)
 		)
 		(uuid "3f6bc02b-50d8-4e3e-a302-c4642a3c9f6a")
+	)
+	(wire
+		(pts
+			(xy 369.57 53.34) (xy 373.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f81cc59-d448-4854-bdce-6b3e80573080")
 	)
 	(wire
 		(pts
@@ -4233,6 +4872,38 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 66.04) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "464f760a-5276-46dc-8469-47f6d7d57cca")
+	)
+	(wire
+		(pts
+			(xy 369.57 88.9) (xy 369.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469ad1d2-67bf-4956-a4a5-404bb609e14d")
+	)
+	(wire
+		(pts
+			(xy 233.68 66.04) (xy 276.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "46eddf7f-7af4-405a-aed0-9cd022de344c")
+	)
+	(wire
+		(pts
 			(xy 106.68 138.43) (xy 97.79 138.43)
 		)
 		(stroke
@@ -4244,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 46.99) (xy 373.38 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472b8fa1-ae75-4bdb-a96f-9bf1a19558ff")
+	)
+	(wire
+		(pts
 			(xy 163.83 100.33) (xy 163.83 106.68)
 		)
 		(stroke
@@ -4252,6 +4933,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "49c6c632-fc83-4b70-b03a-45e2afe51e00")
+	)
+	(wire
+		(pts
+			(xy 370.84 90.17) (xy 370.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a461934-91d6-4795-bd92-19e89b93d829")
 	)
 	(wire
 		(pts
@@ -4284,6 +4975,16 @@
 			(type default)
 		)
 		(uuid "4b5c97ea-ba20-417d-b8ea-9c4bc01d2108")
+	)
+	(wire
+		(pts
+			(xy 285.75 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b699c76-5ca6-464c-a35c-2615e01d88f8")
 	)
 	(wire
 		(pts
@@ -4384,6 +5085,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 90.17) (xy 354.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cab691-0cdb-45c2-b59e-0c4f150ceb53")
+	)
+	(wire
+		(pts
 			(xy 140.97 104.14) (xy 140.97 172.72)
 		)
 		(stroke
@@ -4478,6 +5189,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "5aa0fad1-1757-4dae-b6b5-b163be15ef56")
+	)
+	(wire
+		(pts
+			(xy 351.79 85.09) (xy 351.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae37438-e571-4e1a-b53e-a32cd79a5a87")
 	)
 	(wire
 		(pts
@@ -4590,6 +5311,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 78.74) (xy 285.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649ae489-2696-4acb-9324-2e297bf9246c")
+	)
+	(wire
+		(pts
 			(xy 77.47 147.32) (xy 77.47 148.59)
 		)
 		(stroke
@@ -4601,6 +5332,26 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 82.55) (xy 373.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660fb1d0-c31d-407c-8826-3066094326e5")
+	)
+	(wire
+		(pts
+			(xy 368.3 60.96) (xy 368.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666df7ed-83bd-4490-ae4e-9e2eaa63a90f")
+	)
+	(wire
+		(pts
 			(xy 180.34 38.1) (xy 135.89 38.1)
 		)
 		(stroke
@@ -4608,6 +5359,16 @@
 			(type default)
 		)
 		(uuid "667e8e22-5462-4c35-8570-7d4a2923d747")
+	)
+	(wire
+		(pts
+			(xy 367.03 43.18) (xy 370.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bd54db-1f35-4915-95bf-52a2f7aab848")
 	)
 	(wire
 		(pts
@@ -4655,7 +5416,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 40.64) (xy 266.7 40.64)
+			(xy 307.34 40.64) (xy 276.86 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4673,6 +5434,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "6ba27c28-0629-430d-820b-31a8d22ec076")
+	)
+	(wire
+		(pts
+			(xy 367.03 86.36) (xy 373.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8d1025-47e2-4f93-a214-5173ba5218a1")
 	)
 	(wire
 		(pts
@@ -4807,6 +5578,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 88.9) (xy 276.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79210181-038e-489b-8b55-80f975be6a8f")
+	)
+	(wire
+		(pts
 			(xy 185.42 105.41) (xy 185.42 116.84)
 		)
 		(stroke
@@ -4814,6 +5595,16 @@
 			(type default)
 		)
 		(uuid "7ab8a630-388d-4548-93e8-5b1a6dff6224")
+	)
+	(wire
+		(pts
+			(xy 373.38 85.09) (xy 373.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abe27da-c1df-4619-bb32-a84aef1df66b")
 	)
 	(wire
 		(pts
@@ -4839,6 +5630,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 82.55) (xy 354.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e34377c-0729-4820-89e0-09381886bdd3")
+	)
+	(wire
+		(pts
 			(xy 76.2 59.69) (xy 39.37 59.69)
 		)
 		(stroke
@@ -4847,6 +5648,37 @@
 			(color 255 0 0 0.5)
 		)
 		(uuid "7e646687-1aeb-4b5a-b10f-776ac658fdaa")
+	)
+	(wire
+		(pts
+			(xy 224.79 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "808e8120-929e-4169-ab65-eb44ed54129b")
+	)
+	(wire
+		(pts
+			(xy 351.79 90.17) (xy 354.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81426cd3-c2dc-41cc-8992-0018d27732ba")
+	)
+	(wire
+		(pts
+			(xy 351.79 43.18) (xy 354.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814e412d-3f06-4144-93ba-f545752a0c37")
 	)
 	(wire
 		(pts
@@ -4956,6 +5788,36 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 52.07) (xy 285.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a432dd2-b549-4812-aed7-e101d302498f")
+	)
+	(wire
+		(pts
+			(xy 276.86 41.91) (xy 276.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7fe677-e5b3-4d3a-b5c2-f03a614ed10e")
+	)
+	(wire
+		(pts
+			(xy 373.38 45.72) (xy 373.38 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a87e951-6469-4e31-9763-8e9dfeb1aac4")
+	)
+	(wire
+		(pts
 			(xy 90.17 187.96) (xy 111.76 187.96)
 		)
 		(stroke
@@ -4964,6 +5826,17 @@
 			(color 0 0 194 1)
 		)
 		(uuid "8bd70311-44b3-44d9-9b8c-b4a6620d8985")
+	)
+	(wire
+		(pts
+			(xy 285.75 66.04) (xy 285.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "8cc1ebe3-c4a5-44ee-8e5d-75c16bc67115")
 	)
 	(wire
 		(pts
@@ -5017,6 +5890,16 @@
 			(type default)
 		)
 		(uuid "8fcf2693-6573-4575-ab64-092bf8273d1b")
+	)
+	(wire
+		(pts
+			(xy 351.79 92.71) (xy 356.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9058e300-25e7-44cb-b6ef-ef23758f7661")
 	)
 	(wire
 		(pts
@@ -5235,6 +6118,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 40.64) (xy 266.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbcae79-abfd-4dd5-bd2b-628c80e25334")
+	)
+	(wire
+		(pts
 			(xy 45.72 181.61) (xy 45.72 179.07)
 		)
 		(stroke
@@ -5243,6 +6136,16 @@
 			(color 132 132 132 1)
 		)
 		(uuid "abf8a2c5-530e-4869-bab0-1efd123560d0")
+	)
+	(wire
+		(pts
+			(xy 276.86 90.17) (xy 266.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfa0c9f-15fd-44b3-9bec-18fbf02c1d4c")
 	)
 	(wire
 		(pts
@@ -5289,6 +6192,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 90.17) (xy 370.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b431bfa5-196c-47ef-bd08-fbbe386a04ff")
+	)
+	(wire
+		(pts
 			(xy 181.61 66.04) (xy 181.61 68.58)
 		)
 		(stroke
@@ -5308,6 +6221,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "b5e56a43-e668-42f8-9705-ef21a00ef120")
+	)
+	(wire
+		(pts
+			(xy 351.79 87.63) (xy 356.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a51ff9-f0c8-4776-8467-b3309d39be98")
 	)
 	(wire
 		(pts
@@ -5375,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 50.8) (xy 266.7 50.8)
+			(xy 307.34 50.8) (xy 285.75 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5414,6 +6337,16 @@
 			(color 0 0 255 0.5)
 		)
 		(uuid "c1f0b988-b6e1-45c3-99f2-358c0ea0dabf")
+	)
+	(wire
+		(pts
+			(xy 285.75 80.01) (xy 266.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28e779c-ed06-4d4c-a19e-50a538a784d2")
 	)
 	(wire
 		(pts
@@ -5461,6 +6394,57 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 50.8) (xy 370.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c798e991-3a4e-41d7-ac5b-d25b6b77f220")
+	)
+	(wire
+		(pts
+			(xy 370.84 43.18) (xy 373.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d42f53-6914-4c0f-b4a8-b0c6f11e53a9")
+	)
+	(wire
+		(pts
+			(xy 276.86 49.53) (xy 276.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "c7d86051-b078-47cc-bce5-5d632be4e2b1")
+	)
+	(wire
+		(pts
+			(xy 351.79 45.72) (xy 351.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c059c2-d8a2-437b-b8d8-750071bac36f")
+	)
+	(wire
+		(pts
+			(xy 368.3 53.34) (xy 367.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8cb08f0-b5dd-48a5-9a80-231cda5cf5b4")
+	)
+	(wire
+		(pts
 			(xy 72.39 39.37) (xy 88.9 39.37)
 		)
 		(stroke
@@ -5494,13 +6478,33 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 80.01) (xy 266.7 80.01)
+			(xy 307.34 80.01) (xy 285.75 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cae65378-2e41-45ff-a2c1-7b2458783852")
+	)
+	(wire
+		(pts
+			(xy 368.3 92.71) (xy 367.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb55a206-5135-460d-b0ab-0174a1269696")
+	)
+	(wire
+		(pts
+			(xy 354.33 43.18) (xy 356.87 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce40dcc-2f4c-4d18-a78e-e65ae9b9d1e3")
 	)
 	(wire
 		(pts
@@ -5625,7 +6629,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 83.82) (xy 269.24 80.01)
+			(xy 307.34 83.82) (xy 307.34 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5635,7 +6639,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 46.99) (xy 269.24 50.8)
+			(xy 307.34 46.99) (xy 307.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5666,6 +6670,38 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 58.42) (xy 233.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "deb11aa0-00f3-41e0-8a5e-8fab6e09f2ed")
+	)
+	(wire
+		(pts
+			(xy 276.86 66.04) (xy 285.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "df05da72-b6ad-4616-b6d1-ad39e8277af3")
+	)
+	(wire
+		(pts
+			(xy 351.79 48.26) (xy 356.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e149bd42-a636-45c9-a294-9eca9fd742f2")
+	)
+	(wire
+		(pts
 			(xy 97.79 49.53) (xy 97.79 34.29)
 		)
 		(stroke
@@ -5685,6 +6721,17 @@
 			(color 132 132 132 1)
 		)
 		(uuid "e3b071bf-e165-48eb-b9b5-c6135baacd41")
+	)
+	(wire
+		(pts
+			(xy 224.79 66.04) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "e4190894-5092-4f7d-8dff-1fea96a8ff1d")
 	)
 	(wire
 		(pts
@@ -5816,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 86.36) (xy 269.24 90.17)
+			(xy 307.34 86.36) (xy 307.34 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5902,6 +6949,17 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 66.04) (xy 285.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "f81f2b69-8d0f-4c0d-9c10-64a3feb931ce")
+	)
+	(wire
+		(pts
 			(xy 138.43 153.67) (xy 132.08 153.67)
 		)
 		(stroke
@@ -5934,6 +6992,26 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 50.8) (xy 354.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa92075a-bf6a-4b2f-a539-dbc451272d64")
+	)
+	(wire
+		(pts
+			(xy 370.84 50.8) (xy 370.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa94eaa3-3178-436f-9905-ac290b20b85e")
+	)
+	(wire
+		(pts
 			(xy 180.34 41.91) (xy 138.43 41.91)
 		)
 		(stroke
@@ -5962,6 +7040,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "fd26501e-a53a-4417-b9fb-69a2dfc88497")
+	)
+	(wire
+		(pts
+			(xy 351.79 53.34) (xy 356.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9abedc-52f9-4466-bba5-d1514104e5bf")
 	)
 	(label "2"
 		(at 132.08 182.88 180)
@@ -7113,6 +8201,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 346.71 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28c05e2c-9410-4bb0-8882-a828669d5f72")
+		(property "Reference" "J17"
+			(at 343.408 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8Ω primary"
+			(at 343.408 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 346.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "a68c3a20-77e2-4a0f-846b-c925e7e5cd74")
+		)
+		(pin "S"
+			(uuid "55b19d81-bfef-4c3d-b596-3ec81e339744")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
 		(at 181.61 71.12 180)
 		(unit 1)
@@ -7417,6 +8574,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 346.71 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fa32bef-8893-4a3f-ab2c-81cb11def1f4")
+		(property "Reference" "J15"
+			(at 343.408 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8Ω primary"
+			(at 343.408 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "2d9cd614-cd29-415b-b01d-a32eb2941b77")
+		)
+		(pin "S"
+			(uuid "3bb6875d-91a2-4842-891f-31de5fc4ffe7")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 378.46 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "316d857a-8c49-46a2-bd24-78efdf2e7e93")
+		(property "Reference" "J18"
+			(at 381.762 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4Ω secondary"
+			(at 381.762 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 378.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "b1a9096c-29dc-428b-8178-7493dc2232b6")
+		)
+		(pin "S"
+			(uuid "9f6de8cd-2df7-48f9-b7bb-8e162772a851")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 120.65 95.25 0)
 		(unit 1)
@@ -7489,6 +8785,76 @@
 			(project "wenzels-powered-guitar-cabinet-2602"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 378.46 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3afc9abe-4835-4631-972e-b54e4d3dce73")
+		(property "Reference" "J11"
+			(at 381.762 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4Ω secondary"
+			(at 381.762 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 378.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "a7e3a7c7-150b-4e81-bf76-52d855463c6a")
+		)
+		(pin "S"
+			(uuid "d6da890f-df56-45f3-b00b-b938f1391651")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7639,6 +9005,75 @@
 			(project "wenzels-powered-guitar-cabinet-2601"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 346.71 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ffda312-982d-4b46-99c6-a43403996d5d")
+		(property "Reference" "J14"
+			(at 343.408 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4Ω primary"
+			(at 343.408 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 346.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "1c7e826e-da2d-432f-84c9-b963b712e635")
+		)
+		(pin "S"
+			(uuid "40c9ee10-0d2d-430c-9d36-e1f7252a545e")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7943,7 +9378,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
-		(at 274.32 83.82 180)
+		(at 312.42 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7951,7 +9386,7 @@
 		(dnp no)
 		(uuid "57995c28-e479-44ff-91b9-b1d98bf0653e")
 		(property "Reference" "J3"
-			(at 274.32 79.502 0)
+			(at 312.42 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +9395,7 @@
 			)
 		)
 		(property "Value" "Speaker 2"
-			(at 270.256 89.662 0)
+			(at 308.356 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +9404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 83.82 0)
+			(at 312.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +9413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 83.82 0)
+			(at 312.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +9422,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 274.32 83.82 0)
+			(at 312.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,6 +10247,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 285.75 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7baaa170-c553-4d16-b485-b64e5a6fda6a")
+		(property "Reference" "R8"
+			(at 287.528 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 287.528 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.972 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 285.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9d1f9b9-a1fd-49f9-8357-7e16077e01e9")
+		)
+		(pin "1"
+			(uuid "81033fb5-2744-4a50-b339-4299c27183e5")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 77.47 152.4 0)
 		(mirror x)
 		(unit 1)
@@ -8882,7 +10386,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
-		(at 274.32 44.45 180)
+		(at 312.42 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8890,7 +10394,7 @@
 		(dnp no)
 		(uuid "8d5a7c14-e93a-4e15-84ae-9aafdf5307e8")
 		(property "Reference" "J9"
-			(at 274.32 40.132 0)
+			(at 312.42 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +10403,7 @@
 			)
 		)
 		(property "Value" "Speaker 1"
-			(at 270.51 50.292 0)
+			(at 308.61 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +10412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 44.45 0)
+			(at 312.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +10421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 44.45 0)
+			(at 312.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +10430,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 274.32 44.45 0)
+			(at 312.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,6 +10948,189 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 276.86 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a60e5c5a-9823-4f1b-a633-35b1d643f0dd")
+		(property "Reference" "R9"
+			(at 278.638 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 278.638 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.082 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 276.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f052d9f-8423-42cd-a676-481a00b7aec2")
+		)
+		(pin "1"
+			(uuid "de8ef6e2-782e-4512-b2ef-2a40867df2f2")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transformer:TRANSF4")
+		(at 361.95 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf5f3a2-f8a2-46e7-83e6-b7c23747fa2a")
+		(property "Reference" "TR1"
+			(at 361.95 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Impedance transformer"
+			(at 361.95 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "Tector.it custom toroid"
+			(at 361.95 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "100W RMS, 45Hz–20kHz"
+			(at 361.95 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "0-4-8 Ω BLUE-BROWN-BLACK"
+			(at 361.95 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "0-4-8-16 Ω WHITE-RED-GRAY-GREEN"
+			(at 361.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99070ef7-7c69-4f32-af0a-85390377b6e9")
+		)
+		(pin "4"
+			(uuid "85f4b098-5bbb-46e1-8d2d-cd3e6b8d1f5b")
+		)
+		(pin "5"
+			(uuid "bf8db68b-ff60-48c0-bac6-84317551f04b")
+		)
+		(pin "3"
+			(uuid "8541cfc2-5379-4270-8249-ebb90aa6520f")
+		)
+		(pin "1"
+			(uuid "43ff9c91-f1ad-4e1b-9b19-042b220f1be4")
+		)
+		(pin "6"
+			(uuid "d3a057ce-76a6-496e-9cfc-f22aa020ee5e")
+		)
+		(pin "7"
+			(uuid "481d4568-237c-43c6-afe0-b906771f7efd")
+		)
+		(instances
+			(project ""
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "TR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 180.34 55.88 270)
 		(unit 1)
@@ -9615,6 +11302,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 378.46 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc3dd49f-2081-4b03-aa01-ff88b9d30102")
+		(property "Reference" "J20"
+			(at 381.762 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16Ω secondary"
+			(at 381.762 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 378.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "7c41dd22-9a39-4adb-b3cf-84815d4206ab")
+		)
+		(pin "S"
+			(uuid "b42a5b3f-0adc-4bf3-87c4-14baaefa7bc5")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
 		(at 189.23 72.39 0)
 		(unit 1)
@@ -9760,6 +11517,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 285.75 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7931dec-3a90-4551-9bc9-53af9b07d086")
+		(property "Reference" "R10"
+			(at 287.528 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 287.528 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.972 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 285.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e47ecf74-f82c-4226-9d30-01b6d19e83b6")
+		)
+		(pin "1"
+			(uuid "dc1786fd-2a3b-4285-a608-a366777f374e")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
 		(at 111.76 63.5 270)
 		(unit 1)
@@ -9818,6 +11644,259 @@
 			(project "wenzels-powered-guitar-cabinet-2601"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transformer:TRANSF4")
+		(at 361.95 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8da5129-9350-40c3-9f8d-814244287b61")
+		(property "Reference" "TR2"
+			(at 361.95 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Impedance transformer"
+			(at 361.95 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "Tector.it custom toroid"
+			(at 361.95 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "100W RMS, 45Hz–20kHz"
+			(at 361.95 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "0-4-8 Ω BLUE-BROWN-BLACK"
+			(at 361.95 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "0-4-8-16 Ω WHITE-RED-GRAY-GREEN"
+			(at 361.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c74af18-e0f9-44eb-809c-e6e99aebf907")
+		)
+		(pin "4"
+			(uuid "f33d4bed-ed88-4678-9844-c2d9dc776f60")
+		)
+		(pin "5"
+			(uuid "565ba08f-7d1b-41ce-a2bf-ae27f597583b")
+		)
+		(pin "3"
+			(uuid "1aff0e53-777d-416a-8da6-2a0f9df4c670")
+		)
+		(pin "1"
+			(uuid "e5eb09fe-71b1-48b5-a553-0421000b4617")
+		)
+		(pin "6"
+			(uuid "b7517dbe-3ab1-4d35-b2fe-02762aa683d4")
+		)
+		(pin "7"
+			(uuid "75c8e7ba-1111-4982-b2a4-4aa6b0b14042")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "TR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 378.46 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db953e50-4629-45ac-9c26-899fdd3c52d2")
+		(property "Reference" "J13"
+			(at 381.762 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16Ω secondary"
+			(at 381.762 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 378.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "009b79af-5da7-4d40-a2fb-57188d4a52d6")
+		)
+		(pin "S"
+			(uuid "74670898-10ce-4b3f-9326-54e7285f7cbe")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 276.86 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de4704c1-9728-4980-b3b7-0c4fb468c8e5")
+		(property "Reference" "R7"
+			(at 278.638 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 278.638 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.082 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1ec43c8-0f51-45f5-8272-ffc8081c5731")
+		)
+		(pin "1"
+			(uuid "95e9d6f4-9e12-41bd-837e-3fba0cbbce17")
+		)
+		(instances
+			(project ""
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10035,6 +12114,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 346.71 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eae4247f-437c-4f3c-ae97-233b1baa1e5e")
+		(property "Reference" "J16"
+			(at 343.408 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4Ω primary"
+			(at 343.408 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 346.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "691f07d2-2f80-45cc-bfbf-739a137af996")
+		)
+		(pin "S"
+			(uuid "95e16ae1-1310-407b-8d6b-d29faf91f09a")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 378.46 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee831958-5af6-436b-8dd8-4ba9be84d98c")
+		(property "Reference" "J19"
+			(at 381.762 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8Ω secondary"
+			(at 381.762 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 378.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "eefa698b-16af-4874-9e61-e593c4a4eb22")
+		)
+		(pin "S"
+			(uuid "084d389c-ef22-4d2e-8479-3e5e1849a4f3")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 229.87 80.01 270)
 		(unit 1)
@@ -10179,6 +12397,76 @@
 			(project "wenzels-powered-guitar-cabinet-2601"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2")
+		(at 378.46 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f92ee2f6-ede8-4487-a3bf-1873d81c4912")
+		(property "Reference" "J12"
+			(at 381.762 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8Ω secondary"
+			(at 381.762 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 378.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "99e951c4-2343-4063-ac64-251b475039fa")
+		)
+		(pin "S"
+			(uuid "0ec81463-8946-4778-86ac-4f8bb27f4864")
+		)
+		(instances
+			(project "wenzels-powered-guitar-cabinet-2602"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "J12")
 					(unit 1)
 				)
 			)

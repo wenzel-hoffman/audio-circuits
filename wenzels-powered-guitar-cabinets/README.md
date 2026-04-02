@@ -38,10 +38,10 @@ for ground loops management. 10Ω-lifting is a recommended mode to start with.
 Also this build uses minimal amount of output capacitors instead of chaining
 lots of them as in previous builds.
 
-### TODO/WIP stuff
-
-I need 2x 100W RMS impedance transformers for the cabinet. Need to to order more
-custom ones. For now I’m using [2510](#2510) transformers.
+The cabinet has 2x 100W RMS custom [Tector.it](https://tector.it/en_GB)
+impedance transformers. They are used both for feel and sound coloration and to
+always keep the amp to see the 8Ω load while the speaker cabinet can be 4Ω, 8Ω,
+or 16Ω load.
 
 ### Changes I noticed in comparison to [2601](#2601)
 
@@ -106,10 +106,11 @@ the wind out of the cabinet enclosure, to make sure it is always under control.
 
 ### Latest revision schematic
 
-![2602 cabinet schematic](release-2602-cabinet-2026-03-r1/wenzels-powered-guitar-cabinet-2602-r1.png)
+![2602 cabinet schematic](release-2602-cabinet-2026-04-r2/wenzels-powered-guitar-cabinet-2602-r2.png)
 
 ### Releases (newest revisions are on the top)
 
+- [2602 cabinet r2 2026-04](release-2602-cabinet-2026-04-r2)
 - [2602 cabinet r1 2026-03](release-2602-cabinet-2026-03-r1)
 
 ---
@@ -169,10 +170,10 @@ switching noise from the power supply). There are ON-OFF-ON switches allowing to
 connect the ground directly, disconnect it completely, or connect it via 10Ω
 resistor. The latter is the recommended mode, it works for me in my setup.
 
-### TODO/WIP stuff
-
-I need 4x impedance transformers for the cabinet. Need to to order more custom
-ones. For now I’m using [2510](#2510) transformers for just 2 channels.
+The cabinet has 4x 50W RMS custom [Tector.it](https://tector.it/en_GB)
+impedance transformers. They are used both for feel and sound coloration and to
+always keep the amp to see the 8Ω load while the speaker cabinet can be 4Ω, 8Ω,
+or 16Ω load.
 
 ### Changes I noticed in comparison to [2510](#2510)
 
@@ -239,10 +240,11 @@ You can find pre-made boards by these search queries for example on Ebay:
 
 ### Latest revision schematic
 
-![2601 cabinet schematic](release-2601-cabinet-2026-02-r2/wenzels-powered-guitar-cabinet-2601-r2.png)
+![2601 cabinet schematic](release-2601-cabinet-2026-04-r3/wenzels-powered-guitar-cabinet-2601-r3.png)
 
 ### Releases (newest revisions are on the top)
 
+- [2601 cabinet r3 2026-04](release-2601-cabinet-2026-04-r3)
 - [2601 cabinet r2 2026-02](release-2601-cabinet-2026-02-r2)
 - [2601 cabinet r1 2026-01](release-2601-cabinet-2026-01-r1)
 
