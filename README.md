@@ -18,7 +18,7 @@ and other audio electronics.
 - Power amplifiers
   - [Wenzel’s Powered Guitar Cabinets](wenzels-powered-guitar-cabinets)
   - **WIP** [Wenzel’s Simple MOSFET Class-A Power Amp](wenzels-simple-mosfet-class-a-power-amp)
-  - [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-mosfet-class-a-headphones-stereo-amp)
+  - [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-class-a-headphones-stereo-amp)
   - [Wenzel’s Headphones Stereo Amp](wenzels-headphones-stereo-amp)
 
 ---
