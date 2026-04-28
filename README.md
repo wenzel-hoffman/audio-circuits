@@ -21,6 +21,9 @@ and other audio electronics.
   - [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-class-a-headphones-stereo-amp)
   - [Wenzel’s Headphones Stereo Amp](wenzels-headphones-stereo-amp)
 
+- Utility
+  * [Wenzel’s Speaker to Line-Level Converter](wenzels-speaker-to-line-level-converter)
+
 ---
 
 ## Development
