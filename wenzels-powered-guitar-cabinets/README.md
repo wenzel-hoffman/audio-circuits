@@ -4,6 +4,63 @@ My guitar cabinets with installed tweaked power amplifiers into them.
 
 ---
 
+## <a name="2606"></a>Powered Guitar Cabinet 2606
+
+**WORK IN PROGRESS…**
+
+I’m in a process of designing my own discrete Class AB amplifier from scratch,
+that would have damping factor <1, saggy power supply, involve output
+transformer, but stay as simple as possible, intentionally imperfect while
+providing stability at high powers (should be able to deliver up to 100W to the
+speaker after all the losses). As previous builds it is intended to be used in
+bridge-mode configuration.
+
+It uses MOSFETs for push-pull pair and a couple of NPNs, one for Vbe multiplier
+to bias the MOSFETs and VAS (Voltage Amplification Stage) driver. There are few
+tricks applied for stability and robustness/reliability. But apart from that it
+stays away from trying to be a HiFi amplifier, staying simple and imperfect,
+intended to amplify heavily distorted guitars. Stuff like current mirror,
+differential input, or bypassing Vbe multiplier with a cap, are intentionally
+avoided.
+
+The amplifier does not have lots of input gain. But OEP A262A2E input
+transformer is supposed to compensate for that. It should have enough headroom
+to drive the amplifier hard (though I would recommend a lows cut at around 75Hz)
+and it’s configured in 1:4 ratio. So each amp of the bridged pair would “see”
+1:2 voltage. It would also compensate for the gain loss on the output ballast
+damping factor reduction resistors.
+
+Compared to previous builds it adds global negative feedback path from the
+secondary side of the transformer (like in tube amps) with a potentiometer that
+controls the amount of negative feedback (ranging from around 100k to around
+1M).
+
+I plan to build 4x bridge pairs for full stereo + DRY-WET (4 channels total) and
+put it into a lightweight 2x12 wide-open-back cabinet.
+
+### WIP schematics
+
+I already designed the full bridge-amplifier. I just need to build and test it
+frist to put a stamp on it that it’s working as intended and no further
+modifications are needed.
+
+I might still add a phase flip switch. Current design is inverting relative to
+the input. I will at least change that to be in-phase.
+
+#### Single Amp
+
+**WIP**
+
+![WIP r1-wip-1 2606 single amp schematic](wenzels-powered-guitar-cabinet-2606-single-amp-r1-wip-1.png)
+
+#### Bridged Pair
+
+**WIP**
+
+![WIP r1-wip-1 2606 bridged pair schematic](wenzels-powered-guitar-cabinet-2606-bridged-pair-r1-wip-1.png)
+
+---
+
 ## <a name="2602"></a>Powered Guitar Cabinet 2602
 
 This build is providing 2x discrete Class AB channels with MOSFET output stage
