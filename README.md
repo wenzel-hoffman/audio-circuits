@@ -13,6 +13,7 @@ and other audio electronics.
   * Utility
     + **WIP** [Wenzel’s Transparent Balancing Opamp Boost](wenzels-transparent-balancing-opamp-boost)
   * Guitar preamplifiers
+    + [Wenzel’s Fruity Tube Guitar Preamp](guitar-preamps/wenzels-fruity-tube-guitar-preamp)
     + **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
 
 - Power amplifiers
