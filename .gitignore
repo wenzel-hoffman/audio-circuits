@@ -45,3 +45,6 @@ release/
 *.log
 *.cir
 *.sp
+
+# GIMP
+*.xcf
