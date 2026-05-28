@@ -7,7 +7,7 @@
 	(title_block
 		(title "Wenzel’s Fruity Tube Guitar Preamp (mono)")
 		(date "May 2026")
-		(rev "r1")
+		(rev "r2")
 		(comment 4 "Inspired by OR15.")
 	)
 	(lib_symbols
@@ -2986,7 +2986,7 @@
 	)
 	(text "Note that 320V and 260V are expected voltages\non original OR15 design for full 15W power."
 		(exclude_from_sim no)
-		(at 143.51 94.996 0)
+		(at 101.6 94.996 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,7 +3020,7 @@
 		(uuid "05555baf-de4c-4ddd-91cf-e1afac890474")
 	)
 	(junction
-		(at 223.52 104.14)
+		(at 181.61 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06fc3ab2-9869-43fa-a240-46d7c522aa72")
@@ -3044,7 +3044,7 @@
 		(uuid "108d09cb-7fea-4dbd-83e5-60297d9bc3da")
 	)
 	(junction
-		(at 172.72 104.14)
+		(at 130.81 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "111fce7d-8a7e-4fd7-ada8-10850070c0ef")
@@ -3068,12 +3068,6 @@
 		(uuid "1c68bd49-086e-4929-8691-e004271f8468")
 	)
 	(junction
-		(at 29.21 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21df14e7-a774-4f1e-8341-f1cef838e473")
-	)
-	(junction
 		(at 175.26 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3084,6 +3078,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23487c8d-26ba-46cc-8329-e5988e785082")
+	)
+	(junction
+		(at 30.48 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24620f90-cce5-483b-acff-ac644ea82d9c")
 	)
 	(junction
 		(at 143.51 243.84)
@@ -3128,10 +3128,22 @@
 		(uuid "2ef76329-b3ac-42a5-9e37-74b9b4e76668")
 	)
 	(junction
-		(at 105.41 114.3)
+		(at 63.5 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "309018aa-20c1-47ce-b5be-68c846f2ff74")
+	)
+	(junction
+		(at 30.48 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "324a44fe-ed75-469b-b2ca-cdc81c957a06")
+	)
+	(junction
+		(at 95.25 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "331eb4fd-1e93-4c3e-a817-4d36ef408d8a")
 	)
 	(junction
 		(at 346.71 243.84)
@@ -3194,13 +3206,13 @@
 		(uuid "417b18a4-49d7-487d-8e55-bde93866a509")
 	)
 	(junction
-		(at 29.21 227.33)
+		(at 30.48 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41c97231-18fa-4170-8e72-b5d1a260aebd")
+		(uuid "417f1449-397b-4734-8ac4-f83e4c2c08a8")
 	)
 	(junction
-		(at 172.72 114.3)
+		(at 130.81 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42af4b48-3558-4b6d-bc33-2041292d88ab")
@@ -3212,19 +3224,13 @@
 		(uuid "42babcce-331d-4c35-b2d8-1927741873fb")
 	)
 	(junction
-		(at 68.58 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42c0c5c0-4518-49a8-bbfc-f00470f78aec")
-	)
-	(junction
 		(at 120.65 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43cb9a33-b70e-4d74-9ce4-ca45e813678d")
 	)
 	(junction
-		(at 191.77 114.3)
+		(at 149.86 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47ce4da3-4e5f-4265-b5ff-1cf7b9a158b5")
@@ -3266,13 +3272,19 @@
 		(uuid "6ba88640-e4ae-4670-b815-cdba25da4f31")
 	)
 	(junction
+		(at 67.31 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6da07742-f0ca-4fea-b4e2-974f1074fbf0")
+	)
+	(junction
 		(at 208.28 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fecdc8b-ed7e-4ab5-a7e8-f737c8bcd64f")
 	)
 	(junction
-		(at 191.77 104.14)
+		(at 149.86 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "706f78a0-b1f1-4e7d-864c-319908c4b388")
@@ -3302,7 +3314,7 @@
 		(uuid "7a87157a-9ec4-4247-b8ed-5cfff7ba5451")
 	)
 	(junction
-		(at 147.32 114.3)
+		(at 105.41 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ddb2019-1ac9-4fa6-bd34-101ad4a24867")
@@ -3314,13 +3326,13 @@
 		(uuid "82855dc1-be61-477f-b05b-5006b92fd76e")
 	)
 	(junction
-		(at 130.81 104.14)
+		(at 88.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85ec4890-b749-4d0a-81a0-4e1d42d374ab")
 	)
 	(junction
-		(at 130.81 114.3)
+		(at 88.9 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b42b236-b3a3-4271-8c4b-bd659a7f3eb5")
@@ -3398,12 +3410,6 @@
 		(uuid "9c2b643e-2c05-4ae3-83ca-168f50ff0e33")
 	)
 	(junction
-		(at 43.18 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a064bfb4-1346-4e98-89a5-ae4b4514dd2c")
-	)
-	(junction
 		(at 118.11 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3422,7 +3428,7 @@
 		(uuid "a78b2edc-d68c-4290-8257-cdaa58e91138")
 	)
 	(junction
-		(at 111.76 114.3)
+		(at 69.85 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a94168af-ba3d-4bf0-a84a-056931b715e6")
@@ -3452,7 +3458,7 @@
 		(uuid "ba4466f5-db1b-489a-bd9d-554ae6e5329b")
 	)
 	(junction
-		(at 80.01 114.3)
+		(at 38.1 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba99447f-d016-4455-a754-ff4ece685454")
@@ -3470,13 +3476,13 @@
 		(uuid "c05bfc15-5e3a-4b37-917f-1916e8e52fb5")
 	)
 	(junction
-		(at 223.52 114.3)
+		(at 181.61 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c19a5a9c-62a1-4807-a8cb-0330498f4512")
 	)
 	(junction
-		(at 208.28 104.14)
+		(at 166.37 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c276ed50-63dd-4ae1-9390-d7630efd3362")
@@ -3492,6 +3498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c78be996-793c-4ecb-8765-ebdc024f86f8")
+	)
+	(junction
+		(at 55.88 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0415626-170d-444a-a437-c715d1f30efa")
 	)
 	(junction
 		(at 313.69 243.84)
@@ -3518,7 +3530,7 @@
 		(uuid "dbcbab6c-fd56-43a7-a58e-d6eee9f771d0")
 	)
 	(junction
-		(at 111.76 104.14)
+		(at 69.85 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfcdcda1-ef44-4581-82a4-cb5aca745103")
@@ -3530,7 +3542,7 @@
 		(uuid "e0c6c9e5-3250-4c5c-8bdf-47bec975bc3f")
 	)
 	(junction
-		(at 223.52 124.46)
+		(at 181.61 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea662326-902c-4bda-b078-c156755c5b76")
@@ -3542,7 +3554,7 @@
 		(uuid "ee410639-7592-4e32-8bcb-2bc618359583")
 	)
 	(junction
-		(at 147.32 104.14)
+		(at 105.41 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f00d985e-6293-4346-b59b-4d40aa518de8")
@@ -3558,12 +3570,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f38eb6fd-91f1-430f-9f2c-3de4ed8615d6")
-	)
-	(junction
-		(at 30.48 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f66c3a5d-9c69-4591-af44-93ba2a26c1f8")
 	)
 	(junction
 		(at 186.69 233.68)
@@ -3601,7 +3607,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 111.76 104.14)
+			(xy 69.85 100.33) (xy 69.85 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3631,7 +3637,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 172.72 104.14)
+			(xy 130.81 100.33) (xy 130.81 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 114.3) (xy 147.32 114.3)
+			(xy 88.9 114.3) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3851,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 114.3) (xy 172.72 114.3)
+			(xy 105.41 114.3) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3881,6 +3887,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 250.19) (xy 55.88 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a3d7b3-7f26-4d0d-821e-f24bc7360cf1")
+	)
+	(wire
+		(pts
 			(xy 130.81 200.66) (xy 135.89 200.66)
 		)
 		(stroke
@@ -3901,13 +3917,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 219.71) (xy 29.21 219.71)
+			(xy 30.48 114.3) (xy 30.48 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1848e2ed-bd2a-4cd8-9dfe-c06b1b16ff44")
+		(uuid "170491f1-8056-47de-8cf3-e7a51122ad1e")
 	)
 	(wire
 		(pts
@@ -3921,13 +3937,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 104.14) (xy 111.76 104.14)
+			(xy 63.5 104.14) (xy 69.85 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1accbfa2-2061-4383-b51d-758bc43442bf")
+	)
+	(wire
+		(pts
+			(xy 95.25 276.86) (xy 95.25 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2bef38-f9ff-46fd-b1ca-6e42ff5e99d2")
 	)
 	(wire
 		(pts
@@ -3951,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 124.46) (xy 208.28 124.46)
+			(xy 170.18 124.46) (xy 166.37 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3981,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 104.14) (xy 212.09 104.14)
+			(xy 166.37 104.14) (xy 170.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3991,7 +4017,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 113.03) (xy 223.52 114.3)
+			(xy 181.61 113.03) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4041,6 +4067,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 269.24) (xy 30.48 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27390e00-0883-4d61-b717-cee21eb3f91b")
+	)
+	(wire
+		(pts
 			(xy 120.65 173.99) (xy 137.16 173.99)
 		)
 		(stroke
@@ -4058,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "2976d466-4462-4b60-bf64-b177ff1f53de")
+	)
+	(wire
+		(pts
+			(xy 55.88 266.7) (xy 59.69 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a287890-3474-460d-af41-559a01f7d3bf")
 	)
 	(wire
 		(pts
@@ -4088,6 +4134,16 @@
 			(type default)
 		)
 		(uuid "2be140f9-e3f3-46af-a2d0-1f98f316bc9a")
+	)
+	(wire
+		(pts
+			(xy 67.31 273.05) (xy 67.31 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd3efe9-076f-404b-861a-14d039960da6")
 	)
 	(wire
 		(pts
@@ -4131,6 +4187,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 271.78) (xy 30.48 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b8a7c9-1d6c-4e2e-8367-fb3fd0fef4e2")
+	)
+	(wire
+		(pts
 			(xy 54.61 210.82) (xy 54.61 212.09)
 		)
 		(stroke
@@ -4168,6 +4234,16 @@
 			(type default)
 		)
 		(uuid "358feb90-24e0-4564-96e8-dfe8583fd2d2")
+	)
+	(wire
+		(pts
+			(xy 30.48 271.78) (xy 27.94 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36507be4-715d-4b52-99de-f9c09d08d4cf")
 	)
 	(wire
 		(pts
@@ -4221,13 +4297,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 130.81 104.14)
+			(xy 69.85 104.14) (xy 88.9 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3bb40c06-fca7-4cea-b4f7-58ae25536745")
+	)
+	(wire
+		(pts
+			(xy 95.25 265.43) (xy 95.25 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbf76c6-214f-4e64-b9c8-7a371ad19d0d")
 	)
 	(wire
 		(pts
@@ -4291,7 +4377,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 100.33) (xy 223.52 104.14)
+			(xy 30.48 222.25) (xy 34.29 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438b9a21-c4a5-47d6-9560-fac3caa5d650")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 181.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4391,17 +4487,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 119.38) (xy 43.18 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b2a6181-f5f6-4aa4-8355-240702378dae")
-	)
-	(wire
-		(pts
-			(xy 219.71 124.46) (xy 223.52 124.46)
+			(xy 177.8 124.46) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4411,13 +4497,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 111.76 105.41)
+			(xy 69.85 104.14) (xy 69.85 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4cc33375-7bf5-4d8b-aa33-36e18a196233")
+	)
+	(wire
+		(pts
+			(xy 67.31 250.19) (xy 67.31 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdb0584-d15f-4221-ac73-f50b135efb7b")
 	)
 	(wire
 		(pts
@@ -4448,16 +4544,6 @@
 			(type default)
 		)
 		(uuid "4ddc7fd2-3c4b-41d8-9872-5ffc8d2f8a59")
-	)
-	(wire
-		(pts
-			(xy 68.58 104.14) (xy 80.01 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eedf1be-38b9-43a5-8c9a-6dd18ccafef5")
 	)
 	(wire
 		(pts
@@ -4531,13 +4617,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 104.14) (xy 191.77 105.41)
+			(xy 149.86 104.14) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "561fec29-8363-4b77-bef0-724165a65ff4")
+	)
+	(wire
+		(pts
+			(xy 85.09 265.43) (xy 86.36 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f70f83-4237-44f1-8f50-1f8246d5d05a")
 	)
 	(wire
 		(pts
@@ -4631,6 +4727,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 273.05) (xy 76.2 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9f7e8d-586d-44e3-9820-55a778f7eaac")
+	)
+	(wire
+		(pts
 			(xy 44.45 222.25) (xy 46.99 222.25)
 		)
 		(stroke
@@ -4671,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 250.19) (xy 55.88 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f22e7fe-6ba1-4291-a11b-8061fa516b36")
+	)
+	(wire
+		(pts
 			(xy 105.41 52.07) (xy 130.81 52.07)
 		)
 		(stroke
@@ -4691,7 +4807,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 147.32 114.3)
+			(xy 55.88 261.62) (xy 55.88 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60dff0cb-1d7b-4dc1-bd16-66a7ab8dd4b6")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4721,7 +4847,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 172.72 114.3)
+			(xy 130.81 113.03) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4751,7 +4877,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 124.46) (xy 208.28 104.14)
+			(xy 166.37 124.46) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4761,13 +4887,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 114.3) (xy 80.01 119.38)
+			(xy 38.1 114.3) (xy 38.1 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66e06f3f-13b2-499a-8dfa-025394025a9c")
+	)
+	(wire
+		(pts
+			(xy 30.48 264.16) (xy 30.48 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6788cd12-a3b2-442d-b070-5b5b8326c4d8")
 	)
 	(wire
 		(pts
@@ -4781,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 119.38) (xy 80.01 119.38)
+			(xy 63.5 119.38) (xy 38.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4851,7 +4987,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 147.32 104.14)
+			(xy 95.25 246.38) (xy 30.48 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adafd70-bdd6-4f04-bfb0-375ad37cb187")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4911,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 113.03) (xy 111.76 114.3)
+			(xy 69.85 113.03) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4948,26 +5094,6 @@
 			(type default)
 		)
 		(uuid "7439c161-16e7-4949-bdc4-1e9e32a703b6")
-	)
-	(wire
-		(pts
-			(xy 29.21 224.79) (xy 29.21 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76972a2e-8bff-4297-9a8d-6dbe3fbd77ed")
-	)
-	(wire
-		(pts
-			(xy 26.67 222.25) (xy 34.29 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7915e3d7-9e3a-45c8-836e-84dbce8fb5cc")
 	)
 	(wire
 		(pts
@@ -5081,7 +5207,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 147.32 105.41)
+			(xy 105.41 104.14) (xy 105.41 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5101,7 +5227,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 59.69) (xy 30.48 119.38)
+			(xy 30.48 59.69) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5141,7 +5267,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 105.41 119.38)
+			(xy 63.5 114.3) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5221,6 +5347,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 266.7) (xy 33.02 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91903925-1fa6-4c70-bb93-f49c8d01bc14")
+	)
+	(wire
+		(pts
 			(xy 207.01 210.82) (xy 212.09 210.82)
 		)
 		(stroke
@@ -5231,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 114.3) (xy 191.77 114.3)
+			(xy 130.81 114.3) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5271,13 +5407,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 80.01 114.3)
+			(xy 30.48 246.38) (xy 30.48 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93dd736c-cb73-4730-9f12-3e6cfa66560b")
+		(uuid "94c08e20-dca3-4e45-90b4-a04a3588da4f")
 	)
 	(wire
 		(pts
@@ -5361,16 +5497,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 119.38) (xy 30.48 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a4b24d-4ae5-41d4-8b45-0624aa96fae9")
-	)
-	(wire
-		(pts
 			(xy 34.29 44.45) (xy 34.29 104.14)
 		)
 		(stroke
@@ -5401,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 238.76 114.3)
+			(xy 181.61 114.3) (xy 196.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5411,7 +5537,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 104.14) (xy 34.29 104.14)
+			(xy 34.29 104.14) (xy 38.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5421,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 119.38) (xy 43.18 119.38)
+			(xy 30.48 114.3) (xy 38.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5431,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 104.14) (xy 238.76 104.14)
+			(xy 181.61 104.14) (xy 196.85 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5441,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 104.14) (xy 223.52 104.14)
+			(xy 177.8 104.14) (xy 181.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5461,6 +5587,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 250.19) (xy 67.31 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ed3373-05a3-45ab-bf67-67b8b1d1ba4a")
+	)
+	(wire
+		(pts
 			(xy 186.69 233.68) (xy 186.69 234.95)
 		)
 		(stroke
@@ -5471,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 123.19) (xy 223.52 124.46)
+			(xy 181.61 123.19) (xy 181.61 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5511,16 +5647,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 119.38) (xy 43.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6dbcc96-ccda-4571-b53d-36b3af92554f")
-	)
-	(wire
-		(pts
 			(xy 259.08 204.47) (xy 264.16 204.47)
 		)
 		(stroke
@@ -5548,6 +5674,16 @@
 			(type default)
 		)
 		(uuid "a84869d5-48ba-4d77-bec6-5597cb52be0d")
+	)
+	(wire
+		(pts
+			(xy 40.64 266.7) (xy 41.91 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84fd806-93ee-4371-aac7-4944d60d6524")
 	)
 	(wire
 		(pts
@@ -5598,16 +5734,6 @@
 			(type default)
 		)
 		(uuid "ae6733cd-bcb6-4ca6-8bca-f7fa8cf2c14d")
-	)
-	(wire
-		(pts
-			(xy 26.67 224.79) (xy 29.21 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afe0139f-2eb6-45be-b5ec-a49b6f711b43")
 	)
 	(wire
 		(pts
@@ -5681,7 +5807,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 124.46) (xy 238.76 124.46)
+			(xy 181.61 124.46) (xy 196.85 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5691,7 +5817,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 104.14) (xy 223.52 105.41)
+			(xy 181.61 104.14) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5711,16 +5837,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 227.33) (xy 26.67 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba1cd3ef-c4a4-4b42-898a-1fdaec981896")
-	)
-	(wire
-		(pts
 			(xy 175.26 243.84) (xy 158.75 243.84)
 		)
 		(stroke
@@ -5728,16 +5844,6 @@
 			(type default)
 		)
 		(uuid "bab12c0a-5947-4830-a958-76d24c14f91f")
-	)
-	(wire
-		(pts
-			(xy 29.21 219.71) (xy 29.21 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb044e69-7537-444e-b779-e72814dffa83")
 	)
 	(wire
 		(pts
@@ -5751,6 +5857,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 281.94) (xy 67.31 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4a6b0e-f2fe-4512-9977-37bf16c7fe8e")
+	)
+	(wire
+		(pts
 			(xy 212.09 210.82) (xy 212.09 212.09)
 		)
 		(stroke
@@ -5761,7 +5877,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 172.72 105.41)
+			(xy 130.81 104.14) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5781,7 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 223.52 115.57)
+			(xy 181.61 114.3) (xy 181.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5811,7 +5927,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 191.77 104.14)
+			(xy 130.81 104.14) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +5997,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 172.72 104.14)
+			(xy 121.92 104.14) (xy 130.81 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5931,7 +6047,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 130.81 105.41)
+			(xy 88.9 104.14) (xy 88.9 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5948,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "cd625c81-c1ae-4f76-a974-c09a89dcca00")
+	)
+	(wire
+		(pts
+			(xy 30.48 269.24) (xy 30.48 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb64eda-c5a8-48e6-bdf0-22d11c9de707")
 	)
 	(wire
 		(pts
@@ -6041,7 +6167,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 130.81 114.3)
+			(xy 69.85 114.3) (xy 88.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6111,23 +6237,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 130.81 114.3)
+			(xy 88.9 113.03) (xy 88.9 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc5ea9be-d80b-48aa-9337-66aeb15a897d")
-	)
-	(wire
-		(pts
-			(xy 29.21 227.33) (xy 29.21 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc63213d-6e33-450d-a9c2-74f55a5e650b")
 	)
 	(wire
 		(pts
@@ -6151,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 111.76 114.3)
+			(xy 63.5 114.3) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6201,7 +6317,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 124.46) (xy 223.52 128.27)
+			(xy 181.61 124.46) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6231,13 +6347,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 68.58 119.38)
+			(xy 93.98 265.43) (xy 95.25 265.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e40a7114-c25a-473d-85a4-19a7de92c7d6")
+		(uuid "e4034a7a-283b-4cc5-8818-09bccc326b12")
 	)
 	(wire
 		(pts
@@ -6261,7 +6377,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 114.3) (xy 223.52 114.3)
+			(xy 149.86 114.3) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6321,6 +6437,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 265.43) (xy 95.25 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96578e8-5b7e-4346-b51f-2fda80f4121a")
+	)
+	(wire
+		(pts
 			(xy 374.65 243.84) (xy 346.71 243.84)
 		)
 		(stroke
@@ -6341,13 +6467,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 191.77 114.3)
+			(xy 149.86 113.03) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed0914c1-5ae2-4b5c-b419-b55d7cf549d8")
+	)
+	(wire
+		(pts
+			(xy 49.53 266.7) (xy 55.88 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef21fbf2-c479-404b-82e0-65a89608b142")
 	)
 	(wire
 		(pts
@@ -6401,7 +6537,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 104.14) (xy 208.28 104.14)
+			(xy 149.86 104.14) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6441,13 +6577,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 104.14) (xy 147.32 104.14)
+			(xy 114.3 104.14) (xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f65976da-24e3-4201-802a-6b6970d01ca6")
+	)
+	(wire
+		(pts
+			(xy 27.94 264.16) (xy 30.48 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7092a0e-7066-4d7c-84c4-d83450f9a91a")
 	)
 	(wire
 		(pts
@@ -6511,6 +6657,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 273.05) (xy 76.2 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8d5aea-d96f-4cbd-abfd-27e436f5467b")
+	)
+	(wire
+		(pts
+			(xy 67.31 271.78) (xy 67.31 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc918d2a-6903-4bc6-89e9-35329aa8a1b8")
+	)
+	(wire
+		(pts
 			(xy 57.15 166.37) (xy 72.39 166.37)
 		)
 		(stroke
@@ -6518,6 +6684,16 @@
 			(type default)
 		)
 		(uuid "fce07ad2-9fc4-4064-87c5-19f6d7d8dcb6")
+	)
+	(wire
+		(pts
+			(xy 76.2 265.43) (xy 77.47 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea76c32-bcc3-4ea8-b36d-82fa15b58a37")
 	)
 	(wire
 		(pts
@@ -6540,7 +6716,7 @@
 		(uuid "ff57778c-387b-47cc-bf76-3fb5e3c49465")
 	)
 	(label "Expected{slash}recommended: 260V"
-		(at 223.52 100.33 0)
+		(at 181.61 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6550,7 +6726,7 @@
 		(uuid "10da07c0-3b92-4723-8e77-0eb626740c38")
 	)
 	(label "Expected{slash}recommended (adjust U4): 320V"
-		(at 111.76 100.33 0)
+		(at 69.85 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6560,7 +6736,7 @@
 		(uuid "2fd24ab8-c040-43b0-9d7b-4b46072b9203")
 	)
 	(label "Expected{slash}recommended: 260V"
-		(at 223.52 128.27 0)
+		(at 181.61 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6580,7 +6756,7 @@
 		(uuid "ae452e2e-c8a7-4cb5-af07-5231505a70ca")
 	)
 	(label "Expected{slash}recommended: 320V"
-		(at 172.72 100.33 0)
+		(at 130.81 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6588,6 +6764,28 @@
 			(justify left bottom)
 		)
 		(uuid "fbc08424-4beb-4276-be5a-487955129ac5")
+	)
+	(global_label "VC"
+		(shape input)
+		(at 66.04 250.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0af7997c-5c53-408f-9346-2ae78f3d61ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.6962 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VC"
 		(shape input)
@@ -6624,6 +6822,28 @@
 		(uuid "0d379bf1-9753-4bd8-8786-c4b7eb403b2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 340.0962 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCbias"
+		(shape input)
+		(at 54.61 250.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1768e1d1-bd25-40d0-845a-6c54d6e18209")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3353 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6899,7 @@
 	)
 	(global_label "G"
 		(shape input)
-		(at 238.76 114.3 0)
+		(at 196.85 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6689,7 +6909,7 @@
 		)
 		(uuid "6428ec36-530e-43ce-9983-c1fada0ca170")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.0152 114.3 0)
+			(at 201.1052 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6943,7 @@
 	)
 	(global_label "VA"
 		(shape input)
-		(at 238.76 104.14 0)
+		(at 196.85 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6733,7 +6953,7 @@
 		)
 		(uuid "79dd3c81-69b7-4906-b27e-5aefd9a7a724")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.9224 104.14 0)
+			(at 202.0124 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +6987,7 @@
 	)
 	(global_label "VB"
 		(shape input)
-		(at 238.76 124.46 0)
+		(at 196.85 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6777,7 +6997,7 @@
 		)
 		(uuid "b262a97e-20f4-4ada-9e9a-8215db6dbb79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1038 124.46 0)
+			(at 202.1938 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,98 +7093,6 @@
 			(project "wenzels-fruity-tube-guitar-preamp"
 				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:NXE2S1215MC")
-		(at 55.88 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00cc615c-dc10-4f53-ac1f-ce83c85eb625")
-		(property "Reference" "U5"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC-DC step-down module"
-			(at 55.88 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_NXExSxxxxMC_SMD"
-			(at 55.88 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf"
-			(at 55.88 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2W 12V to 15V 400mA DC-DC Converter with 3kV isolation"
-			(at 55.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "Adjustable 18VDC → 5-12VDC 3A"
-			(at 55.88 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "High-voltage booster supply"
-			(at 55.88 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "0c912777-0b77-4e3e-98e4-b8638a4f0f5c")
-		)
-		(pin "3"
-			(uuid "c7b19d52-488a-4603-8abf-338c5905714f")
-		)
-		(pin "7"
-			(uuid "1ac857e0-958d-4568-8bd7-0249f412dd92")
-		)
-		(pin "14"
-			(uuid "3e9ae625-fb91-4a29-90e0-d95be720885d")
-		)
-		(pin "1"
-			(uuid "07b4520e-5472-4e20-a385-a253e884cdbd")
-		)
-		(instances
-			(project "wenzels-fruity-tube-guitar-preamp"
-				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7371,7 +7499,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 223.52 109.22 0)
+		(at 181.61 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7379,7 +7507,7 @@
 		(dnp no)
 		(uuid "0b9d3130-d89c-4a1e-bca2-10ec161f510f")
 		(property "Reference" "C19"
-			(at 227.076 107.95 0)
+			(at 185.166 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7516,7 @@
 			)
 		)
 		(property "Value" "10u/400V"
-			(at 227.076 110.236 0)
+			(at 185.166 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.4852 113.03 0)
+			(at 182.5752 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 109.22 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7543,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 223.52 109.22 0)
+			(at 181.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7777,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 104.14 90)
+		(at 118.11 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7657,7 +7785,7 @@
 		(dnp no)
 		(uuid "1a52dc51-b42f-4701-b6c4-3be55951e250")
 		(property "Reference" "R2"
-			(at 160.02 98.552 90)
+			(at 118.11 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7793,7 @@
 			)
 		)
 		(property "Value" "150r/5W"
-			(at 160.02 101.092 90)
+			(at 118.11 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +7801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 105.918 90)
+			(at 118.11 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 104.14 0)
+			(at 118.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7819,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 104.14 0)
+			(at 118.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +7918,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 223.52 119.38 180)
+		(at 181.61 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7798,7 +7926,7 @@
 		(dnp no)
 		(uuid "26a18aaa-db4b-41e6-9a7f-4b3d8d3bf8f8")
 		(property "Reference" "C13"
-			(at 227.076 120.65 0)
+			(at 185.166 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7935,7 @@
 			)
 		)
 		(property "Value" "10u/400V"
-			(at 227.076 118.364 0)
+			(at 185.166 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +7944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.5548 115.57 0)
+			(at 180.6448 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +7953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 119.38 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7962,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 223.52 119.38 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +8072,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 104.14 90)
+		(at 173.99 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7952,7 +8080,7 @@
 		(dnp no)
 		(uuid "28a79c02-2432-4894-a97f-255ec7b23b4a")
 		(property "Reference" "R22"
-			(at 215.9 98.552 90)
+			(at 173.99 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +8088,7 @@
 			)
 		)
 		(property "Value" "15k/2W"
-			(at 215.9 101.092 90)
+			(at 173.99 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 105.918 90)
+			(at 173.99 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +8114,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8362,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2_Switch")
-		(at 21.59 222.25 0)
+		(at 22.86 266.7 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8244,7 +8372,7 @@
 		(fields_autoplaced yes)
 		(uuid "35bf90a5-549c-4e1d-bc8c-e14b426f6549")
 		(property "Reference" "J2"
-			(at 16.51 222.2499 0)
+			(at 17.78 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +8381,7 @@
 			)
 		)
 		(property "Value" "In"
-			(at 16.51 224.7899 0)
+			(at 17.78 269.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +8390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 227.33 0)
+			(at 22.86 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 227.33 0)
+			(at 22.86 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8408,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)"
-			(at 21.59 222.25 0)
+			(at 22.86 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +8429,7 @@
 			(uuid "2842f73e-f3d1-4369-a151-27c42187d7b1")
 		)
 		(instances
-			(project ""
+			(project "wenzels-fruity-tube-guitar-preamp"
 				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
 					(reference "J2")
 					(unit 1)
@@ -8595,7 +8723,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.72 109.22 0)
+		(at 130.81 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8603,7 +8731,7 @@
 		(dnp no)
 		(uuid "4a3713e5-fc52-4ed9-bcd4-ce060deebc5d")
 		(property "Reference" "C5"
-			(at 176.276 107.9501 0)
+			(at 134.366 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8740,7 @@
 			)
 		)
 		(property "Value" "100n/400V"
-			(at 176.276 110.236 0)
+			(at 134.366 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.6852 113.03 0)
+			(at 131.7752 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 109.22 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8767,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 109.22 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8776,7 @@
 			)
 		)
 		(property "Field5" ">=63V"
-			(at 176.53 111.252 0)
+			(at 134.62 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,6 +8795,83 @@
 			(project "wenzels-fruity-tube-guitar-preamp"
 				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 265.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4beedff8-2117-4971-a1fe-ea5ac3fbd167")
+		(property "Reference" "C2"
+			(at 81.28 261.3659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n/50V"
+			(at 81.28 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 264.4648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ">=63V"
+			(at 83.312 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5479775d-c787-4244-a014-e59fa891ca47")
+		)
+		(pin "1"
+			(uuid "5e18884e-889e-4ac8-a840-4797cded29a2")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8740,6 +8945,73 @@
 			(project "wenzels-low-jseem-tube-guitar-preamp-stereo"
 				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
 					(reference "Mid")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 265.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ce6cecd-129d-4193-aa22-a110f38c3c02")
+		(property "Reference" "R35"
+			(at 90.17 259.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 90.17 262.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 267.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9006cdde-31d7-4f76-a28a-c1cb01b8f9cc")
+		)
+		(pin "1"
+			(uuid "ac412505-3abe-428a-8c10-b4bf81186ed3")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -10027,6 +10299,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 45.72 266.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86bb29a2-2f06-43b3-970f-ac26574c4b2f")
+		(property "Reference" "C1"
+			(at 45.72 262.6359 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n/50V"
+			(at 45.72 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 265.7348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ">=63V"
+			(at 47.752 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dbe711e-198b-4a97-b443-edd102bc6805")
+		)
+		(pin "1"
+			(uuid "29b58d2f-d699-4017-84f4-a1d8734f21a4")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 335.28 219.71 0)
 		(unit 1)
@@ -10768,7 +11117,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 130.81 109.22 0)
+		(at 88.9 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10776,7 +11125,7 @@
 		(dnp no)
 		(uuid "a7335977-fdfc-4f57-b247-efc8d0a01cd1")
 		(property "Reference" "C15"
-			(at 134.366 107.95 0)
+			(at 92.456 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +11134,7 @@
 			)
 		)
 		(property "Value" "10u/400V"
-			(at 134.366 110.236 0)
+			(at 92.456 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10794,7 +11143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.7752 113.03 0)
+			(at 89.8652 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +11152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 109.22 0)
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +11161,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 130.81 109.22 0)
+			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +11186,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 191.77 109.22 0)
+		(at 149.86 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10845,7 +11194,7 @@
 		(dnp no)
 		(uuid "ac7f0ee0-ac5a-435e-86ab-53a83237d7be")
 		(property "Reference" "C6"
-			(at 195.326 107.95 0)
+			(at 153.416 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +11203,7 @@
 			)
 		)
 		(property "Value" "10u/400V"
-			(at 195.326 110.236 0)
+			(at 153.416 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +11212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 192.7352 113.03 0)
+			(at 150.8252 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,7 +11221,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 109.22 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +11230,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 191.77 109.22 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +11324,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 109.22 0)
+		(at 69.85 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10983,7 +11332,7 @@
 		(dnp no)
 		(uuid "ad37b6ec-d446-4c47-888c-cee2083325bf")
 		(property "Reference" "C16"
-			(at 115.316 107.9501 0)
+			(at 73.406 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +11341,7 @@
 			)
 		)
 		(property "Value" "100n/400V"
-			(at 115.316 110.236 0)
+			(at 73.406 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 112.7252 113.03 0)
+			(at 70.8152 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11010,7 +11359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 109.22 0)
+			(at 69.85 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11019,7 +11368,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 109.22 0)
+			(at 69.85 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +11377,7 @@
 			)
 		)
 		(property "Field5" ">=63V"
-			(at 115.57 111.252 0)
+			(at 73.66 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470p/50V"
+		(property "Value" "10n/50V"
 			(at 378.206 235.966 0)
 			(effects
 				(font
@@ -11270,6 +11619,85 @@
 			(project "wenzels-fruity-tube-guitar-preamp"
 				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b38ed0f4-7244-4b75-8ddd-5a7b9e091b93")
+		(property "Reference" "C3"
+			(at 98.806 271.7801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n/50V"
+			(at 98.806 274.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.2152 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ">=63V"
+			(at 99.06 275.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56b783ba-bd58-4b9f-b885-7dbd01df1bcb")
+		)
+		(pin "1"
+			(uuid "40e9d6e9-8677-420f-ae43-2e81ef8714e5")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11662,7 +12090,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:NXE2S1215MC")
-		(at 92.71 109.22 0)
+		(at 50.8 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11670,7 +12098,7 @@
 		(dnp no)
 		(uuid "c04d2ffe-c282-4a6f-9d88-db57d825a1ef")
 		(property "Reference" "U4"
-			(at 92.71 93.98 0)
+			(at 50.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,7 +12106,7 @@
 			)
 		)
 		(property "Value" "DC-DC step-up module"
-			(at 92.71 96.52 0)
+			(at 50.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11686,7 +12114,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_NXExSxxxxMC_SMD"
-			(at 92.71 118.11 0)
+			(at 50.8 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11695,7 +12123,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf"
-			(at 92.71 121.92 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +12132,7 @@
 			)
 		)
 		(property "Description" "2W 12V to 15V 400mA DC-DC Converter with 3kV isolation"
-			(at 92.71 109.22 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11712,8 +12140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "5-12VDC → 300-1200VDC 10mA"
-			(at 92.71 99.314 0)
+		(property "Field5" "18VDC → 320VDC/10mA"
+			(at 50.8 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11721,7 +12149,7 @@
 			)
 		)
 		(property "Field6" "High-voltage booster"
-			(at 92.71 91.186 0)
+			(at 50.8 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11823,7 +12251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 229.87 0)
+		(at 30.48 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11831,7 +12259,7 @@
 		(dnp no)
 		(uuid "c26a13df-9660-47a4-a725-304e7a92dd86")
 		(property "Reference" "#PWR04"
-			(at 29.21 236.22 0)
+			(at 30.48 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +12268,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 233.934 0)
+			(at 30.48 278.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11848,7 +12276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 229.87 0)
+			(at 30.48 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11857,7 +12285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 229.87 0)
+			(at 30.48 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +12294,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 229.87 0)
+			(at 30.48 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +12306,7 @@
 			(uuid "d2234991-c5ba-401b-a0fe-5f1f7610aade")
 		)
 		(instances
-			(project "wenzels-low-jseem-tube-guitar-preamp-stereo"
+			(project "wenzels-fruity-tube-guitar-preamp"
 				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
 					(reference "#PWR04")
 					(unit 1)
@@ -11955,7 +12383,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 124.46 90)
+		(at 173.99 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11963,7 +12391,7 @@
 		(dnp no)
 		(uuid "c97e2372-1ba1-4254-a2d3-dd185896c3e7")
 		(property "Reference" "R1"
-			(at 215.9 118.872 90)
+			(at 173.99 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +12399,7 @@
 			)
 		)
 		(property "Value" "15k/2W"
-			(at 215.9 121.412 90)
+			(at 173.99 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11979,7 +12407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 126.238 90)
+			(at 173.99 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +12416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 124.46 0)
+			(at 173.99 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11997,7 +12425,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 124.46 0)
+			(at 173.99 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12227,15 +12655,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 109.22 0)
+		(at 67.31 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cd47b273-3708-4d3d-9189-839b25f35eac")
-		(property "Reference" "R3"
-			(at 149.606 107.95 0)
+		(uuid "cd3775a3-2cee-4cb1-83c3-2a40fc6463dc")
+		(property "Reference" "R34"
+			(at 69.596 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,8 +12671,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1m/1W"
-			(at 149.606 110.49 0)
+		(property "Value" "4k7"
+			(at 69.596 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12253,7 +12681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 145.542 109.22 90)
+			(at 65.532 278.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12262,7 +12690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 109.22 0)
+			(at 67.31 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12699,76 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 109.22 0)
+			(at 67.31 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd453172-c7c0-4b5f-b02c-65786a68735e")
+		)
+		(pin "1"
+			(uuid "23e3824a-16c3-4ba7-962d-988e24405db1")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd47b273-3708-4d3d-9189-839b25f35eac")
+		(property "Reference" "R3"
+			(at 107.696 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1m/1W"
+			(at 107.696 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.632 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,6 +13428,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 55.88 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9a337c8-8b33-426a-9d97-ca9036fb1ed9")
+		(property "Reference" "R33"
+			(at 58.166 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1m"
+			(at 58.166 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.102 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36f2598b-3a75-486d-b4e6-f1c0d4612de5")
+		)
+		(pin "1"
+			(uuid "9ed3a970-a957-4578-87e2-ef8c8cda7d82")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 189.23 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13438,6 +14004,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 36.83 266.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f38be3f5-ecc0-40fd-a587-f29ea8f7938b")
+		(property "Reference" "R36"
+			(at 36.83 261.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100r"
+			(at 36.83 263.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 268.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ab9bbbf-be9c-4d5c-ba2b-37666be6f548")
+		)
+		(pin "1"
+			(uuid "f130f3fa-631e-4b14-8918-31c13f397d15")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 321.31 187.96 180)
 		(unit 1)
@@ -13508,6 +14141,106 @@
 			(project "wenzels-fruity-tube-guitar-preamp"
 				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NJFET")
+		(at 64.77 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8a163ad-b7cd-48c9-9919-69d31edd3f4c")
+		(property "Reference" "Q2"
+			(at 69.85 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "K170"
+			(at 69.85 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_JFETs"
+			(at 64.77 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-JFET transistor, for simulation only"
+			(at 64.77 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NJFET"
+			(at 64.77 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "SHICHMANHODGES"
+			(at 64.77 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 64.77 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf450e23-39ac-4bea-a1f6-f25e19f1aa4e")
+		)
+		(pin "1"
+			(uuid "bfbad7e5-5b17-48c7-bce3-ab0434f7dd8f")
+		)
+		(pin "3"
+			(uuid "95257bbe-d65b-4a57-81e2-8473f2b6054a")
+		)
+		(instances
+			(project "wenzels-fruity-tube-guitar-preamp"
+				(path "/29e6a603-d391-44f2-97b2-722e1a5c60e9"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
