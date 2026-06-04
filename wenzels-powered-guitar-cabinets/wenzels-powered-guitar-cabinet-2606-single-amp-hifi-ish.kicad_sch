@@ -3936,6 +3936,17 @@
 		)
 		(uuid "033508bb-bae8-4835-8011-701c92d259e4")
 	)
+	(text "Biasing the amp:\n\nStart with bias trimmer R8 set to minimum resistance.\nPower up with no load first, input shorted to ground.\n\nMeasure DC millivolts across R1 and R2.\nBecause R1 and R2 are 0.22Ω:\n\n11mV ≈ 50mA\n15mV ≈ 68mA\n18mV ≈ 82mA\n22mV ≈ 100mA\n\nAim for about 12mV-18mV across each resistor.\nA good starting target is 15mV.\n\nLet the amp warm up for 10-15 minutes.\nMeasure again and adjust if needed."
+		(exclude_from_sim no)
+		(at 25.654 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "218eaa3c-969d-44f2-bf47-be7e0fee4aad")
+	)
 	(junction
 		(at 154.94 135.89)
 		(diameter 0)
