@@ -57,7 +57,30 @@ the input. I will at least change that to be in-phase.
 
 **WIP**
 
-![WIP r1-wip-1 2606 bridged pair schematic](wenzels-powered-guitar-cabinet-2606-bridged-pair-r1-wip-1.png)
+![WIP r1-wip-2 2606 bridged pair schematic](wenzels-powered-guitar-cabinet-2606-bridged-pair-r1-wip-2.png)
+
+#### Single HiFi-ish Amp
+
+**WIP**
+
+I’m also planning to experiment with a more HiFi-ish kind of power amp for
+WET-only signal. This is not really a HiFi amp, but it has more reasonable
+damping factor (less output resistance and more negative feedback, though still
+lower than you find in a typical solid state power amplifier), and it lacks the
+output transformer.
+
+- Midband damping factor: Roughly DF 25–50
+- Low-frequency DF: Much lower because of output caps
+
+So:
+
+- 1kHz midband: Maybe DF 30–50
+- 100Hz: Maybe DF 6–10
+- 50Hz: Maybe DF 3–5
+
+The amp is still a bit loose at lower frequencies.
+
+![WIP r1-wip-2 2606 single HiFi-ish amp schematic](wenzels-powered-guitar-cabinet-2606-single-amp-hifi-ish-r1-wip-2.png)
 
 ---
 

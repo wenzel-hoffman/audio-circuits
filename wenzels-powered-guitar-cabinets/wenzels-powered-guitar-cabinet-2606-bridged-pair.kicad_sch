@@ -7,7 +7,7 @@
 	(title_block
 		(title "Wenzel’s Powered Guitar Cabinet 2606 (bridged-pair)")
 		(date "June 2026")
-		(rev "r1-wip-1")
+		(rev "r1-wip-2")
 		(company "WORK IN PROGRESS...")
 	)
 	(lib_symbols
@@ -4632,12 +4632,6 @@
 		(uuid "45efdb2e-2dc0-42b7-8a57-b42d6483c5bc")
 	)
 	(junction
-		(at 163.83 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47deebfb-2628-4dd7-943f-5d99d2d5d3c0")
-	)
-	(junction
 		(at 240.03 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4744,6 +4738,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85bf8bdb-d99c-452e-ab73-6456b34dfece")
+	)
+	(junction
+		(at 163.83 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee30780-6408-4012-9520-47ff8be54152")
 	)
 	(junction
 		(at 53.34 220.98)
@@ -4969,6 +4969,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 152.4) (xy 78.74 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09367be0-e6f4-4362-b4a3-a2f7722e0079")
+	)
+	(wire
+		(pts
 			(xy 303.53 203.2) (xy 303.53 205.74)
 		)
 		(stroke
@@ -5183,6 +5193,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 220.98) (xy 163.83 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1639eed9-bcd9-4d9d-96be-a243a5eafedc")
+	)
+	(wire
+		(pts
 			(xy 55.88 236.22) (xy 58.42 236.22)
 		)
 		(stroke
@@ -5232,16 +5252,6 @@
 			(type default)
 		)
 		(uuid "1eeb090a-8160-429b-9330-99ff7213e75e")
-	)
-	(wire
-		(pts
-			(xy 68.58 236.22) (xy 163.83 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f211e8d-408f-4f82-b735-d4095d168d73")
 	)
 	(wire
 		(pts
@@ -6172,7 +6182,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 152.4) (xy 54.61 152.4)
+			(xy 54.61 152.4) (xy 78.74 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7079,7 +7089,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 220.98) (xy 72.39 220.98)
+			(xy 68.58 220.98) (xy 163.83 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7238,6 +7248,16 @@
 			(type default)
 		)
 		(uuid "c9615cfb-c4c7-4231-b4b0-c490fccd0233")
+	)
+	(wire
+		(pts
+			(xy 78.74 236.22) (xy 68.58 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c962c7fc-8013-400c-a905-1a807bffbca0")
 	)
 	(wire
 		(pts
@@ -7737,16 +7757,6 @@
 			(type default)
 		)
 		(uuid "f5c65a60-0428-42b3-855b-381e5c5fa182")
-	)
-	(wire
-		(pts
-			(xy 72.39 220.98) (xy 72.39 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f674675e-7359-436e-b203-3b1266c1caf9")
 	)
 	(wire
 		(pts
@@ -11281,6 +11291,33 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field5" "Secondary polarity is flipped in order to keep"
+			(at 76.962 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Field6" "the signal in phase (each amp is inverting)"
+			(at 76.962 207.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Field7" "1:4 configuration (1:2 for each amp)"
+			(at 76.962 210.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "12"
