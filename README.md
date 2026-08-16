@@ -28,6 +28,9 @@ and other audio electronics.
 - Utility
   * [Wenzel’s Speaker to Line-Level Converter](wenzels-speaker-to-line-level-converter)
 
+- HiFi
+  * [Wenzel’s HiFi Sub X-Over](wenzels-hifi-sub-xover)
+
 ---
 
 ## Development

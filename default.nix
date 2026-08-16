@@ -1,7 +1,8 @@
 # Author: Wenzel Hoffman
 # SPDX-License-Identifier: MIT
 
-# By default it will
+# By default it will pick your system `<nixpkgs>`.
+# Set `pinned-nixpkgs` to `true` to use the project’s own nixpkgs pin.
 { pkgs ? import (if pinned-nixpkgs then nixpkgs-pin else <nixpkgs>) {}
 , nixpkgs-pin ? import nix/nixpkgs.pin.nix
 , pinned-nixpkgs ? false
