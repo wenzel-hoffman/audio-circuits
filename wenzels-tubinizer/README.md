@@ -1,17 +1,14 @@
 # Wenzel’s Tubinizer
 
-**Work in Progress**.
-
 ECC83/12ax7 Line Colorizer.
 
 **WARNING! High-Voltage!** If you don’t know what you’re doing I strongly
 recommend to stay away from building the project yourself. High voltage
 can be lethal unless handled properly while following all safety precautions!
 
-Stereo, balanced input, balanced output. Unbalancing and balancing is provided
-by the TL* op-amps. There is single full-range tube gain stage in between,
-moderate gain, you can still push it into crunch or adjust to keep it clean and
-relatively transparent.
+Stereo, balanced inputs, balanced outputs. Unbalancing and balancing is provided
+by the TL072 op-amps. There is single full-range tube gain stage in between,
+moderate gain.
 
 I designed this device for my pedalboard needs. I wanted the tube feel and
 coloration after all the signal processing, after all the EQ and stuff. And
@@ -28,54 +25,45 @@ little but stay relatively transparent.
 
 - Output impedance is: ≈470Ω (both for each balanced positive and negative).
 
-  It’s a bit high in order to prevent the op-amp struggling to drive only 100Ω
-  when ring/negative is shorted to ground in case a TS cable is plugged in
-  instead of TRS.
+  It is set a bit high in order to prevent U2B and/or U3B from heavy loading
+  when ring/negative is shorted to ground in case an unbalanced cable is
+  plugged in.
 
 - 3x TL072 op-amps
-  * 1x for unbalancing the L & R inputs
-  * 2x for balancing L & R outputs
+  * 1x for unbalancing the L & R inputs and buffering the signal before the gain pot
+  * 2x for buffering tube output after the volume pot and balancing L & R outputs
 
 - 1x ECC83/12ax7 tube
-- 1x step-down module for tube heaters
+
+- 1x +12VDC PSU module to power the high-voltage booster
+  (technically unnecessary since you can feed it from +15V but in my case
+  ±15 PSU module was going into overload protection when connected to HV booster
+  so I had to use extra PSU module to have enough power for it)
+
 - 1x step-up high-voltage module for tube plates
-- 1x step-up module for great (at least 30V) op-amps headroom
+- 1x step-down module for tube heaters
+
+- 1x ±15V PSU module to power the opamps (30VDC total, big headroom)
+  and tube heaters step-down module (+15VDC to ≈+12.6VDC)
 
 N.B. Note that you should aim to match all 47k within 0.1% tolerance for each
 channel for best balanced signal noise rejection.
 
 ## Power requirements
 
-Power source: 18VDC, I would recommend >=500mA.
+Power source: AC ≈230V/50Hz from the wall, switchable IEC plug.
 
-### Voltage sources required
+### Voltages
 
-- 18V for feeding the DC step-down & step-up modules.
-- ≈12.6V for the tube heaters.
-- ≈320V for the tube plates.
-- ≈33V for the TL* op-amps.
-
-With the step-down and step-up modules you only need 18V input.
-Then you get 12.6V, 320V, and 33V out of those.
-
-### In my build
-
-- 18V source is feeding one step-down and 2 step-up modules.
-
-- Adjustable DC-DC step-down provides conventional 12.6V for the tube heaters.
-
-- Adjustable DC-DC step-up high-voltage booster provides 320V to feed the tube
-  plates.
-
-- Adjustable DC-DC step-up booster provides 33V for the op-amps for very high
-  headroom.
+- AC ≈230V/50Hz input from the wall.
+- DC ≈12.6V for the tube heaters.
+- DC ≈300V for the tube plates.
+- DC ≈±15V for the TL072 op-amps.
 
 ## Latest revision schematic
 
-r1-wip-1
-
-![WIP Schematic](wenzels-tubinizer-r1-wip-1.png)
+![r1 2026-08 schematic](release-2026-08-r1/wenzels-tubinizer-r1.png)
 
 ## Releases (newest revisions are on the top)
 
-TBD…
+- [r1 2026-08](release-2026-08-r1)

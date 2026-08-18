@@ -11,7 +11,7 @@ and other audio electronics.
     + **WIP** [Wenzel’s Fuzz/Boost](wenzels-fuzz-boost)
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
   * Utility
-    + **WIP** [Wenzel’s Tubinizer](wenzels-tubinizer) (ECC83/12ax7 Line Colorizer)
+    + [Wenzel’s Tubinizer](wenzels-tubinizer) (ECC83/12ax7 Line Colorizer)
     + [Wenzel’s Multi-Channel Stereo Op-Amp Splitter](wenzels-multi-channel-stereo-opamp-splitter)
     + [Wenzel’s Multi-Channel Stereo Op-Amp Mixer](wenzels-multi-channel-stereo-opamp-mixer)
     + **WIP** [Wenzel’s Transparent Balancing Opamp Boost](wenzels-transparent-balancing-opamp-boost)
