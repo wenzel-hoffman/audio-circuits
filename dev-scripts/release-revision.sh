@@ -116,13 +116,13 @@ for kicad_project_file in "${KICAD_PROJECT_FILES_ARR[@]}"; do
 - [PNG schematic render]($schematic_render_png_file_name)
 
 ![Schematic]($schematic_render_png_file_name)
-
 "
 done
 
 if [[ -n $PREV_REVISION_NUM ]]; then
   title="Difference (changelog) from previous release (revision r$PREV_REVISION_NUM)"
-  release_readme_content="${release_readme_content}## $title
+  release_readme_content="${release_readme_content}
+## $title
 
 TBD…
 "

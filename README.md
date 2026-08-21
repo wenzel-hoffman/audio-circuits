@@ -15,6 +15,7 @@ and other audio electronics.
     + [Wenzel’s Multi-Channel Stereo Op-Amp Splitter](wenzels-multi-channel-stereo-opamp-splitter)
     + [Wenzel’s Multi-Channel Stereo Op-Amp Mixer](wenzels-multi-channel-stereo-opamp-mixer)
     + **WIP** [Wenzel’s Transparent Balancing Opamp Boost](wenzels-transparent-balancing-opamp-boost)
+    + [Wenzel’s Transformer Isolation Box](wenzels-transformer-isolation-box)
   * Guitar preamplifiers
     + [Wenzel’s Fruity Tube Guitar Preamp](guitar-preamps/wenzels-fruity-tube-guitar-preamp)
     + **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
