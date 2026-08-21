@@ -19,12 +19,16 @@ and other audio electronics.
   * Guitar preamplifiers
     + [Wenzel’s Fruity Tube Guitar Preamp](guitar-preamps/wenzels-fruity-tube-guitar-preamp)
     + **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
+  * Tone shaping/coloring
+    + [Wenzel’s Passive Transformer Boost](wenzels-passive-transformer-boost)
 
 - Power amplifiers
-  - [Wenzel’s Powered Guitar Cabinets](wenzels-powered-guitar-cabinets)
-  - **WIP** [Wenzel’s Simple MOSFET Class-A Power Amp](wenzels-simple-mosfet-class-a-power-amp)
-  - [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-class-a-headphones-stereo-amp)
-  - [Wenzel’s Headphones Stereo Amp](wenzels-headphones-stereo-amp)
+  * Guitar signal amplification
+    + [Wenzel’s Powered Guitar Cabinets](wenzels-powered-guitar-cabinets)
+    + **WIP** [Wenzel’s Simple MOSFET Class-A Power Amp](wenzels-simple-mosfet-class-a-power-amp)
+  * Headphones
+    + [Wenzel’s Headphones Stereo Amp](wenzels-headphones-stereo-amp)
+    + [Wenzel’s MOSFET Class-A Headphones Stereo Amp](wenzels-class-a-headphones-stereo-amp)
 
 - Utility
   * [Wenzel’s Speaker to Line-Level Converter](wenzels-speaker-to-line-level-converter)
