@@ -10,6 +10,8 @@ and other audio electronics.
   * Distortion/Fuzz
     + **WIP** [Wenzel’s Fuzz/Boost](wenzels-fuzz-boost)
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
+  * Filter
+    + [Wenzel’s Expression Wah](wenzels-expression-wah)
   * Utility
     + [Wenzel’s Tubinizer](wenzels-tubinizer) (ECC83/12ax7 Line Colorizer)
     + [Wenzel’s Multi-Channel Stereo Op-Amp Splitter](wenzels-multi-channel-stereo-opamp-splitter)
