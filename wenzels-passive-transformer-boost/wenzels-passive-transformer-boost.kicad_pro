@@ -627,7 +627,7 @@
         "uuid": "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
       }
     ],
-    "used_designators": "VOL\\-A1,Z\\-A1,Q2-11,TR1-2,R1-2,R28,R32,R42,R45-46,TONE\\-A1,T2-4,#PWR15-16,#PWR52-54,VOLTS2,C4-6,C12-18,C21,C30,C37,D5-7,J1-4,J8-9,RLED1,RV1,DAMP\\-A1,SW1-4",
+    "used_designators": "RLED1,J1-4,J8-9,D5-7,SW1-5,DAMP\\-A1,RV1,VOL\\-A1,R1-2,R28,R32,R42,R45-46,Z\\-A1,Q2-11,TR1-2,TONE\\-A1,T2-4,#PWR15-16,#PWR52-54,VOLTS2,C4-6,C12-18,C21,C30,C37",
     "variants": []
   },
   "sheets": [
