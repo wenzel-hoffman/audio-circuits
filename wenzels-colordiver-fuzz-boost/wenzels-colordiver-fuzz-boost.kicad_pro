@@ -627,7 +627,7 @@
         "uuid": "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
       }
     ],
-    "used_designators": "Bass1,TAME1,D7,C21,C23-50,#PWR23-26,#PWR28-31,#PWR33-43,#PWR45,#PWR47,#PWR53-54,R28,R32,R34-65,T2-4,Volume1,Q2-11",
+    "used_designators": "Bass1,TAME1,D7,C21,C23-50,#PWR23-26,#PWR28-31,#PWR33-43,#PWR45,#PWR47,#PWR53-54,R28,R30,R32,R34-65,T2-4,Volume1,Q2-11",
     "variants": []
   },
   "sheets": [
