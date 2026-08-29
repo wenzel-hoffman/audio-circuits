@@ -8,7 +8,8 @@ the buffered signal and original input source.
 
 I designed this for my pedalboard needs. This box is intended to take the end of
 the signal of my WET-only chain and send part of it back to the beginning of the
-chain for some noise fun. It uses transformers to break potential ground loops.
+chain for some noise fun, or just a little for more ambience. It uses
+transformers to break potential ground loops.
 
 Commutation example in this WET-only chain case:
 
