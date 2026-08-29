@@ -10,6 +10,7 @@ and other audio electronics.
   * Distortion/Fuzz
     + **WIP** [Wenzel’s Fuzz/Boost](wenzels-fuzz-boost)
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
+    + [Wenzel’s ColorDiver Fuzz/Boost](wenzels-colordiver-fuzz-boost)
   * Filter
     + [Wenzel’s Expression Wah](wenzels-expression-wah)
   * Utility
