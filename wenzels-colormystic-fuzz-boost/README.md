@@ -2,12 +2,12 @@
 
 This is a Frankenstein circuit, an experimental merge of two of my favourite
 guitar pedals. I took vintage Colorsound Overdriver (actually my own take called
-[“Wenzen’s ColorDiver”](../wenzels-colordiver-fuzz-boost)) and replaced the
+[“Wenzel’s ColorDiver”](../wenzels-colordiver-fuzz-boost)) and replaced the
 active bass-treble tone stack with BMT one from Black Arts Toneworks Quantum
 Mystic. On top of that added a Proco Rat-style tone/filter control called TAME,
 just to add an ability to shave off some highs to tame HF harshness if needed.
 
-Check out [“Wenzen’s ColorDiver”](../wenzels-colordiver-fuzz-boost), this
+Check out [“Wenzel’s ColorDiver”](../wenzels-colordiver-fuzz-boost), this
 circuit, apart from the tone stack and the TAME knob, is just a fork.
 
 ## Note about the tone stack
