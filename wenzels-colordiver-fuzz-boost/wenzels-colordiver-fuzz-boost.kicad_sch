@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Wenzel’s ColorDiver Fuzz/Boost")
-		(date "September 2026")
+		(date "August 2026")
 		(rev "r1")
 	)
 	(lib_symbols
