@@ -30,8 +30,9 @@ full-range territory, so in theory it should behave more like in Quantum Mystic.
 
 ## Latest revision schematic
 
-![r1 2026-08 schematic](release-2026-08-r1/wenzels-colormystic-fuzz-boost-r1.png)
+![r2 2026-09 schematic](release-2026-09-r2/wenzels-colormystic-fuzz-boost-r2.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r2 2026-09](release-2026-09-r2)
 - [r1 2026-08](release-2026-08-r1)
