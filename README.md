@@ -7,11 +7,12 @@ and other audio electronics.
 ## Projects
 
 - Guitar pedals
-  * Distortion/Fuzz
+  * Distortion/Fuzz/Overdrive/Boost
     + **WIP** [Wenzel’s Fuzz/Boost](wenzels-fuzz-boost)
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
     + [Wenzel’s ColorDiver Fuzz/Boost](wenzels-colordiver-fuzz-boost)
     + [Wenzel’s ColorMystic Fuzz/Boost](wenzels-colormystic-fuzz-boost)
+    + [Wenzel’s Metal Wire (overdrive/preamp/amp-in-a-box)](wenzels-metal-wire)
   * Filter
     + [Wenzel’s Expression Wah](wenzels-expression-wah)
   * Utility
