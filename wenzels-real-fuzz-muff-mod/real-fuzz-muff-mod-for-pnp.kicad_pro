@@ -467,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "real-fuzz-muff-mod.kicad_pro",
+    "filename": "real-fuzz-muff-mod-for-pnp.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -622,7 +622,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "real-fuzz-muff-mod.kicad_sch",
+        "filename": "real-fuzz-muff-mod-for-pnp.kicad_sch",
         "name": "real-fuzz-muff-mod",
         "uuid": "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
       }

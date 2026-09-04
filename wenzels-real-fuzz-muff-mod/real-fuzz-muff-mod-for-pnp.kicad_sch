@@ -1839,7 +1839,247 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Simulation_SPICE:PNP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at -2.54 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PNP"
+				(at -2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 35.56 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 35.56 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PNP_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PNP_1_1"
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:2N3906"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1860,7 +2100,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
+			(property "Value" "2N3906"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1884,7 +2124,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1896,7 +2136,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1907,7 +2147,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1929,7 +2191,7 @@
 					)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "2N3906_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1954,19 +2216,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3904_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1991,9 +2240,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2003,6 +2263,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "2N3906_1_1"
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
@@ -2513,6 +2775,20 @@
 		)
 		(uuid "41342667-d46f-47e8-91b7-a63a0fd3b262")
 	)
+	(text "Negative voltage!\n(positive ground)\n\nPNP variant\n\nUseful for\ngermanium PNPs\n\nWatch for electrolytic\ncaps polarity!"
+		(exclude_from_sim no)
+		(at 23.622 61.468 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.762)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4862a796-36cc-46e6-8208-eeb637f1c57a")
+	)
 	(text "ADDED"
 		(exclude_from_sim no)
 		(at 71.882 196.088 0)
@@ -2565,7 +2841,7 @@
 	)
 	(text "C5 and C8 are not needed\n(you don’t need to solder them on)"
 		(exclude_from_sim no)
-		(at 120.904 122.936 0)
+		(at 124.206 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2737,6 +3013,17 @@
 		)
 		(uuid "e1bf182d-8510-48ef-98d0-c0aade69dfa0")
 	)
+	(text "T1, T2, T3, T4 can be for example EFT83C,\nthey are rated -25V according to this page:\nhttps://oppermann-electronic.de/html/transistoren.html"
+		(exclude_from_sim no)
+		(at 129.032 219.202 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left top)
+		)
+		(uuid "f1f126be-04c7-46ff-be57-508967f22cd9")
+	)
 	(text "ADDED"
 		(exclude_from_sim no)
 		(at 302.26 159.766 0)
@@ -2793,6 +3080,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07d0b677-4f57-436d-b3ab-4f44b18eae15")
+	)
+	(junction
+		(at 349.25 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a26c24-c2b9-4d7f-bbda-e6ae5c5ee302")
 	)
 	(junction
 		(at 337.82 58.42)
@@ -2873,12 +3166,6 @@
 		(uuid "27af11ff-16a9-46a2-b176-ea566ca0c11d")
 	)
 	(junction
-		(at 168.91 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bf1e538-7251-4c5a-a472-42051f5dcc7d")
-	)
-	(junction
 		(at 139.7 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2895,6 +3182,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a4701f-9d1f-4a24-9a1a-fbcfb66b07a2")
+	)
+	(junction
+		(at 107.95 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3205b988-ec77-4cc6-8947-42b39e0fe7f5")
 	)
 	(junction
 		(at 219.71 124.46)
@@ -2915,16 +3208,16 @@
 		(uuid "3b335e7a-dcd5-4203-b7fa-0e92f23718d3")
 	)
 	(junction
-		(at 107.95 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "416a7c9d-a7f9-4468-aa77-bdcd47df1588")
-	)
-	(junction
 		(at 265.43 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "419226f7-16ba-4fe8-9b1b-1957ac4c5360")
+	)
+	(junction
+		(at 307.34 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "472faed0-c4c4-47c9-a8a3-6c8e85e4b265")
 	)
 	(junction
 		(at 297.18 177.8)
@@ -2937,6 +3230,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49e0bc99-588f-4993-a4d3-bd418a421d69")
+	)
+	(junction
+		(at 219.71 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba638e6-e008-4c45-b62a-4557813f355a")
 	)
 	(junction
 		(at 191.77 144.78)
@@ -2973,12 +3272,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ee2f43b-11fb-442f-be68-167a16ef1135")
-	)
-	(junction
-		(at 349.25 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f4405da-9769-48e8-8110-a9994d88e20b")
 	)
 	(junction
 		(at 48.26 44.45)
@@ -3051,12 +3344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9237fb7a-8a08-4e4f-a752-9656cd3689c8")
-	)
-	(junction
-		(at 307.34 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "938f401b-ee89-4b65-a11c-54facba012f1")
 	)
 	(junction
 		(at 261.62 19.05)
@@ -3263,6 +3550,12 @@
 		(uuid "d9261436-8e52-42a2-9658-bd2ef8404ca7")
 	)
 	(junction
+		(at 289.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dba5f010-8f51-4789-97b3-088cc3b3ab94")
+	)
+	(junction
 		(at 322.58 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3297,12 +3590,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e41485b3-ed84-4583-be91-5dc54c08e5fe")
-	)
-	(junction
-		(at 219.71 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7cf9011-3fb6-4d2c-b8d2-6b4795787514")
 	)
 	(junction
 		(at 156.21 177.8)
@@ -3341,10 +3628,10 @@
 		(uuid "f683b641-2c97-4ea8-aeb6-c4f0bed08072")
 	)
 	(junction
-		(at 289.56 58.42)
+		(at 168.91 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd5e6132-edf6-43ea-8dd9-af056dc64aeb")
+		(uuid "f95bbf11-46ea-4844-83a4-12475138eb7a")
 	)
 	(junction
 		(at 80.01 124.46)
@@ -3621,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "1440746c-cd63-4413-a0a4-5f1d42544418")
+	)
+	(wire
+		(pts
+			(xy 157.48 34.29) (xy 157.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15952572-7cf7-45de-896a-fbe8cbe81b0e")
 	)
 	(wire
 		(pts
@@ -4051,6 +4348,16 @@
 			(type default)
 		)
 		(uuid "3aa6ba96-40c7-4ab5-9f13-6e1c99baad28")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 52.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c684c10-1aea-4ce7-8f1d-fe75024dae50")
 	)
 	(wire
 		(pts
@@ -5804,16 +6111,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 26.67) (xy 50.8 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ba6be9-2211-4f09-9a13-dbbe1f0d9880")
-	)
-	(wire
-		(pts
 			(xy 219.71 168.91) (xy 233.68 168.91)
 		)
 		(stroke
@@ -6512,7 +6809,7 @@
 		)
 		(uuid "fed2f858-b39e-4ff4-9bdb-98ea9a6cd746")
 	)
-	(label "≈3V–≈18V (for 18V supply)"
+	(label "≈-3V – ≈-18V (for 18V supply)"
 		(at 220.98 53.34 0)
 		(effects
 			(font
@@ -6522,7 +6819,7 @@
 		)
 		(uuid "7dc66762-a3c1-4ec3-9cd7-8be647842253")
 	)
-	(label "≈3V–≈18V (for 18V supply)"
+	(label "≈-3V – ≈-18V (for 18V supply)"
 		(at 170.18 83.82 0)
 		(effects
 			(font
@@ -6532,7 +6829,7 @@
 		)
 		(uuid "800fb6ee-ea56-47a4-a485-442b068464ec")
 	)
-	(label "≈9V–≈18V"
+	(label "≈-9V – ≈-18V"
 		(at 107.95 121.92 0)
 		(effects
 			(font
@@ -6541,6 +6838,16 @@
 			(justify left bottom)
 		)
 		(uuid "e79d74aa-2941-4959-b468-2c5dab9d0500")
+	)
+	(label "≈-9V – ≈-18V"
+		(at 157.48 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9ab6e93-8b96-4743-84fa-181c6b8d42e1")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -6635,9 +6942,119 @@
 			(uuid "3dec0914-20e4-428e-a9a3-a0d6f16b9776")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 346.71 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "040dd84c-2140-4b28-a257-6ddb97b2920f")
+		(property "Reference" "Q4"
+			(at 351.79 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 351.79 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 351.79 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 346.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 346.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 346.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 346.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02ad0381-93a8-4c4c-a6f6-2f610989ae87")
+		)
+		(pin "3"
+			(uuid "70b20c6f-0bdb-4c27-afb6-db628f27e219")
+		)
+		(pin "1"
+			(uuid "96d8a7e3-8976-4179-9c06-05ceb7d9dc2a")
+		)
+		(instances
+			(project "real-fuzz-muff-mod-for-pnp"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6717,9 +7134,148 @@
 			(uuid "5af9529c-afee-49fc-9894-a2f0fc2af6d3")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PNP")
+		(at 217.17 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "076bfe42-0a58-44a0-8858-f93d2c8e6587")
+		(property "Reference" "T3"
+			(at 221.742 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ge PNP"
+			(at 217.17 174.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 252.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 217.17 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 217.17 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 217.17 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 217.17 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "hFE"
+			(at 215.646 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Field9" "40–60"
+			(at 215.646 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "c9a2230b-6e59-4372-bd5e-99a440a4a809")
+		)
+		(pin "3"
+			(uuid "5292ed91-8f70-44af-8d14-38df2c1a2f90")
+		)
+		(pin "1"
+			(uuid "929320f5-62fb-4da0-ac13-0840a83b1ebd")
+		)
+		(instances
+			(project "real-fuzz-muff-mod-for-pnp"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -6795,7 +7351,7 @@
 			(uuid "b1a5bbac-63e0-4981-85e7-885c60d96b9e")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR048")
 					(unit 1)
@@ -6881,7 +7437,7 @@
 			(uuid "deeefb61-debe-4d24-b0ce-05b088db47c2")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "Tone")
 					(unit 1)
@@ -6891,8 +7447,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 143.51 177.8 270)
-		(mirror x)
+		(at 143.51 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6961,7 +7516,7 @@
 			(uuid "d22d7df4-c242-448b-bb13-8710335665b0")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C4")
 					(unit 1)
@@ -7040,7 +7595,7 @@
 			(uuid "b9954ad0-ccdb-49af-900b-bcefaf17502c")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C2")
 					(unit 1)
@@ -7119,7 +7674,7 @@
 			(uuid "de5cff00-9fd6-452c-bd9e-7fa9f24b42d2")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C10")
 					(unit 1)
@@ -7221,7 +7776,7 @@
 			(uuid "2eeedb96-d694-419b-9153-a887f344ca48")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "D4")
 					(unit 1)
@@ -7303,7 +7858,7 @@
 			(uuid "d58f0d65-30de-4caf-a0a0-80137c5c05c6")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C11")
 					(unit 1)
@@ -7381,7 +7936,7 @@
 			(uuid "76634599-7898-41da-8810-21de098df963")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR030")
 					(unit 1)
@@ -7460,119 +8015,9 @@
 			(uuid "836d20dc-a991-4a47-9b33-9be8632ad544")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 346.71 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a944853-3b8d-43bc-aabc-8c4042246f70")
-		(property "Reference" "Q4"
-			(at 351.79 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 351.79 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 351.79 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 346.71 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 346.71 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 346.71 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 346.71 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2d562410-0cbb-4662-bf53-f9e56904071b")
-		)
-		(pin "3"
-			(uuid "cbf95aa9-8095-46f6-9103-00383c4d9348")
-		)
-		(pin "1"
-			(uuid "0c14a92b-c981-4f71-ad92-d2b4ea9917e5")
-		)
-		(instances
-			(project "real-fuzz-muff-mod"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7648,7 +8093,7 @@
 			(uuid "3f7a71d7-e386-40f0-9657-9c329ef46d45")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR025")
 					(unit 1)
@@ -7726,7 +8171,7 @@
 			(uuid "4e3c50a3-129b-4443-9272-045b3ac83b5d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR032")
 					(unit 1)
@@ -7805,7 +8250,7 @@
 			(uuid "5754aade-fec7-464c-ae4a-4cc30fc4087d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R1")
 					(unit 1)
@@ -7816,6 +8261,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 60.96 40.64 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7825,7 +8271,7 @@
 		(dnp no)
 		(uuid "1e12fc30-b4d4-4626-857c-fe9dc4873634")
 		(property "Reference" "C18"
-			(at 64.77 38.4809 0)
+			(at 64.77 42.7991 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7836,7 +8282,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 64.77 41.0209 0)
+			(at 64.77 40.2591 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7847,7 +8293,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 64.77 43.18 0)
+			(at 64.77 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7880,7 +8326,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 64.77 45.974 0)
+			(at 64.77 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7897,7 +8343,7 @@
 			(uuid "7a94be42-6070-447e-b96a-818f549e3b62")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C18")
 					(unit 1)
@@ -7979,7 +8425,7 @@
 			(uuid "c94ef2f2-8dc9-4dec-a2f8-dcdcae52f7d6")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C24")
 					(unit 1)
@@ -8061,7 +8507,7 @@
 			(uuid "3f97046d-f934-46b7-8eba-26529adac81a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R8")
 					(unit 1)
@@ -8139,7 +8585,7 @@
 			(uuid "9aeb3eb6-d20a-43cc-be6f-ea7952de1670")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR044")
 					(unit 1)
@@ -8220,7 +8666,7 @@
 			(uuid "5cf3cfd2-4c9c-4af3-b8ae-baf7309933b8")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R21")
 					(unit 1)
@@ -8229,8 +8675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 166.37 177.8 0)
+		(lib_id "Device:R")
+		(at 46.99 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8238,9 +8684,89 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "24419764-767b-4a08-9767-5a5626c0f148")
-		(property "Reference" "T2"
-			(at 170.942 177.8 0)
+		(uuid "25412011-a34d-481a-bb9b-7bf4859f23f4")
+		(property "Reference" "RLED1"
+			(at 46.99 21.082 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.99 23.622 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 28.448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c502aaf-3b77-4470-baa0-5f3968847eed")
+		)
+		(pin "1"
+			(uuid "33ea41d1-9f36-4bfd-bd36-1e7914ff4b3f")
+		)
+		(instances
+			(project "real-fuzz-muff-mod-for-pnp"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "RLED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 287.02 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27cc2d6d-ab42-42e4-b14b-87597f744d27")
+		(property "Reference" "Q3"
+			(at 292.1 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8250,19 +8776,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n2369a"
-			(at 166.37 174.244 0)
+		(property "Value" "2N3906"
+			(at 292.1 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 171.45 179.705 0)
+			(at 292.1 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8274,8 +8800,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 166.37 177.8 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 287.02 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,8 +8812,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 166.37 177.8 0)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 287.02 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8297,8 +8823,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 166.37 177.8 0)
+		(property "Sim.Device" "PNP"
+			(at 287.02 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +8835,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 166.37 177.8 0)
+			(at 287.02 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8319,41 +8845,19 @@
 				)
 			)
 		)
-		(property "Field7" "hFE"
-			(at 164.846 179.578 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Field8" "40–60"
-			(at 164.846 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "2"
-			(uuid "531cc34f-086f-46ac-af8f-f589bf4f300e")
+			(uuid "50de2722-0017-473e-8667-dc08041ed117")
 		)
 		(pin "3"
-			(uuid "46e139d1-e2f4-4824-aea1-79c1663a5566")
+			(uuid "f2363765-dc5e-4a65-9682-35d691e9da28")
 		)
 		(pin "1"
-			(uuid "9acab5d8-d3f5-4eb0-af05-00e0bb699239")
+			(uuid "f916ba52-dd9d-4fd7-bc1e-6db4105656a4")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "T2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8437,7 +8941,7 @@
 			(uuid "85d36e2c-4bd3-461c-a549-35a312833608")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "Volume")
 					(unit 1)
@@ -8515,7 +9019,7 @@
 			(uuid "6931d262-680d-4f66-b0aa-77b59916626a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR026")
 					(unit 1)
@@ -8596,7 +9100,7 @@
 			(uuid "51a3604c-6830-4b7f-96c8-693625b191e5")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R26")
 					(unit 1)
@@ -8677,7 +9181,7 @@
 			(uuid "3dc4d79a-12c9-407e-b795-8ad77c754e84")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R15")
 					(unit 1)
@@ -8778,7 +9282,7 @@
 			(uuid "1798f3cc-40d7-49a5-a93a-4302f805b5ec")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "D3")
 					(unit 1)
@@ -8859,7 +9363,7 @@
 			(uuid "71275316-4c1a-47dd-a31f-3415492a94fa")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R19")
 					(unit 1)
@@ -8937,7 +9441,7 @@
 			(uuid "cc4ad89b-f774-49e3-93c9-d0751a1f1134")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR038")
 					(unit 1)
@@ -9022,140 +9526,9 @@
 			(uuid "d32cfdda-7285-46dc-bd4f-1c11eb8b9338")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "Gain")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 105.41 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43e11cc8-960c-40da-a276-1f54aa653ae5")
-		(property "Reference" "T1"
-			(at 109.982 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n2369a"
-			(at 105.41 174.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 110.49 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 105.41 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 105.41 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 105.41 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 105.41 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "hFE"
-			(at 103.886 179.578 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Field8" "40–60"
-			(at 103.886 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "6f1fdc5d-dd4e-4d91-b2d6-163f13334b26")
-		)
-		(pin "3"
-			(uuid "feb5bc7f-f6e5-4843-ac38-1a72d4a95229")
-		)
-		(pin "1"
-			(uuid "68a69fa9-c8b0-41af-b9b1-e2ed742402fb")
-		)
-		(instances
-			(project "real-fuzz-muff-mod"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -9255,7 +9628,7 @@
 			(uuid "e17f4708-8adf-4757-b4a6-3be7dd493f71")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "D2")
 					(unit 1)
@@ -9334,7 +9707,7 @@
 			(uuid "1e81f1e6-32fe-4981-99ad-a5a3141886d9")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C22")
 					(unit 1)
@@ -9413,7 +9786,7 @@
 			(uuid "13a98ba8-2a97-464a-a908-a993e89555d1")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R24")
 					(unit 1)
@@ -9495,7 +9868,7 @@
 			(uuid "eaae4470-463b-4844-9183-d9f4968521d5")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C15")
 					(unit 1)
@@ -9505,7 +9878,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 363.22 63.5 90)
+		(at 363.22 63.5 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9583,7 +9957,7 @@
 			(uuid "91b22092-9faf-4d21-84dd-908b33aa1fc5")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C28")
 					(unit 1)
@@ -9664,7 +10038,7 @@
 			(uuid "fae6cb7c-9cc2-481a-9424-f6a1638b9cf5")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R11")
 					(unit 1)
@@ -9745,7 +10119,7 @@
 			(uuid "8daa4f04-1c95-499c-b5b2-ec191c6a942f")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R39")
 					(unit 1)
@@ -9755,8 +10129,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 87.63 177.8 270)
-		(mirror x)
+		(at 87.63 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9825,7 +10198,7 @@
 			(uuid "bfee5611-431e-4c3d-9c20-6c4c2cc399a2")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C1")
 					(unit 1)
@@ -9904,7 +10277,7 @@
 			(uuid "23c3527e-623b-4e3a-95d8-d7d32c128514")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C6")
 					(unit 1)
@@ -9982,7 +10355,7 @@
 			(uuid "6f20b829-b706-4a8b-9079-27b816b05110")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR023")
 					(unit 1)
@@ -9993,6 +10366,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 139.7 40.64 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10002,7 +10376,7 @@
 		(dnp no)
 		(uuid "5a37680c-70a1-4adb-8cf3-8c7f1689d2db")
 		(property "Reference" "C30"
-			(at 143.51 38.4809 0)
+			(at 143.51 42.7991 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10013,7 +10387,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 143.51 41.0209 0)
+			(at 143.51 40.2591 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10024,7 +10398,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 143.51 43.18 0)
+			(at 143.51 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10057,7 +10431,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 143.51 45.466 0)
+			(at 143.51 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10074,7 +10448,7 @@
 			(uuid "3778c2d7-7397-4016-b440-1be3c196573a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C30")
 					(unit 1)
@@ -10157,7 +10531,7 @@
 			(uuid "afbb84f4-5620-4c34-b41c-77543fb4f3c5")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "TAME")
 					(unit 1)
@@ -10235,7 +10609,7 @@
 			(uuid "19d9bd42-9907-402a-a0f3-5322b18eebc9")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR027")
 					(unit 1)
@@ -10246,6 +10620,7 @@
 	(symbol
 		(lib_id "Diode:1N5819")
 		(at 34.29 40.64 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10256,7 +10631,7 @@
 		(fields_autoplaced yes)
 		(uuid "600ec435-382c-4454-84de-def8d27d0efd")
 		(property "Reference" "D5"
-			(at 36.83 39.0524 90)
+			(at 36.83 42.2276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10267,7 +10642,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 36.83 41.5924 90)
+			(at 36.83 39.6876 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10317,7 +10692,7 @@
 			(uuid "6c5d7b5c-6749-40cd-bdce-8db7c8930278")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "D5")
 					(unit 1)
@@ -10403,7 +10778,7 @@
 			(uuid "488d0972-c618-4942-b702-e0603314a638")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "VOLTS1")
 					(unit 1)
@@ -10413,8 +10788,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 162.56 148.59 270)
-		(mirror x)
+		(at 162.56 148.59 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10483,7 +10857,7 @@
 			(uuid "5bf8f35a-9bd2-4d06-bc45-d94612083489")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C5")
 					(unit 1)
@@ -10493,8 +10867,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 80.01 132.08 0)
-		(mirror y)
+		(at 80.01 132.08 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10504,7 +10877,7 @@
 		(dnp no)
 		(uuid "686be831-2900-4d02-a70c-d55c4268e8b9")
 		(property "Reference" "C14"
-			(at 76.2 129.9209 0)
+			(at 76.2 134.2391 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10515,7 +10888,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 76.2 132.4609 0)
+			(at 76.2 131.6991 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10526,7 +10899,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 70.866 134.62 0)
+			(at 70.866 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10564,7 +10937,7 @@
 			(uuid "42e1e6ac-b064-4e1c-9741-c5e336cc863d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C14")
 					(unit 1)
@@ -10650,7 +11023,7 @@
 			(uuid "ca374e7c-7fcb-4a7a-b0d0-7ea044eb5229")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "J1")
 					(unit 1)
@@ -10731,7 +11104,7 @@
 			(uuid "0a9e0f32-08a7-460c-a9c1-ee5264f49fcb")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R30")
 					(unit 1)
@@ -10809,7 +11182,7 @@
 			(uuid "309e51c6-a73d-4d6c-bb9d-c5f390cbbe68")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR043")
 					(unit 1)
@@ -10887,88 +11260,9 @@
 			(uuid "695ff3ac-5afd-4b2e-a0ce-47aa65eccc96")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7005708e-b054-403c-b50e-fe0cc940d5fe")
-		(property "Reference" "RLED"
-			(at 39.37 21.082 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 39.37 23.622 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 28.448 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "067305f5-7af5-4e4d-85f1-a644fc1ae658")
-		)
-		(pin "1"
-			(uuid "637e56c8-29af-41c5-a7ba-9856d80598a6")
-		)
-		(instances
-			(project "real-fuzz-muff-mod"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "RLED")
 					(unit 1)
 				)
 			)
@@ -11046,7 +11340,7 @@
 			(uuid "23ae2d33-65bf-4427-94ac-f809347f57f1")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C12")
 					(unit 1)
@@ -11056,7 +11350,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 318.77 154.94 90)
+		(at 318.77 154.94 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11125,7 +11420,7 @@
 			(uuid "e039b750-0f47-4f5c-88f6-52bbaea9d53d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C13")
 					(unit 1)
@@ -11206,7 +11501,7 @@
 			(uuid "a0ed5854-d829-4a99-91a3-c91c5a210f92")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R31")
 					(unit 1)
@@ -11284,9 +11579,148 @@
 			(uuid "10a5b71e-2d35-49df-8012-14010039810d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PNP")
+		(at 304.8 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a9639c3-b128-4d65-8208-51fa277fa68e")
+		(property "Reference" "T4"
+			(at 309.372 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ge PNP"
+			(at 304.8 174.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 340.36 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 304.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 304.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 304.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 304.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "hFE"
+			(at 303.276 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Field9" "40–60"
+			(at 303.276 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "25107d64-35b5-4fca-ae1c-739559dc3148")
+		)
+		(pin "3"
+			(uuid "13dedf50-e54b-404a-bcbd-f85ec1531c9b")
+		)
+		(pin "1"
+			(uuid "6c0b4e44-c88b-4b2d-af81-29f58fc61d46")
+		)
+		(instances
+			(project "real-fuzz-muff-mod-for-pnp"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -11363,7 +11797,7 @@
 			(uuid "1f03c714-f190-474c-ac3c-707e3db1acd4")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R12")
 					(unit 1)
@@ -11372,118 +11806,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 142.24 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7de0f528-b828-477f-9c71-6b05e1934783")
-		(property "Reference" "Q1"
-			(at 147.32 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 147.32 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 147.32 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 142.24 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 142.24 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 142.24 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 142.24 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e57e96d9-7e41-4645-90c3-fd024e1deeaa")
-		)
-		(pin "3"
-			(uuid "8033eec0-a70a-436b-9697-b5ec0195754d")
-		)
-		(pin "1"
-			(uuid "b8a46dfa-fb14-42d2-aaea-904ce069ff0e")
-		)
-		(instances
-			(project "real-fuzz-muff-mod"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 182.88 63.5 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11493,7 +11818,7 @@
 		(dnp no)
 		(uuid "7e55423d-3f4b-4227-967d-31c28f207b4c")
 		(property "Reference" "C38"
-			(at 186.69 61.3409 0)
+			(at 186.69 65.6591 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11504,7 +11829,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 186.69 63.8809 0)
+			(at 186.69 63.1191 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11515,7 +11840,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 186.69 66.04 0)
+			(at 186.69 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11548,7 +11873,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 186.69 68.326 0)
+			(at 186.69 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11565,7 +11890,7 @@
 			(uuid "ea4a67df-b1c3-4663-b77c-d7a634cf0120")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C38")
 					(unit 1)
@@ -11646,7 +11971,7 @@
 			(uuid "f8e2dae0-cd1a-4d8d-896a-bfd293d52ac8")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R43")
 					(unit 1)
@@ -11727,7 +12052,7 @@
 			(uuid "37dbd649-e094-454b-8053-144f0c4c8729")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R20")
 					(unit 1)
@@ -11808,7 +12133,7 @@
 			(uuid "1392222f-f1f8-41fc-a184-d5e332153443")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R41")
 					(unit 1)
@@ -11886,7 +12211,7 @@
 			(uuid "f130153c-06a1-493c-9e15-67b45c2c9dbe")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C25")
 					(unit 1)
@@ -11967,7 +12292,7 @@
 			(uuid "83846389-346d-4b46-a49c-ae9039b8d422")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R22")
 					(unit 1)
@@ -12046,7 +12371,7 @@
 			(uuid "e49fbcf3-5921-4ba9-8213-aaa1353abf48")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R17")
 					(unit 1)
@@ -12124,7 +12449,7 @@
 			(uuid "968c2355-6ad5-493c-9d36-6c84e4256102")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR036")
 					(unit 1)
@@ -12203,7 +12528,7 @@
 			(uuid "b1186d10-259e-491b-9902-2bec6278a164")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C9")
 					(unit 1)
@@ -12280,7 +12605,7 @@
 			(uuid "d88db21a-a68d-4138-888c-b369c0ad2036")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR053")
 					(unit 1)
@@ -12362,7 +12687,7 @@
 			(uuid "98ae47a7-d345-49e3-ba88-c101ecde69c1")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C29")
 					(unit 1)
@@ -12443,7 +12768,7 @@
 			(uuid "ebbcb3e9-790e-41fa-b9f1-666a104efd19")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R35")
 					(unit 1)
@@ -12524,7 +12849,7 @@
 			(uuid "ee3792bf-7467-4483-820d-613e442a1e04")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R18")
 					(unit 1)
@@ -12603,7 +12928,7 @@
 			(uuid "848a5c50-0646-493a-88f3-61a510631798")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R9")
 					(unit 1)
@@ -12614,6 +12939,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 261.62 24.13 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12623,7 +12949,7 @@
 		(dnp no)
 		(uuid "94181f63-639d-4655-bd71-6406195137fe")
 		(property "Reference" "C37"
-			(at 265.43 21.9709 0)
+			(at 265.43 26.2891 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12634,7 +12960,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 265.43 24.5109 0)
+			(at 265.43 23.7491 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12645,7 +12971,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 265.43 26.67 0)
+			(at 265.43 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12678,7 +13004,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 265.43 28.956 0)
+			(at 265.43 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12695,7 +13021,7 @@
 			(uuid "a2bb439f-7913-4f54-a0f6-19ec93b7d0de")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C37")
 					(unit 1)
@@ -12773,7 +13099,7 @@
 			(uuid "120cf0b1-4c2c-4bf8-87dd-88408da04831")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR018")
 					(unit 1)
@@ -12784,6 +13110,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 180.34 186.69 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12793,17 +13120,6 @@
 		(dnp no)
 		(uuid "9ae671ba-600f-47a1-b8ed-2e6ddf8d5fe6")
 		(property "Reference" "C34"
-			(at 183.388 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 183.388 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12814,8 +13130,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10u"
+			(at 183.388 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 189.484 189.23 0)
+			(at 189.484 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +13181,7 @@
 			(uuid "25133d44-2e7b-402c-915e-005fbfaa6fa4")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C34")
 					(unit 1)
@@ -12932,7 +13259,7 @@
 			(uuid "19ce4bd8-0dce-444b-ac23-5f6652a0abeb")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR049")
 					(unit 1)
@@ -12943,6 +13270,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 231.14 186.69 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12952,17 +13280,6 @@
 		(dnp no)
 		(uuid "9dd7c56a-b539-47bd-972e-d813ce54a0e7")
 		(property "Reference" "C35"
-			(at 234.188 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 234.188 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12973,8 +13290,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10u"
+			(at 234.188 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 240.284 189.23 0)
+			(at 240.284 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13013,7 +13341,7 @@
 			(uuid "c27cb80a-51d2-4f26-887f-adc081ded44a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C35")
 					(unit 1)
@@ -13091,7 +13419,7 @@
 			(uuid "b1b498fe-b8cd-496f-bc88-4144ccf6fd91")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR035")
 					(unit 1)
@@ -13168,7 +13496,7 @@
 			(uuid "f9a0950c-51cd-403f-8a0a-5af0bd88f411")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR054")
 					(unit 1)
@@ -13247,7 +13575,7 @@
 			(uuid "0b07e2fe-e131-4113-960b-70ed656ab754")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R38")
 					(unit 1)
@@ -13328,7 +13656,7 @@
 			(uuid "4dfa13f6-c806-421c-92eb-26911df20e51")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C19")
 					(unit 1)
@@ -13409,7 +13737,7 @@
 			(uuid "8e373ade-38e6-4677-b521-f666d6aed976")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R4")
 					(unit 1)
@@ -13490,7 +13818,7 @@
 			(uuid "f82a0b65-13ef-4ece-9d52-1e9ab7dbfab6")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C21")
 					(unit 1)
@@ -13569,7 +13897,7 @@
 			(uuid "5bd9d727-3b8b-4569-b45b-4ffa4449bfc7")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R28")
 					(unit 1)
@@ -13647,7 +13975,7 @@
 			(uuid "6c5fff15-6bb9-4b57-90a4-8c4e6760c129")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR031")
 					(unit 1)
@@ -13726,7 +14054,7 @@
 			(uuid "236aebb7-8802-4023-a677-09b7ceeb83f6")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R34")
 					(unit 1)
@@ -13804,7 +14132,7 @@
 			(uuid "c2c151af-e893-4b84-9fed-90b4746b8f07")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR052")
 					(unit 1)
@@ -13883,7 +14211,7 @@
 			(uuid "9243c49c-8179-485f-8f38-994837018c4d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R33")
 					(unit 1)
@@ -13965,7 +14293,7 @@
 			(uuid "d5fd6156-766d-4808-9727-3960de34403f")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R2")
 					(unit 1)
@@ -14046,7 +14374,7 @@
 			(uuid "2000a34c-847a-4268-b5b6-8fa16b76345a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R6")
 					(unit 1)
@@ -14123,7 +14451,7 @@
 			(uuid "4b83cab7-0736-490f-bf41-d7c10080e00f")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR050")
 					(unit 1)
@@ -14133,7 +14461,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 111.76 168.91 90)
+		(at 111.76 168.91 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14202,7 +14531,7 @@
 			(uuid "57e4711b-71ad-4822-abf6-d977ef844c00")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C3")
 					(unit 1)
@@ -14280,7 +14609,7 @@
 			(uuid "5c2d791b-c8b0-4aa3-962c-c84699002f54")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR034")
 					(unit 1)
@@ -14362,7 +14691,7 @@
 			(uuid "79281643-b88f-4448-a169-9301c657c870")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R13")
 					(unit 1)
@@ -14440,7 +14769,7 @@
 			(uuid "63cffc9d-56eb-428d-b4a9-151a3b827ab3")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C28")
 					(unit 1)
@@ -14518,7 +14847,7 @@
 			(uuid "a57523a5-5d7e-4356-9091-647d45179b2e")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR040")
 					(unit 1)
@@ -14596,7 +14925,7 @@
 			(uuid "fa29cf7c-85e6-4b6e-bb9d-bcbdb25d6a4d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR046")
 					(unit 1)
@@ -14607,6 +14936,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 317.5 186.69 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14616,17 +14946,6 @@
 		(dnp no)
 		(uuid "b8d25c08-a7f3-4bb6-b133-dba4628797c7")
 		(property "Reference" "C36"
-			(at 320.548 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 320.548 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14637,8 +14956,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10u"
+			(at 320.548 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 326.644 189.23 0)
+			(at 326.644 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14677,7 +15007,7 @@
 			(uuid "d32cab43-5ccc-4ec5-a78e-452f56fd7b1b")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C36")
 					(unit 1)
@@ -14763,7 +15093,7 @@
 			(uuid "f8ea3d6e-cca5-4283-8034-a23a0aad1f0a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "VOLTS2")
 					(unit 1)
@@ -14842,7 +15172,7 @@
 			(uuid "e35a1d00-517e-4d7b-8304-0a30b9169f3d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R42")
 					(unit 1)
@@ -14853,6 +15183,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 132.08 93.98 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14862,7 +15193,7 @@
 		(dnp no)
 		(uuid "bf00f402-f2d8-45d1-ac75-56a25b335740")
 		(property "Reference" "C32"
-			(at 135.89 91.8209 0)
+			(at 135.89 96.1391 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14873,7 +15204,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 135.89 94.3609 0)
+			(at 135.89 93.5991 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14884,7 +15215,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 135.89 96.52 0)
+			(at 135.89 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14917,7 +15248,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 135.89 98.806 0)
+			(at 135.89 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14934,7 +15265,7 @@
 			(uuid "72f417df-5f58-4493-9258-3f187172d2f4")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C32")
 					(unit 1)
@@ -15012,7 +15343,7 @@
 			(uuid "650a0776-e387-410b-b7f4-434136803bce")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR039")
 					(unit 1)
@@ -15093,7 +15424,7 @@
 			(uuid "41e91ca4-a5e0-4ef2-8f5f-e213cddbc81e")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R46")
 					(unit 1)
@@ -15103,8 +15434,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 220.98 63.5 0)
-		(mirror y)
+		(at 220.98 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15114,7 +15444,7 @@
 		(dnp no)
 		(uuid "c14d2cdc-f114-42af-8f19-f67e5e3abec4")
 		(property "Reference" "C23"
-			(at 217.17 61.3409 0)
+			(at 217.17 65.6591 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15125,7 +15455,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 217.17 63.8809 0)
+			(at 217.17 63.1191 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15136,7 +15466,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 217.17 66.04 0)
+			(at 217.17 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15169,7 +15499,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 217.17 68.326 0)
+			(at 217.17 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15186,7 +15516,7 @@
 			(uuid "dbfee0cb-1651-45b8-8541-b68bfd02a32d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C23")
 					(unit 1)
@@ -15264,7 +15594,7 @@
 			(uuid "fa37ccb8-f005-4dea-a4b7-c03daf640f34")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR037")
 					(unit 1)
@@ -15342,7 +15672,7 @@
 			(uuid "783b7255-cb11-4f93-ac66-2a1db158cded")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR033")
 					(unit 1)
@@ -15353,6 +15683,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 119.38 186.69 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15362,17 +15693,6 @@
 		(dnp no)
 		(uuid "c3f37914-717f-4e5f-a14d-28801070607c")
 		(property "Reference" "C33"
-			(at 122.428 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 122.428 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15383,8 +15703,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10u"
+			(at 122.428 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 128.524 189.23 0)
+			(at 128.524 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15423,7 +15754,7 @@
 			(uuid "c2f37b72-f5a2-4260-b840-39a1d4611a2e")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C33")
 					(unit 1)
@@ -15432,8 +15763,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 304.8 177.8 0)
+		(lib_id "Simulation_SPICE:PNP")
+		(at 166.37 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15441,9 +15772,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c4ae3069-9185-4417-8abc-f65800c19b41")
-		(property "Reference" "T4"
-			(at 309.372 177.8 0)
+		(uuid "c4ff46a0-b5b3-4255-9879-5611222d5341")
+		(property "Reference" "T2"
+			(at 170.942 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15453,77 +15784,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n2369a"
-			(at 309.372 175.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 309.88 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 304.8 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 304.8 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 304.8 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 304.8 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "hFE"
-			(at 303.276 179.578 0)
+		(property "Value" "Ge PNP"
+			(at 166.37 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15533,8 +15795,85 @@
 				(justify right)
 			)
 		)
-		(property "Field8" "40–60"
-			(at 303.276 181.61 0)
+		(property "Footprint" ""
+			(at 201.93 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 201.93 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "hFE"
+			(at 164.846 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Field9" "40–60"
+			(at 164.846 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15545,18 +15884,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "aad7295f-3b5e-477a-9367-2a353dc8eab5")
+			(uuid "304280c8-0d3b-4e58-9321-e507a90d2739")
 		)
 		(pin "3"
-			(uuid "4ec863b4-3810-40bc-aefd-8e96eb4c17d7")
+			(uuid "4372cef0-7dcc-48ca-a496-4546a8f64c99")
 		)
 		(pin "1"
-			(uuid "f2424298-c0d8-4387-9bc1-82573c858da2")
+			(uuid "723afc8a-0d02-4c5d-84aa-15b16a3d3241")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "T4")
+					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -15635,9 +15974,119 @@
 			(uuid "2de65301-91b7-45f3-8886-7bcbef5c4515")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 193.04 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cacd9a6b-3466-43ec-9008-f09dca25528e")
+		(property "Reference" "Q2"
+			(at 198.12 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 198.12 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 198.12 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 193.04 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 193.04 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 193.04 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 193.04 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2cb3ad43-de3c-454d-8e76-f679e7ad6b81")
+		)
+		(pin "3"
+			(uuid "81408d32-4424-4555-abc0-a5d5650d4d4f")
+		)
+		(pin "1"
+			(uuid "6b5cab11-1e24-43af-9fd2-7f5d43aa5c33")
+		)
+		(instances
+			(project "real-fuzz-muff-mod-for-pnp"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -15717,7 +16166,7 @@
 			(uuid "53e34517-6571-4ffd-a023-03fa47bbe2a1")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C27")
 					(unit 1)
@@ -15728,7 +16177,6 @@
 	(symbol
 		(lib_id "Connector:Jack-DC")
 		(at 22.86 40.64 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15738,7 +16186,7 @@
 		(dnp no)
 		(uuid "cdf5439f-99dd-4874-ae1d-76a4d89d9635")
 		(property "Reference" "J3"
-			(at 22.86 49.53 0)
+			(at 22.86 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15748,7 +16196,7 @@
 			)
 		)
 		(property "Value" "9V-18V"
-			(at 22.86 46.99 0)
+			(at 22.86 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15758,7 +16206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 39.624 0)
+			(at 24.13 41.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15769,7 +16217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 39.624 0)
+			(at 24.13 41.656 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15791,7 +16239,7 @@
 			)
 		)
 		(property "Field5" "Center negative"
-			(at 22.86 34.29 0)
+			(at 22.86 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15807,140 +16255,9 @@
 			(uuid "1cde98c1-017f-4def-b816-f131be0838f0")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 217.17 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0659573-9f32-4f15-8ed9-9a7824ce2f29")
-		(property "Reference" "T3"
-			(at 221.742 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n2369a"
-			(at 217.17 174.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 222.25 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 217.17 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 217.17 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 217.17 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 217.17 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "hFE"
-			(at 215.646 179.578 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Field8" "40–60"
-			(at 215.646 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "09cebf3e-5eb5-4ded-9134-57c936221d85")
-		)
-		(pin "3"
-			(uuid "1edac1a3-6f35-41f1-9a46-efe5541b3468")
-		)
-		(pin "1"
-			(uuid "58200a90-ae29-478b-bf1c-637a6a4bb3b7")
-		)
-		(instances
-			(project "real-fuzz-muff-mod"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -16017,7 +16334,7 @@
 			(uuid "a62de4e0-6e78-46e7-a184-76c8fc629b1f")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R25")
 					(unit 1)
@@ -16096,7 +16413,7 @@
 			(uuid "9f039076-f650-4240-9769-1b18a99ade80")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "J2")
 					(unit 1)
@@ -16177,7 +16494,7 @@
 			(uuid "0996f0a9-9c4d-4a23-bc1a-61b7210fed44")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R32")
 					(unit 1)
@@ -16255,7 +16572,7 @@
 			(uuid "0d1db49e-fc6b-4c82-91b3-def4e50a99c3")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR042")
 					(unit 1)
@@ -16333,7 +16650,7 @@
 			(uuid "26cbdf0a-4832-4021-9a1a-d85a943a081a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR015")
 					(unit 1)
@@ -16344,6 +16661,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 102.87 40.64 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16353,7 +16671,7 @@
 		(dnp no)
 		(uuid "d72889d8-a42a-4af8-a28d-7faa62810189")
 		(property "Reference" "C20"
-			(at 106.68 38.4809 0)
+			(at 106.68 42.7991 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16364,7 +16682,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 106.68 41.0209 0)
+			(at 106.68 40.2591 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16375,7 +16693,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 106.68 43.18 0)
+			(at 106.68 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16408,7 +16726,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 106.68 45.974 0)
+			(at 106.68 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16425,7 +16743,7 @@
 			(uuid "7fe9ac1d-7286-4f1a-9cde-604bf1dad8c7")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C20")
 					(unit 1)
@@ -16506,9 +16824,148 @@
 			(uuid "31e09b23-6f7c-465f-a15b-bd77254b6b18")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PNP")
+		(at 105.41 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dabea047-098b-4c99-8bb0-e612d7034b78")
+		(property "Reference" "T1"
+			(at 109.982 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ge PNP"
+			(at 105.41 174.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 140.97 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 105.41 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 105.41 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 105.41 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 105.41 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "hFE"
+			(at 103.886 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Field9" "40–60"
+			(at 103.886 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "957241b4-47db-44a6-bb84-36e13c9de8b0")
+		)
+		(pin "3"
+			(uuid "6e98d461-4285-43c2-9766-41176cf2776c")
+		)
+		(pin "1"
+			(uuid "6a5363ea-b5c3-4b82-a9b4-df2c6b85bca7")
+		)
+		(instances
+			(project "real-fuzz-muff-mod-for-pnp"
+				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -16584,119 +17041,9 @@
 			(uuid "f03f297b-3a3b-41e6-a472-9198fb58827d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 193.04 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dde7d5f8-1c5d-4ebc-befc-8fb80d203b60")
-		(property "Reference" "Q2"
-			(at 198.12 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 198.12 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 198.12 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "afe28b5f-a96c-4a78-9bd5-240ebf2957cf")
-		)
-		(pin "3"
-			(uuid "cc7c3f01-f337-4b9d-8932-8d1a0cb4cf03")
-		)
-		(pin "1"
-			(uuid "7ad82a19-3a04-46c8-b25a-7a8a7211f87f")
-		)
-		(instances
-			(project "real-fuzz-muff-mod"
-				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -16772,7 +17119,7 @@
 			(uuid "b4f79d94-5d0a-4e39-94d3-13c88e113ff6")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR045")
 					(unit 1)
@@ -16854,7 +17201,7 @@
 			(uuid "e319e89c-7b71-4af6-a901-947583434823")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C16")
 					(unit 1)
@@ -16932,7 +17279,7 @@
 			(uuid "7df10352-f769-44bb-b5b6-126e74c84e67")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR041")
 					(unit 1)
@@ -17011,7 +17358,7 @@
 			(uuid "b40a09f1-86b3-429b-9a10-47ca74f48f08")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R7")
 					(unit 1)
@@ -17089,7 +17436,7 @@
 			(uuid "3f84b754-dba5-458a-87cd-2aaa33306ba2")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR016")
 					(unit 1)
@@ -17098,8 +17445,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 287.02 53.34 0)
+		(lib_id "Transistor_BJT:2N3906")
+		(at 142.24 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17108,9 +17455,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6c888a9-cec5-46e5-9435-8d759646ec38")
-		(property "Reference" "Q3"
-			(at 292.1 52.0699 0)
+		(uuid "e689e13a-3700-4179-b32e-54af74b0c2a0")
+		(property "Reference" "Q1"
+			(at 147.32 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17120,8 +17467,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
-			(at 292.1 54.6099 0)
+		(property "Value" "2N3906"
+			(at 147.32 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17132,7 +17479,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 292.1 55.245 0)
+			(at 147.32 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17144,8 +17491,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 287.02 53.34 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17156,8 +17503,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 287.02 53.34 0)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17167,8 +17514,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 287.02 53.34 0)
+		(property "Sim.Device" "PNP"
+			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17179,7 +17526,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 287.02 53.34 0)
+			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17190,18 +17537,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "710edae1-fb53-4801-89e0-2e8e9c4ddfca")
+			(uuid "03943bce-9d90-4883-ac8c-c34ee0c96c48")
 		)
 		(pin "3"
-			(uuid "f05759e1-1fdc-4bfc-938b-ad7bb97c9b9c")
+			(uuid "c44ebeea-e033-40ca-a969-b389f446cc9b")
 		)
 		(pin "1"
-			(uuid "229bf9f9-426d-4e56-9e63-9eb2e74fceeb")
+			(uuid "36649888-c070-458b-add3-a96f27c15ebf")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -17280,7 +17627,7 @@
 			(uuid "e5b63a77-ca7a-4269-9bdf-c67f1f2bcbee")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R27")
 					(unit 1)
@@ -17360,7 +17707,7 @@
 			(uuid "2de89816-cd11-40cf-afb2-58bc89fd7f79")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R45")
 					(unit 1)
@@ -17441,7 +17788,7 @@
 			(uuid "b2864691-be56-4ccd-b969-c4eaccc8160d")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C17")
 					(unit 1)
@@ -17451,8 +17798,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 213.36 148.59 270)
-		(mirror x)
+		(at 213.36 148.59 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17521,7 +17867,7 @@
 			(uuid "25ae6e1d-ba4e-4f82-832a-6090a1ffecc1")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C8")
 					(unit 1)
@@ -17600,7 +17946,7 @@
 			(uuid "3ffae493-3c15-44bc-9330-eabf6c5a88dc")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R29")
 					(unit 1)
@@ -17610,8 +17956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 170.18 93.98 0)
-		(mirror y)
+		(at 170.18 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17621,7 +17966,7 @@
 		(dnp no)
 		(uuid "ee42c654-841e-42d9-bf91-3e52ee5bedfd")
 		(property "Reference" "C31"
-			(at 166.37 91.8209 0)
+			(at 166.37 96.1391 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17632,7 +17977,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 166.37 94.3609 0)
+			(at 166.37 93.5991 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17643,7 +17988,7 @@
 			)
 		)
 		(property "Footprint" "electrolytic"
-			(at 166.37 96.52 0)
+			(at 166.37 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17676,7 +18021,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 166.37 98.806 0)
+			(at 166.37 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17693,7 +18038,7 @@
 			(uuid "35dd12d7-4f3f-4a01-ac18-981792103046")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C31")
 					(unit 1)
@@ -17774,7 +18119,7 @@
 			(uuid "8d7cae3f-d0d0-418a-9334-698e4d33c0c4")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R37")
 					(unit 1)
@@ -17853,7 +18198,7 @@
 			(uuid "a3387602-27c9-4831-98cb-b2682ed14045")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R14")
 					(unit 1)
@@ -17931,7 +18276,7 @@
 			(uuid "41eb89a9-1c80-4104-8d93-9c50fac556f6")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "#PWR029")
 					(unit 1)
@@ -17941,7 +18286,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 46.99 26.67 180)
+		(at 39.37 26.67 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17951,7 +18297,7 @@
 		(dnp no)
 		(uuid "f9a09376-52f5-463b-89ad-0607d1109d7b")
 		(property "Reference" "D6"
-			(at 48.768 20.574 0)
+			(at 37.592 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17961,7 +18307,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 48.768 22.86 0)
+			(at 37.592 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17971,7 +18317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 26.67 0)
+			(at 39.37 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17982,7 +18328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 26.67 0)
+			(at 39.37 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17993,7 +18339,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 46.99 26.67 0)
+			(at 39.37 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18004,7 +18350,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 26.67 0)
+			(at 39.37 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18021,7 +18367,7 @@
 			(uuid "10ab06ab-c6f8-4de4-b664-a8a5014c6834")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "D6")
 					(unit 1)
@@ -18031,7 +18377,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 175.26 168.91 90)
+		(at 175.26 168.91 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18100,7 +18447,7 @@
 			(uuid "f6846780-6de9-4c9f-8095-e200229c927a")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "C7")
 					(unit 1)
@@ -18181,7 +18528,7 @@
 			(uuid "54af6ff7-2d19-483e-ba2e-60982a7c09ba")
 		)
 		(instances
-			(project "real-fuzz-muff-mod"
+			(project "real-fuzz-muff-mod-for-pnp"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "R16")
 					(unit 1)
