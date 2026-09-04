@@ -15,6 +15,7 @@ and other audio electronics.
     + [Wenzel’s Metal Wire (overdrive/preamp/amp-in-a-box)](wenzels-metal-wire)
   * Filter
     + [Wenzel’s Expression Wah](wenzels-expression-wah)
+    + [Wenzel’s Filter Box (hi-pass & low-pass)](wenzels-filter-box)
   * Utility
     + [Wenzel’s Tubinizer](wenzels-tubinizer) (ECC83/12ax7 Line Colorizer)
     + [Wenzel’s Multi-Channel Stereo Op-Amp Splitter](wenzels-multi-channel-stereo-opamp-splitter)
