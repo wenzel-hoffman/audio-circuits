@@ -23,6 +23,7 @@ and other audio electronics.
     + **WIP** [Wenzel’s Transparent Balancing Opamp Boost](wenzels-transparent-balancing-opamp-boost)
     + [Wenzel’s Transformer Isolation Box](wenzels-transformer-isolation-box)
     + [Wenzel’s Feedback Loop](wenzels-feedback-loop)
+    + [Wenzel’s Passive Underdrive](wenzels-passive-underdrive)
   * Guitar preamplifiers
     + [Wenzel’s Fruity Tube Guitar Preamp](guitar-preamps/wenzels-fruity-tube-guitar-preamp)
     + **WIP** [Wenzel’s High-Gain “SOLO” MOSFET Guitar Preamp](guitar-preamps/wenzels-high-gain-solo-mosfet-guitar-preamp)
