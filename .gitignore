@@ -48,3 +48,6 @@ release/
 
 # GIMP
 *.xcf
+
+# KiCad creates some Git history directories
+.history
