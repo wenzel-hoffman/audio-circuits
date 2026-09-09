@@ -25,10 +25,11 @@ stack behavior.
 
 ## Latest revision schematic
 
-![r3 2026-09 schematic](release-2026-09-r3/wenzels-colormystic-fuzz-boost-r3.png)
+![r4 2026-09 schematic](release-2026-09-r4/wenzels-colormystic-fuzz-boost-r4.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r4 2026-09](release-2026-09-r4)
 - [r3 2026-09](release-2026-09-r3)
 - [r2 2026-09](release-2026-09-r2)
 - [r1 2026-08](release-2026-08-r1)

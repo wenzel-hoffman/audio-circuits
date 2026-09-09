@@ -7,7 +7,7 @@
 	(title_block
 		(title "Wenzel’s ColorMystic Fuzz/Boost")
 		(date "September 2026")
-		(rev "r3")
+		(rev "r4")
 		(company "Wenzel’s ColorDiver but with Quantum Mystic tone stack and extra TAME knob.")
 	)
 	(lib_symbols
@@ -11444,7 +11444,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C10k"
+		(property "Value" "C5k"
 			(at 110.49 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
