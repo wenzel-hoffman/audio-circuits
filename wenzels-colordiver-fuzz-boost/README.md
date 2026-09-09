@@ -27,12 +27,11 @@ The design includes the original circuit but with a bunch of tweaks around it:
 
 - Extra RF filtering for more stability.
 
-**TODO:** Measure voltage drops and ranges exactly.
-
 ## Latest revision schematic
 
-![r1 2026-08 schematic](release-2026-08-r1/wenzels-colordiver-fuzz-boost-r1.png)
+![r2 2026-08 schematic](release-2026-09-r2/wenzels-colordiver-fuzz-boost-r2.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r2 2026-09](release-2026-09-r2)
 - [r1 2026-08](release-2026-08-r1)
