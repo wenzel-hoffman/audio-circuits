@@ -23,16 +23,12 @@ transistor topology with negative feedback (original Overdriver gain stage). So
 there could be some impedances interactions that potentially can affect the tone
 stack behavior.
 
-I added extra FR (“full-range”) switch that adds extra 220uF bypass for the Q3.
-Original Overdriver has only 22uF but it might significantly reduce bass
-response compared to the original Quantum Mystic. This 220uF moves it to
-full-range territory, so in theory it should behave more like in Quantum Mystic.
-
 ## Latest revision schematic
 
-![r2 2026-09 schematic](release-2026-09-r2/wenzels-colormystic-fuzz-boost-r2.png)
+![r3 2026-09 schematic](release-2026-09-r3/wenzels-colormystic-fuzz-boost-r3.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r3 2026-09](release-2026-09-r3)
 - [r2 2026-09](release-2026-09-r2)
 - [r1 2026-08](release-2026-08-r1)
