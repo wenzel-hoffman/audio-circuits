@@ -16,7 +16,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "r1"
+      "sch_revision": "r2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -434,7 +434,7 @@
         "uuid": "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
       }
     ],
-    "used_designators": "BOOST\\-L1,C5,C8-13,C16-17,C19-33,#PWR1,#PWR5,#PWR8-16,#PWR18-29,T2-3,BASS\\-L1,J3-10,J16,TREBLE\\-L1,R4-5,R7-10,R13-27,BRIGHT1,GAIN\\-L1,VOLUME1,BASS1,TREBLE1,HI\\-CUT1,SW1-2,VOLUME\\-L1,VOL\\-L1,RV1,MIDS\\-L1,BRIGHT\\-L1,U2-4,MIDS1,MID\\-C\\-L1,HICUT\\-L1",
+    "used_designators": "MID\\-C\\-L1,HICUT\\-L1,#PWR1,#PWR5,#PWR8-16,#PWR18-29,T2-3,BASS\\-L1,BASS1,J3-10,J16,BRIGHT1,TREBLE1,TREBLE\\-L1,R4-5,R7-10,R13-28,C5,C8-13,C16-17,C19-33,HI\\-CUT1,SW1-2,VOLUME\\-L1,BOOST\\-L1,VOL\\-L1,RV1,MIDS\\-L1,BRIGHT\\-L1,U2-4,MIDS1,VOLUME1,GAIN\\-L1",
     "variants": []
   },
   "sheets": [
