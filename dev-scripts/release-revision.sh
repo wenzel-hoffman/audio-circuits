@@ -68,7 +68,6 @@ readarray -t KICAD_PROJECT_FILES_ARR <<<"$KICAD_PROJECT_FILES"
 release_readme_content="# $PROJECT_NAME
 
 Revision $REVISION ($MONTH_TEXT $YEAR).
-
 "
 
 for kicad_project_file in "${KICAD_PROJECT_FILES_ARR[@]}"; do
@@ -107,7 +106,8 @@ for kicad_project_file in "${KICAD_PROJECT_FILES_ARR[@]}"; do
   )
 
   if (( ${#KICAD_PROJECT_FILES_ARR[@]} > 1 )); then
-    release_readme_content="${release_readme_content}## ${schematic_title}
+    release_readme_content="${release_readme_content}
+## ${schematic_title}
 
 "
   fi
