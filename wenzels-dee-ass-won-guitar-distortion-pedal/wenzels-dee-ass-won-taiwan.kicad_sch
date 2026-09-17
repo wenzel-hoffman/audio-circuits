@@ -7,7 +7,7 @@
 	(title_block
 		(title "Wenzel’s DEE-ASS-WON (Taiwan variant)")
 		(date "September 2026")
-		(rev "r1")
+		(rev "r2")
 		(company "Guitar distortion pedal")
 		(comment 1 "Later Taiwan version that uses M5223AL dual op-amp chip")
 	)
@@ -7363,13 +7363,13 @@
 			)
 		)
 		(pin "8"
-			(uuid "87e88ed0-52c2-4a9a-8d77-e6f02f05ab56")
+			(uuid "87e88ed0-52c2-4a9a-8d77-e6f02f05ab57")
 		)
 		(pin "6"
-			(uuid "0ce68e36-87b8-40b6-b072-c48f4c994947")
+			(uuid "0ce68e36-87b8-40b6-b072-c48f4c994948")
 		)
 		(pin "5"
-			(uuid "d585467a-0d6c-4491-9b20-893588d816b9")
+			(uuid "d585467a-0d6c-4491-9b20-893588d816ba")
 		)
 		(pin "1"
 			(uuid "b117b541-b2d6-4c37-9f44-36c9690b98ea")
@@ -7381,10 +7381,10 @@
 			(uuid "01c75e87-4eb7-4cdc-ada1-0bc894fd8c64")
 		)
 		(pin "7"
-			(uuid "8096edc0-ef47-4f69-a6e6-e2fca26f7ff0")
+			(uuid "8096edc0-ef47-4f69-a6e6-e2fca26f7ff1")
 		)
 		(pin "4"
-			(uuid "121a8436-a4d7-4972-981c-62c41cd39e94")
+			(uuid "121a8436-a4d7-4972-981c-62c41cd39e95")
 		)
 		(instances
 			(project "wenzels-dee-ass-won-taiwan"
@@ -10997,28 +10997,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "87e88ed0-52c2-4a9a-8d77-e6f02f05ab56")
+			(uuid "87e88ed0-52c2-4a9a-8d77-e6f02f05ab58")
 		)
 		(pin "6"
-			(uuid "0ce68e36-87b8-40b6-b072-c48f4c994947")
+			(uuid "0ce68e36-87b8-40b6-b072-c48f4c994949")
 		)
 		(pin "5"
-			(uuid "d585467a-0d6c-4491-9b20-893588d816b9")
+			(uuid "d585467a-0d6c-4491-9b20-893588d816bb")
 		)
 		(pin "1"
-			(uuid "0d55fdd4-e5a7-4c4a-bed5-0d0723cc6fd0")
+			(uuid "0d55fdd4-e5a7-4c4a-bed5-0d0723cc6fd1")
 		)
 		(pin "3"
-			(uuid "b28466ca-383c-4786-9b81-78b1d2acab04")
+			(uuid "b28466ca-383c-4786-9b81-78b1d2acab05")
 		)
 		(pin "2"
-			(uuid "63a04bc6-841d-4c0f-982f-445e5bc14e7e")
+			(uuid "63a04bc6-841d-4c0f-982f-445e5bc14e7f")
 		)
 		(pin "7"
-			(uuid "8096edc0-ef47-4f69-a6e6-e2fca26f7ff0")
+			(uuid "8096edc0-ef47-4f69-a6e6-e2fca26f7ff2")
 		)
 		(pin "4"
-			(uuid "121a8436-a4d7-4972-981c-62c41cd39e94")
+			(uuid "121a8436-a4d7-4972-981c-62c41cd39e96")
 		)
 		(instances
 			(project "wenzels-dee-ass-won-taiwan"
@@ -13289,7 +13289,7 @@
 		(fields_autoplaced yes)
 		(uuid "cba695f4-3756-49f3-a2e4-370635f7c64b")
 		(property "Reference" "TONE"
-			(at 222.25 78.7401 0)
+			(at 222.25 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13299,8 +13299,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B25k"
-			(at 222.25 76.2001 0)
+		(property "Value" "B20k"
+			(at 222.25 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

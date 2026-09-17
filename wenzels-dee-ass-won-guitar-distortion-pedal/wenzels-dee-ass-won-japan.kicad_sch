@@ -7,9 +7,9 @@
 	(title_block
 		(title "Wenzel’s DEE-ASS-WON (Japan variant)")
 		(date "September 2026")
-		(rev "r1")
+		(rev "r2")
 		(company "Guitar distortion pedal")
-		(comment 1 "Early Japan version that uses TA7136P preamp chip")
+		(comment 1 "Early Japan version that uses TA7136 preamp chip")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:NE5534"
@@ -5988,7 +5988,7 @@
 		(dnp no)
 		(uuid "0724ed54-4da1-4170-97cc-e0a378c1143e")
 		(property "Reference" "U1"
-			(at 120.65 36.322 0)
+			(at 120.65 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5999,7 +5999,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 120.65 40.894 0)
+			(at 120.65 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12475,7 +12475,7 @@
 		(fields_autoplaced yes)
 		(uuid "cba695f4-3756-49f3-a2e4-370635f7c64b")
 		(property "Reference" "TONE"
-			(at 215.9 78.7401 0)
+			(at 215.9 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12485,8 +12485,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B25k"
-			(at 215.9 76.2001 0)
+		(property "Value" "B20k"
+			(at 215.9 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
