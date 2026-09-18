@@ -217,7 +217,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "r4"
+      "sch_revision": "r5"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -627,7 +627,7 @@
         "uuid": "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
       }
     ],
-    "used_designators": "D7,C8,C21-22,C26,C30-32,C37-39,#PWR1,#PWR29-30,#PWR51,#PWR53-55,R28,R32,R36,R40,R44-47,T2-5,Q2-11",
+    "used_designators": "J4,SW1,TIGHT1,STARVE\\-2,D7,C8,C21-26,C28-32,C37-56,VOLTS2-3,#PWR1,#PWR18,#PWR20,#PWR29-31,#PWR51,#PWR53-72,R28,R30-37,R39-58,T2-5,U1-4,Q2-11",
     "variants": []
   },
   "sheets": [
