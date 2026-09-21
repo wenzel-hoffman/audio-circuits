@@ -8,12 +8,13 @@ and other audio electronics.
 
 - Guitar pedals
   * Distortion/Fuzz/Overdrive/Boost
-    + **WIP** [Wenzel’s Fuzz/Boost](wenzels-fuzz-boost)
+    + [Wenzel’s Faff](wenzels-faff)
+    + [Wenzel’s ColorMystic Fuzz/Boost](wenzels-colormystic-fuzz-boost)
+    + [Wenzel’s DEE-ASS-WON (distortion pedal)](wenzels-dee-ass-won-guitar-distortion-pedal)
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
     + [Wenzel’s ColorDiver Fuzz/Boost](wenzels-colordiver-fuzz-boost)
-    + [Wenzel’s ColorMystic Fuzz/Boost](wenzels-colormystic-fuzz-boost)
     + [Wenzel’s Metal Wire (overdrive/preamp/amp-in-a-box)](wenzels-metal-wire)
-    + [Wenzel’s DEE-ASS-WON (distortion pedal)](wenzels-dee-ass-won-guitar-distortion-pedal)
+    + **WIP** [Wenzel’s Fuzz/Boost](wenzels-fuzz-boost)
   * Filter
     + [Wenzel’s Expression Wah](wenzels-expression-wah)
     + [Wenzel’s Filter Box (hi-pass & low-pass)](wenzels-filter-box)
