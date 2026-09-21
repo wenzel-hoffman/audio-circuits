@@ -108,11 +108,11 @@ for kicad_project_file in "${KICAD_PROJECT_FILES_ARR[@]}"; do
   if (( ${#KICAD_PROJECT_FILES_ARR[@]} > 1 )); then
     release_readme_content="${release_readme_content}
 ## ${schematic_title}
-
 "
   fi
 
-  release_readme_content="${release_readme_content}- [PDF schematic render]($schematic_render_pdf_file_name)
+  release_readme_content="${release_readme_content}
+- [PDF schematic render]($schematic_render_pdf_file_name)
 - [PNG schematic render]($schematic_render_png_file_name)
 
 ![Schematic]($schematic_render_png_file_name)

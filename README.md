@@ -34,6 +34,9 @@ and other audio electronics.
   * Tone shaping/coloring
     + [Wenzel’s Passive Transformer Boost](wenzels-passive-transformer-boost)
 
+- Microphone preamplifiers
+  * [Wenzel’s Microphone JFET Preamplifier](wenzels-mic-fet-preamp)
+
 - Power amplifiers
   * Guitar signal amplification
     + [Wenzel’s Powered Guitar Cabinets](wenzels-powered-guitar-cabinets)
