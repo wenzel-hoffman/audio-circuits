@@ -1,5 +1,8 @@
 # Wenzel’s Real Fuzz Muff Mod
 
+See [the FAFF project](../wenzels-faff) which is based on this mod but taken
+into a next evolutionary step.
+
 My own Real Fuzz mod for classic Muff circuit.
 
 Read notes on the schematic for details.
@@ -22,11 +25,12 @@ with such low hFE.
 
 ## Latest revision schematic
 
-![r5 2026-09 schematic](release-2026-09-r5/real-fuzz-muff-mod-r5.png)
+![r6 2026-09 schematic](release-2026-09-r6/real-fuzz-muff-mod-r6.png)
 
 ## Releases (newest revisions are on the top)
 
-- [r5 2026-09](release-2026-09-r4)
+- [r6 2026-09](release-2026-09-r6)
+- [r5 2026-09](release-2026-09-r5)
 - [r4 2026-09](release-2026-09-r4)
 - [r3 2026-08](release-2026-08-r3)
 - [r2 2026-03](release-2026-03-r2)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Wenzel’s Real Fuzz mod for classic Muff circuit")
 		(date "September 2026")
-		(rev "r5")
+		(rev "r6")
 		(comment 1 "https://www.musikding.de/Der-Muff-Triangle-Distortion-kit")
 		(comment 2 "Main Muff schematic is based on Musikding.de Muff DIY kit layout.")
 		(comment 3 "but you can use whatever Muff variant you prefer.")
@@ -17052,7 +17052,7 @@
 		(lib_id "Amplifier_Operational:TL072")
 		(at 379.73 87.63 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17143,7 +17143,7 @@
 			(project "real-fuzz-muff-mod"
 				(path "/d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
 					(reference "U2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
