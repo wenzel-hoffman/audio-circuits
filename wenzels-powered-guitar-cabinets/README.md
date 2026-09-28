@@ -57,7 +57,7 @@ the input. I will at least change that to be in-phase.
 
 **WIP**
 
-![WIP r1-wip-2 2606 bridged pair schematic](wenzels-powered-guitar-cabinet-2606-bridged-pair-r1-wip-2.png)
+![WIP r1-wip-3 2606 bridged pair schematic](wenzels-powered-guitar-cabinet-2606-bridged-pair-r1-wip-3.png)
 
 #### Single HiFi-ish Amp
 
