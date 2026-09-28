@@ -4,6 +4,39 @@ My guitar cabinets with installed tweaked power amplifiers into them.
 
 ---
 
+## <a name="2609"></a>Powered Guitar Cabinet 2609
+
+**WORK IN PROGRESS…**
+
+A simple TDA2050-based set of 4 amplifiers with dual-supply configuration.
+Each amplifier is not very powerful but the idea is that each amplifier would
+drive its own speaker with good sensitivity rating. So total of 4 amplifiers
+driving 4 speakers presented to the amp as 4Ω load with a help of impedance
+matching transformer. That way there should be enough power, in theory.
+
+The amp is tuned around output transformer 45–50Hz lower frequency. There is
+multiple sub-lows cuts around that frequency. At amps input, in the negative
+feedback (sub-lows have reduced gain) and in the output capacitors relative to
+4Ω load. The output capacitors cut-off will also mean the damping factor is
+reduced significantly for the sub-lows, which means there can be more
+perceivable lows coming from the speaker and cab resonances, bass “bloom”,
+and general lows looseness. The amps damping factor is also reduced both by the
+output resistor relative to 4Ω load and also by reduced negative feedback of the
+amplifier (the amp has lots of gain, to compensate extreme sensitivity the input
+signal is also attenuated at amp’s input network).
+
+All 4 amps are using shared RC filtered power rails. When all 4 pushing hard
+there can be some sag/compression.
+
+I already built the amplifier, and tested it at bedroom volumes. Only need to
+test it at proper volumes and in a rehearsal context with a drummer.
+
+### WIP schematics
+
+![WIP r1-wip-1 2609 schematic](wenzels-powered-guitar-cabinet-2609-r1-wip-1.png)
+
+---
+
 ## <a name="2606"></a>Powered Guitar Cabinet 2606
 
 **WORK IN PROGRESS…**
