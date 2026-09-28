@@ -23,13 +23,14 @@ circuit to stay faithful to the original distortion character.
 
 Early Japan version that uses TA7136 preamp chip:
 
-![Schematic (Japan variant)](release-2026-09-r2/wenzels-dee-ass-won-japan-r2.png)
+![Schematic (Japan variant)](release-2026-09-r3/wenzels-dee-ass-won-japan-r3.png)
 
 Later Taiwan version that uses M5223AL dual op-amp chip:
 
-![Schematic (Taiwan variant)](release-2026-09-r2/wenzels-dee-ass-won-taiwan-r2.png)
+![Schematic (Taiwan variant)](release-2026-09-r3/wenzels-dee-ass-won-taiwan-r3.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r3 2026-09](release-2026-09-r3)
 - [r2 2026-09](release-2026-09-r2)
 - [r1 2026-09](release-2026-09-r1)
