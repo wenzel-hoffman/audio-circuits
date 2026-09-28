@@ -19,6 +19,8 @@ Gain stages and TONE control are loosely based on the Green Muff circuit.
   with VOLUME down can even work as a clean +15dB boost, also CLEAN signal
   is unaffected by any of the EQ)
 - 4x NPN gain stages (either germanium or low-hFE silicon)
+- MIDS switch for less mid-scoop in the tone stack
+- Q3 and Q4 transistor switches (e.g. pick either silicon or germanium)
 
 ## DC supply requirements
 
@@ -28,8 +30,9 @@ peaks/transients are.
 
 ## Latest revision schematic
 
-![r1 2026-09 schematic](release-2026-09-r1/wenzels-faff-r1.png)
+![r2 2026-09 schematic](release-2026-09-r2/wenzels-faff-r2.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r2 2026-09](release-2026-09-r2)
 - [r1 2026-09](release-2026-09-r1)
