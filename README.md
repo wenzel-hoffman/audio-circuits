@@ -8,6 +8,7 @@ and other audio electronics.
 
 - Guitar pedals
   * Distortion/Fuzz/Overdrive/Boost
+    + [Wenzel’s Fetty](wenzels-fetty)
     + [Wenzel’s Faff](wenzels-faff)
     + [Wenzel’s ColorMystic Fuzz/Boost](wenzels-colormystic-fuzz-boost)
     + [Wenzel’s DEE-ASS-WON (distortion pedal)](wenzels-dee-ass-won-guitar-distortion-pedal)
