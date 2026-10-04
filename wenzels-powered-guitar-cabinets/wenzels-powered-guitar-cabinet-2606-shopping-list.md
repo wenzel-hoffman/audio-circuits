@@ -1,5 +1,7 @@
 # Powered Guitar Cabinet 2606 shopping list
 
+**TODO:** This is now outdated. Update to match the new version.
+
 ## Power supply
 
 - Switching mode power supply rated >=600W ±56V.

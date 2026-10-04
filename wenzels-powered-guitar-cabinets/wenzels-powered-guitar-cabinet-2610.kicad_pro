@@ -217,7 +217,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "r1-wip-3"
+      "sch_revision": "r1-wip-1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -467,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "wenzels-powered-guitar-cabinet-2606-bridged-pair.kicad_pro",
+    "filename": "wenzels-powered-guitar-cabinet-2610.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -622,18 +622,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "wenzels-powered-guitar-cabinet-2606-bridged-pair.kicad_sch",
-        "name": "wenzels-powered-guitar-cabinet-2606-bridged-pair",
+        "filename": "wenzels-powered-guitar-cabinet-2610.kicad_sch",
+        "name": "wenzels-powered-guitar-cabinet-2610",
         "uuid": "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L1-4,#PWR1-39,R1,R3-4,R6-34,D2,C3-46,TR1-4,U1-4,J2-3,J5-10,J13-32",
     "variants": []
   },
   "sheets": [
     [
       "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4",
-      "wenzels-powered-guitar-cabinet-2606-bridged-pair"
+      "wenzels-powered-guitar-cabinet-2610"
     ]
   ],
   "text_variables": {},

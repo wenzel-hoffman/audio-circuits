@@ -2,9 +2,36 @@
 
 My guitar cabinets with installed tweaked power amplifiers into them.
 
+All amplifiers feature output impedance transformers in order to both keep the
+load impedance the same as the amplifier “sees” it, so that the damping factor
+values stays predictable, and also for the voicing and “feel” of a typical
+transformer-coupled tube amplifier.
+
+- [Guitar Power Amplifier 2609](#2609)
+
+  Experimental with a compact set of low output power 4x of TDA2050-based Class
+  AB amplifiers with an intention to drive 4 speakers independently.
+
+- [Guitar Power Amplifier 2606](#2606)
+
+  My own ground-up design of Class AB MOSFET discrete 100W-class power amplifier
+  tuned specifically for guitar amplification.
+
+- [Powered Guitar Cabinet 2602](#2602)
+
+  2x Class AB MOSFET HiFi boards with tweaks.
+
+- [Powered Guitar Cabinet 2601](#2601)
+
+  4x Class D HiFi boards with tweaks.
+
+- [Powered Guitar Cabinet 2510](#2510)
+
+  2x Class AB HiFi boards with tweaks.
+
 ---
 
-## <a name="2609"></a>Powered Guitar Cabinet 2609
+## <a name="2609"></a>Guitar Power Amplifier 2609
 
 **WORK IN PROGRESS…**
 
@@ -28,8 +55,15 @@ signal is also attenuated at amp’s input network).
 All 4 amps are using shared RC filtered power rails. When all 4 pushing hard
 there can be some sag/compression.
 
-I already built the amplifier, and tested it at bedroom volumes. Only need to
-test it at proper volumes and in a rehearsal context with a drummer.
+After building and properly testing the amplifier I can say it can work for the
+job well at ±20V, as long as the speakers have good enough efficiency. With just
+one amp driving a pair of speakers there can be headroom issues on low end
+chugs, the amp can clip. But driving 2 speakers in parallel (implying 4 speakers
+total stereo setup) it can work. Technically the amp can be powered with ±24V
+for more headroom but it leaves very little margin for voltage spikes/power
+supply imperfections for the TDA2050 chips which are rated only for ±25V
+absolute maximum. However, if I want reliable stage volumes it might be just
+working on the edge of its limits, not the most safe-to-go-with solution.
 
 ### WIP schematics
 
@@ -37,83 +71,62 @@ test it at proper volumes and in a rehearsal context with a drummer.
 
 ---
 
-## <a name="2606"></a>Powered Guitar Cabinet 2606
+## <a name="2606"></a>Guitar Power Amplifier 2606
 
 **WORK IN PROGRESS…**
 
-I’m in a process of designing my own discrete Class AB amplifier from scratch,
-that would have damping factor <1, saggy power supply, involve output
-transformer, but stay as simple as possible, intentionally imperfect while
-providing stability at high powers (should be able to deliver up to 100W to the
-speaker after all the losses). As previous builds it is intended to be used in
-bridge-mode configuration.
+I’m in the process of designing my own discrete Class AB guitar power amplifier
+from scratch. The goal is to have a progressively lower damping factor toward
+lower frequencies, producing a bigger and looser low end with some bass
+“bloom”, while remaining more controlled through the mids and highs. Even at
+higher frequencies the damping factor is intentionally kept fairly low
+(roughly below 10), much lower than in a typical HiFi power amplifier.
 
-It uses MOSFETs for push-pull pair and a couple of NPNs, one for Vbe multiplier
-to bias the MOSFETs and VAS (Voltage Amplification Stage) driver. There are few
-tricks applied for stability and robustness/reliability. But apart from that it
-stays away from trying to be a HiFi amplifier, staying simple and imperfect,
-intended to amplify heavily distorted guitars. Stuff like current mirror,
-differential input, or bypassing Vbe multiplier with a cap, are intentionally
-avoided.
+The design also uses a slightly saggy power supply with 0.5Ω resistance in
+each rail, an output transformer, and intentionally simple circuitry. The aim
+is not perfect linearity, but a stable and robust amplifier intended for
+heavily distorted guitars. With ±56V rails and an 8Ω load, the design is
+intended to operate in roughly the 100W class, depending on losses, transformer
+behavior, supply sag, and clipping level.
 
-The amplifier does not have lots of input gain. But OEP A262A2E input
-transformer is supposed to compensate for that. It should have enough headroom
-to drive the amplifier hard (though I would recommend a lows cut at around 75Hz)
-and it’s configured in 1:4 ratio. So each amp of the bridged pair would “see”
-1:2 voltage. It would also compensate for the gain loss on the output ballast
-damping factor reduction resistors.
+The core output stage uses a complementary MOSFET push-pull pair, an MJE340
+voltage amplification stage (VAS), and another MJE340 used as an adjustable
+VBE multiplier / bias spreader for the MOSFETs. A few additional measures are
+used for stability and robustness, but the circuit intentionally avoids
+becoming a conventional HiFi amplifier. Things such as a differential input
+stage, current mirror, and bypass capacitor across the VBE multiplier are
+deliberately omitted.
 
-Compared to previous builds it adds global negative feedback path from the
-secondary side of the transformer (like in tube amps) with a potentiometer that
-controls the amount of negative feedback (ranging from around 100k to around
-1M).
+The amplifier has intentionally modest open-loop / forward gain. It is still
+easy to drive to full power from a normal line-level source.
 
-I plan to build 4x bridge pairs for full stereo + DRY-WET (4 channels total) and
-put it into a lightweight 2x12 wide-open-back cabinet.
+Compared with my previous builds, this version adds global negative feedback
+taken from the secondary side of the output transformer, similar in principle
+to many transformer-coupled tube amplifiers. A potentiometer controls the
+amount of global feedback, with the feedback-path resistance ranging from
+approximately 44kΩ at maximum feedback to approximately 1MΩ + 44kΩ at minimum
+feedback.
 
-### WIP schematics
+The amplifier also has two MPSA42 stages in front of the main amplifier. These
+are not strictly required for the power amplifier itself, but they provide a
+low-impedance drive source, add one inversion so that the complete amplifier is
+nominally non-inverting relative to the input, and allow a predictable input
+high-pass filter around 55Hz.
 
-I already designed the full bridge-amplifier. I just need to build and test it
-frist to put a stamp on it that it’s working as intended and no further
-modifications are needed.
+That ~55Hz filter is only one part of the low-frequency shaping. The series
+output-coupling capacitors introduce another LF pole around 57–60Hz, so the
+complete electrical response rolls off more steeply than either pole alone.
+At the same time, the output capacitor causes the effective source impedance
+to rise as frequency falls, reducing speaker damping in the bass. Speaker and
+cabinet resonances can therefore become more pronounced, so the perceived low
+end can remain large and resonant even while unwanted sub-bass is attenuated.
 
-I might still add a phase flip switch. Current design is inverting relative to
-the input. I will at least change that to be in-phase.
+See the notes on the schematic for biasing, feedback polarity, thermal
+management, grounding, and other construction details.
 
-#### Single Amp
+### WIP schematic
 
-**WIP**
-
-![WIP r1-wip-1 2606 single amp schematic](wenzels-powered-guitar-cabinet-2606-single-amp-r1-wip-1.png)
-
-#### Bridged Pair
-
-**WIP**
-
-![WIP r1-wip-3 2606 bridged pair schematic](wenzels-powered-guitar-cabinet-2606-bridged-pair-r1-wip-3.png)
-
-#### Single HiFi-ish Amp
-
-**WIP**
-
-I’m also planning to experiment with a more HiFi-ish kind of power amp for
-WET-only signal. This is not really a HiFi amp, but it has more reasonable
-damping factor (less output resistance and more negative feedback, though still
-lower than you find in a typical solid state power amplifier), and it lacks the
-output transformer.
-
-- Midband damping factor: Roughly DF 25–50
-- Low-frequency DF: Much lower because of output caps
-
-So:
-
-- 1kHz midband: Maybe DF 30–50
-- 100Hz: Maybe DF 6–10
-- 50Hz: Maybe DF 3–5
-
-The amp is still a bit loose at lower frequencies.
-
-![WIP r1-wip-2 2606 single HiFi-ish amp schematic](wenzels-powered-guitar-cabinet-2606-single-amp-hifi-ish-r1-wip-2.png)
+![WIP r1-wip-4 2606 single amp schematic](wenzels-powered-guitar-cabinet-2606-single-amp-r1-wip-4.png)
 
 ---
 
