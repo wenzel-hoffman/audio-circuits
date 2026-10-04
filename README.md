@@ -12,6 +12,7 @@ and other audio electronics.
     + [Wenzel’s Faff](wenzels-faff)
     + [Wenzel’s ColorMystic Fuzz/Boost](wenzels-colormystic-fuzz-boost)
     + [Wenzel’s DEE-ASS-WON (distortion pedal)](wenzels-dee-ass-won-guitar-distortion-pedal)
+    + [Wenzel’s Cuckold Fuzz pedal](wenzels-cuckold-fuzz)
     + [Wenzel’s Real Fuzz Muff Mod](wenzels-real-fuzz-muff-mod)
     + [Wenzel’s ColorDiver Fuzz/Boost](wenzels-colordiver-fuzz-boost)
     + [Wenzel’s Metal Wire (overdrive/preamp/amp-in-a-box)](wenzels-metal-wire)
