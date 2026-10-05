@@ -7,6 +7,12 @@ load impedance the same as the amplifier “sees” it, so that the damping fact
 values stays predictable, and also for the voicing and “feel” of a typical
 transformer-coupled tube amplifier.
 
+- [Guitar Power Amplifier 2610](#2610)
+
+  An evolutionary continuation of [2609](#2609) build that uses much more
+  powerful TDA7294 with MOSFET (DMOS) output stage chips instead of weaker
+  TDA2050. More power, more headroom, but similar character and behavior.
+
 - [Guitar Power Amplifier 2609](#2609)
 
   An experiment of a compact set of 4x low output power TDA2050-based Class AB
@@ -28,6 +34,47 @@ transformer-coupled tube amplifier.
 - [Powered Guitar Cabinet 2510](#2510)
 
   2x Class AB HiFi boards with tweaks.
+
+---
+
+## <a name="2610"></a>Guitar Power Amplifier 2610
+
+A set of 4x TDA7294-based power amplifiers with dual-supply configuration.
+A continuation of [2609](#2609) preserving the character and behavior of it
+but providing more power and headroom.
+
+After building and testing it at proper volumes it seems to perform better than
+[2609](#2609) in every way. It has more power, more headroom, it’s less noise,
+more stable, less feedback-y at high gain. I just used a couple of HiFi boards
+built around these chips and made the modifications derived from [2609](#2609)
+design (input stage filtering, negative feedback adjustments, etc). I also
+figured that I prefer more feeding one cab (e.g. 2x12 or 4x12) with one
+amplifier channel instead of driving speakers independently. And with just
+minimum ±24V single amp channel seem to have enough headroom to do it at proper
+volumes and not clip at low-end chugs. With ±27V supply it will only get even
+more powerful. Even heat management seems to be better compared to
+[2609](#2609).
+
+You can easily find the HiFi DIY kits by _“TDA7294 HiFi DIY kit”_ search query
+either on Ebay or AliExpress for example. They are cheap, supplied with proper
+quality parts, and widely available. Easy to modify to match this guitar
+power amplifier schematic. You would have to omit some original components and
+add custom ones. You would only need to add an extension board for the DC
+filtering capacitors and output stage (output power resistors and output
+capacitors), the rest will be covered by that HiFi DIY kit board. See the
+[photos of the HiFi DIY kit board](release-2610-power-amplifier-2026-10-r1/photos/hifi-board)
+that you can easily recognize when shopping for it. See what you have to change
+on the original HiFi DIY kit board:
+
+![TDA7294 HiFi DIY kit board modifications with annotations photo](release-2610-power-amplifier-2026-10-r1/photos/one-amplifier-side-done-2-with-annotations.jpg)
+
+### Latest revision schematic
+
+![2610 power amplifier schematic](release-2610-power-amplifier-2026-10-r1/wenzels-powered-guitar-cabinet-2610-r1.png)
+
+### Releases (newest revisions are on the top)
+
+- [2610 power amplifier r1 2026-10](release-2610-power-amplifier-2026-10-r1)
 
 ---
 
