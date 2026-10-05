@@ -9,8 +9,8 @@ transformer-coupled tube amplifier.
 
 - [Guitar Power Amplifier 2609](#2609)
 
-  Experimental with a compact set of low output power 4x of TDA2050-based Class
-  AB amplifiers with an intention to drive 4 speakers independently.
+  An experiment of a compact set of 4x low output power TDA2050-based Class AB
+  amplifiers in one unit with an intention to drive 4 speakers independently.
 
 - [Guitar Power Amplifier 2606](#2606)
 
@@ -32,8 +32,6 @@ transformer-coupled tube amplifier.
 ---
 
 ## <a name="2609"></a>Guitar Power Amplifier 2609
-
-**WORK IN PROGRESS…**
 
 A simple TDA2050-based set of 4 amplifiers with dual-supply configuration.
 Each amplifier is not very powerful but the idea is that each amplifier would
@@ -65,9 +63,16 @@ supply imperfections for the TDA2050 chips which are rated only for ±25V
 absolute maximum. However, if I want reliable stage volumes it might be just
 working on the edge of its limits, not the most safe-to-go-with solution.
 
-### WIP schematics
+Compared to my previous builds it dissipates drastically less heat as it wastes
+much less energy on huge output damping factor reduction resistors.
 
-![WIP r1-wip-1 2609 schematic](wenzels-powered-guitar-cabinet-2609-r1-wip-1.png)
+### Latest revision schematic
+
+![2609 power amplifier schematic](release-2609-power-amplifier-2026-10-r1/wenzels-powered-guitar-cabinet-2609-r1.png)
+
+### Releases (newest revisions are on the top)
+
+- [2609 power amplifier r1 2026-10](release-2609-power-amplifier-2026-10-r1)
 
 ---
 

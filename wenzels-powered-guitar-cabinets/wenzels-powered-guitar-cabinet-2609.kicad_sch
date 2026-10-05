@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Wenzel’s Powered Guitar Cabinet 2609")
-		(date "September 2026")
-		(rev "r1-wip-1")
+		(date "October 2026")
+		(rev "r1")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:TDA2050"
