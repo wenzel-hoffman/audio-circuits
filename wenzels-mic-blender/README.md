@@ -50,8 +50,9 @@ mixing consoles, or suitable signal splitters.
 
 ## Latest revision schematic
 
-![r1 2026-11 schematic](release-2026-11-r1/wenzels-mic-blender-r1.png)
+![r2 2026-11 schematic](release-2026-11-r2/wenzels-mic-blender-r2.png)
 
 ## Releases (newest revisions are on the top)
 
+- [r2 2026-11](release-2026-11-r2)
 - [r1 2026-11](release-2026-11-r1)

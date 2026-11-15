@@ -217,7 +217,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "r1"
+      "sch_revision": "r2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -627,7 +627,7 @@
         "uuid": "d1f0589a-fd5f-4fd2-a048-76dda51e2bd4"
       }
     ],
-    "used_designators": "F1,TONE1,R3-77,TIGHT1,Q1-11,U1-9,TAME1,D1,D3-23,Gain1,STARVE\\-1-2,C7-8,C10-88,GAIN1,T2-5,#PWR1-24,#PWR29-31,#PWR51-101,VOLTS2-3,GND\\-LIFT1-2,48V\\-ON1,SW1,RLED1,RLED3,VOL\\-2-5,INPUT\\-PAD1,L1-2,RV1,J1-8,CLEAN1",
+    "used_designators": "CLEAN1,TONE1,R3-78,TIGHT1,U1-9,TAME1,D1,D3-23,C7-8,C10-88,STARVE\\-1-2,Gain1,#PWR1-31,#PWR51-101,T2-5,Q1-11,F1,VOLTS2-3,GND\\-LIFT1-2,48V\\-ON1,SW1,VOL\\-2-5,INPUT\\-PAD1,RLED1,RLED3,RV1,L1-3,J1-8,GAIN1",
     "variants": []
   },
   "sheets": [
