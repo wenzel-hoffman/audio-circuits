@@ -38,6 +38,7 @@ and other audio electronics.
 
 - Microphone preamplifiers
   * [Wenzel’s Microphone JFET Preamplifier](wenzels-mic-fet-preamp)
+  * [Wenzel’s Mic Blender](wenzels-mic-blender)
 
 - Power amplifiers
   * Guitar signal amplification
