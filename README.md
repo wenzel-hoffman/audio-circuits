@@ -21,6 +21,7 @@ and other audio electronics.
     + [Wenzel’s Expression Wah](wenzels-expression-wah)
     + [Wenzel’s Filter Box (hi-pass & low-pass)](wenzels-filter-box)
     + [Wenzel’s Switchable Tone Knob](wenzels-switchable-tone-knob)
+    + [Wenzel’s Bass Guitar Sub X-Over](wenzels-bass-guitar-sub-xover)
   * Utility
     + [Wenzel’s Tubinizer](wenzels-tubinizer) (ECC83/12ax7 Line Colorizer)
     + [Wenzel’s Multi-Channel Stereo Op-Amp Splitter](wenzels-multi-channel-stereo-opamp-splitter)
