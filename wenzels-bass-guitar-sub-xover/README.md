@@ -8,6 +8,11 @@ should set them both to the same position, same frequency. You can use 4-gang
 potentiometers instead if you have them to have just 1 frequency control per
 channel.
 
+This unit is designed to go at the beginning of the signal chain and
+[Wenzel’s Bass Guitar Post Boost](../wenzels-bass-guitar-post-boost) at its end,
+providing adjustable gain and low-impedance, electronically balanced outputs for
+the power amplifiers.
+
 ## Features
 
 - 1 mono bass-guitar input with conventional ≈1M input impedance

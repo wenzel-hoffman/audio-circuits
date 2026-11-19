@@ -30,6 +30,7 @@ and other audio electronics.
     + [Wenzel’s Transformer Isolation Box](wenzels-transformer-isolation-box)
     + [Wenzel’s Feedback Loop](wenzels-feedback-loop)
     + [Wenzel’s Passive Underdrive](wenzels-passive-underdrive)
+    + [Wenzel’s Bass Guitar Post Boost](wenzels-bass-guitar-post-boost)
   * Guitar preamplifiers
     + [Wenzel’s F Pedal Platform Preamp](guitar-preamps/wenzels-f-pedal-platform-preamp)
     + [Wenzel’s Fruity Tube Guitar Preamp](guitar-preamps/wenzels-fruity-tube-guitar-preamp)
